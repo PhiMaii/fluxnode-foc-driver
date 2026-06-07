@@ -1,0 +1,67 @@
+# KiCad backup files
+*.bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.kicad_prl
+*.kicad_pro-bak
+
+# KiCad autosave files
+*-autosave.kicad_sch
+*-autosave.kicad_pcb
+*.autosave
+
+# KiCad lock files
+*.lck
+*.lock
+~*.lck
+
+# KiCad generated files
+*.net
+*.xml
+*.csv
+*.html
+
+# KiCad fabrication outputs
+gerbers/
+gerber/
+fab/
+fabrication/
+production/
+manufacturing/
+jlcpcb/
+pcbway/
+oshpark/
+plots/
+drill/
+drills/
+pos/
+bom/
+
+# KiCad generated archives
+*.zip
+*.rar
+*.7z
+
+# KiCad simulation / temporary files
+*.cir
+*.raw
+*.log
+
+# 3D model cache / temporary exports
+*.wrl
+*.step
+*.stp
+*.obj
+
+# PDF / documentation exports
+*.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
