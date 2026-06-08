@@ -6,6 +6,52 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 46.99 146.05)
+		(size 12.7 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0d6f68fa-2772-421f-b99f-ba3296e2da2d")
+		(property "Sheetname" "05 Interface - Fan Control"
+			(at 46.99 145.3384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "05_interface_fan_control.kicad_sch"
+			(at 46.99 155.5246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FluxNode-FOC"
+				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 143.51 48.26)
 		(size 39.37 24.13)
 		(exclude_from_sim no)
@@ -21,7 +67,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "2366da82-dc31-4919-b23c-1b211a77679f")
-		(property "Sheetname" "02-MCU"
+		(property "Sheetname" "02 MCU"
 			(at 143.51 47.5484 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46,14 +92,14 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f"
-					(page "2")
+					(page "4")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 101.6 160.02)
-		(size 49.53 22.86)
+		(at 34.29 119.38)
+		(size 26.67 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -66,9 +112,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "3237780c-58ad-403c-8909-b97214d4ce7a")
-		(property "Sheetname" "05-IO-Connectors"
-			(at 101.6 159.3084 0)
+		(uuid "35abed28-9769-4e36-a98d-6a14a107daab")
+		(property "Sheetname" "05 Interface - FD CAN"
+			(at 34.29 118.6684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -78,8 +124,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "05_io_connectors.kicad_sch"
-			(at 101.6 183.4646 0)
+		(property "Sheetfile" "05_interface_fd_can.kicad_sch"
+			(at 34.29 130.1246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -92,7 +138,99 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f"
-					(page "5")
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 87.63)
+		(size 12.7 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3a254cff-6152-47d3-913d-034a673372d1")
+		(property "Sheetname" "06 User - LED Indicators"
+			(at 50.8 86.9184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "06_user_led_indicators.kicad_sch"
+			(at 50.8 97.1046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FluxNode-FOC"
+				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 92.71 41.91)
+		(size 25.4 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3cfe4e60-4020-4bd7-8239-c28c128f40a1")
+		(property "Sheetname" "01 Power Generation"
+			(at 92.71 41.1984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "01_power_generation.kicad_sch"
+			(at 92.71 62.8146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FluxNode-FOC"
+				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f"
+					(page "3")
 				)
 			)
 		)
@@ -113,7 +251,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "4252b736-3456-44cb-94c5-38e939537754")
-		(property "Sheetname" "03-Motor-Driver"
+		(property "Sheetname" "03 Motor Control - Gate Driver"
 			(at 88.9 91.9984 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -124,7 +262,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "03_motor_driver.kicad_sch"
+		(property "Sheetfile" "03_motor_control_gate_driver.kicad_sch"
 			(at 88.9 128.8546 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -138,13 +276,105 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f"
-					(page "3")
+					(page "5")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 50.8 41.91)
+		(at 170.18 129.54)
+		(size 22.86 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4a7f80da-7784-4b13-96a5-3c0ed1c95465")
+		(property "Sheetname" "04 Sensing - Battery"
+			(at 170.18 128.8284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "04_sensing_battery.kicad_sch"
+			(at 170.18 142.8246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FluxNode-FOC"
+				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 138.43)
+		(size 25.4 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "54e1d487-f657-4851-9fdb-905d8985a933")
+		(property "Sheetname" "04 Sensing - Position"
+			(at 88.9 137.7184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "04_sensing_position.kicad_sch"
+			(at 88.9 147.9046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FluxNode-FOC"
+				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 36.83)
 		(size 57.15 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -159,8 +389,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "7c307646-0ecd-4068-a7a2-01ba516b03a7")
-		(property "Sheetname" "01-Power"
-			(at 50.8 41.1984 0)
+		(property "Sheetname" "01 Power Connectors"
+			(at 21.59 36.1184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -170,8 +400,64 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "01_power.kicad_sch"
-			(at 50.8 71.7046 0)
+		(property "Sheetfile" "01_power_connectors.kicad_sch"
+			(at 21.59 66.6246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+VBAT" input
+			(at 78.74 46.99 0)
+			(uuid "e4e89ba8-d6f3-41cf-9243-9a90c9c6443d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "FluxNode-FOC"
+				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 138.43 152.4)
+		(size 12.7 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7f336b96-adfb-4e04-8e5b-99a2af1c766e")
+		(property "Sheetname" "05 Interface - Interconnects"
+			(at 138.43 151.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "05_interface_interconnects.kicad_sch"
+			(at 138.43 161.8746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -184,7 +470,53 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f"
-					(page "1")
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 143.51 135.89)
+		(size 15.24 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9cb3867e-5324-43f5-841c-b3a8e2796bf2")
+		(property "Sheetname" "07 Misc - Holes"
+			(at 143.51 135.1784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "07_misc.kicad_sch"
+			(at 143.51 142.8246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FluxNode-FOC"
+				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f"
+					(page "14")
 				)
 			)
 		)
@@ -205,7 +537,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "bc232352-9901-43c4-9b46-77e5ffe29b3d")
-		(property "Sheetname" "04-Sensors"
+		(property "Sheetname" "04 Sensing - Temp"
 			(at 167.64 98.3484 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -216,7 +548,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "04_sensors.kicad_sch"
+		(property "Sheetfile" "04_sensing_temp.kicad_sch"
 			(at 167.64 114.8846 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -230,14 +562,60 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f"
-					(page "4")
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 146.05 20.32)
+		(size 16.51 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c43697b1-9456-489d-bcad-e1eeebca192e")
+		(property "Sheetname" "03 Motor Control - Inverter"
+			(at 146.05 19.6084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "03_motor_control_inverter.kicad_sch"
+			(at 146.05 32.3346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FluxNode-FOC"
+				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f"
+					(page "6")
 				)
 			)
 		)
 	)
 	(sheet_instances
 		(path "/"
-			(page "0")
+			(page "1")
 		)
 	)
 	(embedded_fonts no)
