@@ -1,0 +1,194 @@
+(footprint "LED_SM1206"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Bivar SM1206")
+	(tags "LED")
+	(property "Reference" "REF**"
+		(at 0 -1.82 0)
+		(layer "F.SilkS")
+		(uuid "fcec917b-6484-4b3d-906a-8a033acd4ac1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_SM1206"
+		(at 0 1.82 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f9ff64a-5ea1-44cc-80e6-e93e9ad9f241")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e46def4-2336-4bc3-846d-025d43c1bc39")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f11aa29-d1d4-4124-924b-8a4999d0b3c4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center -1.55 -1.15)
+		(end -1.45 -1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "e4be8f0e-c4bc-48c9-ba03-38781554c51a")
+	)
+	(fp_line
+		(start -2.28 -1.12)
+		(end 2.28 -1.12)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "395a27df-118e-4b93-9f37-2a35071966ed")
+	)
+	(fp_line
+		(start -2.28 1.12)
+		(end -2.28 -1.12)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0c52c5d2-4ce2-499d-b25d-2ad769c768b4")
+	)
+	(fp_line
+		(start 2.28 -1.12)
+		(end 2.28 1.12)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6a7e05c4-561e-4a2f-b3a5-5a4a49fc486b")
+	)
+	(fp_line
+		(start 2.28 1.12)
+		(end -2.28 1.12)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4ec930f5-ed4d-4187-ad97-449f7d7326fc")
+	)
+	(fp_line
+		(start -1.6 -0.8)
+		(end -1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "60f2e515-2d42-4e61-ac3a-b290c07967c5")
+	)
+	(fp_line
+		(start -1.6 0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "71521279-14b6-46d3-920e-70443dcc3986")
+	)
+	(fp_line
+		(start 1.6 -0.8)
+		(end -1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "32d8963e-84a3-4c95-9c4c-8f7864896e51")
+	)
+	(fp_line
+		(start 1.6 0.8)
+		(end 1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d10e4660-e5da-4e27-8c2a-8154d9b18f9b")
+	)
+	(fp_circle
+		(center -2 -0.05)
+		(end -1.85 -0.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "b9c93ef4-3168-4a3e-beae-5cb826516d02")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "c0526343-7006-4f35-8fcd-7e84d2284659")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.5 0)
+		(size 1.2 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "f521eb4d-d168-4990-89e1-eb3b17d7901c")
+	)
+	(pad "2" smd roundrect
+		(at 1.5 0)
+		(size 1.2 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "569b646b-9d48-4731-a70c-d6b6c5ee0a44")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3d_models/SM1206XXC-IL.step"
+		(offset
+			(xyz 0 0 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 -90 90)
+		)
+	)
+)
