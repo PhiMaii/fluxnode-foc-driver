@@ -3,11 +3,1567 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "c3755418-04f3-4b36-86ed-bd05a53b8f5f")
-	(paper "A4")
-	(lib_symbols)
+	(paper "A3")
+	(lib_symbols
+		(symbol "FluxNode-FOC:+A3V3"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+A3V3"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+A3V3\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+A3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+A3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+A3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "FluxNode-FOC:+VBAT"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+VBAT"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+VBAT\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+VBAT_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+VBAT_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+VBAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+12V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3V3"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 64.77 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "522f9043-af33-436e-ac1b-b977a4001364")
+	)
+	(wire
+		(pts
+			(xy 64.77 96.52) (xy 64.77 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00fbc3db-5e93-468f-92a3-67aa03e949c8")
+	)
+	(wire
+		(pts
+			(xy 97.79 45.72) (xy 110.49 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a893c5d-d33b-47c8-80da-88c7ef8075d6")
+	)
+	(wire
+		(pts
+			(xy 59.69 133.35) (xy 72.39 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ff4e411-cc3b-43fe-bb2a-0b3193955c0f")
+	)
+	(wire
+		(pts
+			(xy 72.39 93.98) (xy 63.5 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14796374-4693-403a-b6d0-ded9f29d8644")
+	)
+	(wire
+		(pts
+			(xy 116.84 48.26) (xy 116.84 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17e68d14-ecfb-4a55-aaf6-37c3924ad91b")
+	)
+	(bus
+		(pts
+			(xy 172.72 68.58) (xy 184.15 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17f2ceda-3a58-46b7-be65-baa7056edb47")
+	)
+	(wire
+		(pts
+			(xy 172.72 105.41) (xy 184.15 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cff5bb4-adf8-415f-904c-e5dc441a5aba")
+	)
+	(wire
+		(pts
+			(xy 110.49 45.72) (xy 110.49 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ddf1ab5-ac62-4b94-af75-de4e007e83a6")
+	)
+	(wire
+		(pts
+			(xy 72.39 87.63) (xy 58.42 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25026478-3c62-4ef8-bdbc-09e87b8bb78a")
+	)
+	(bus
+		(pts
+			(xy 64.77 151.13) (xy 64.77 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29a39820-e14b-4186-bab6-73f4e4e029fb")
+	)
+	(wire
+		(pts
+			(xy 72.39 96.52) (xy 64.77 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3520a6af-90d8-4a3c-a411-08d17adb5f9b")
+	)
+	(bus
+		(pts
+			(xy 97.79 127) (xy 130.81 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38e206e0-c83f-4d88-8e4e-f25a6a0a4d3c")
+	)
+	(wire
+		(pts
+			(xy 64.77 67.31) (xy 72.39 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40f58175-bb75-4b63-b59b-0e6328a7b1e6")
+	)
+	(bus
+		(pts
+			(xy 97.79 166.37) (xy 130.81 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "442eb5b0-4082-47b9-acaf-acbd7a0349be")
+	)
+	(wire
+		(pts
+			(xy 59.69 182.88) (xy 72.39 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "531c103c-6bce-4125-8b0e-49f18054811a")
+	)
+	(wire
+		(pts
+			(xy 97.79 48.26) (xy 116.84 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "567723a4-d811-47f3-8579-1c0dbc338411")
+	)
+	(wire
+		(pts
+			(xy 64.77 35.56) (xy 64.77 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56e4a1a3-7ca2-449d-8f4c-c5f4efab9842")
+	)
+	(bus
+		(pts
+			(xy 172.72 73.66) (xy 184.15 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59632685-addb-4e4c-a21c-1ce06788727f")
+	)
+	(bus
+		(pts
+			(xy 64.77 166.37) (xy 72.39 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c0b02cb-9450-4ac7-9ad0-07f44a3b8b7d")
+	)
+	(wire
+		(pts
+			(xy 104.14 43.18) (xy 104.14 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "646c1414-f737-4e82-970c-456b6af5b7a5")
+	)
+	(wire
+		(pts
+			(xy 63.5 129.54) (xy 72.39 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67b6a9ae-ada8-40eb-ab72-e5b5ac428aae")
+	)
+	(wire
+		(pts
+			(xy 64.77 127) (xy 72.39 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6df26f54-1ee3-4bed-9340-885826a743d4")
+	)
+	(wire
+		(pts
+			(xy 97.79 43.18) (xy 104.14 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71435ae5-4b68-444f-92cc-e3fe489c6574")
+	)
+	(wire
+		(pts
+			(xy 72.39 140.97) (xy 59.69 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72ef6e95-0c15-4612-ac73-d88e5083b0af")
+	)
+	(wire
+		(pts
+			(xy 172.72 49.53) (xy 184.15 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7835b5c8-3495-4840-9be0-45c378bea236")
+	)
+	(wire
+		(pts
+			(xy 63.5 93.98) (xy 63.5 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84c800a8-deff-44f6-a732-d8c9a8028bd5")
+	)
+	(wire
+		(pts
+			(xy 97.79 182.88) (xy 130.81 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85dbed6d-5856-4ec1-a50c-27b36f71a39f")
+	)
+	(bus
+		(pts
+			(xy 172.72 132.08) (xy 185.42 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e91673e-0a19-4f54-a2cb-6321009d7807")
+	)
+	(wire
+		(pts
+			(xy 97.79 50.8) (xy 123.19 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a019c33d-8f46-4898-98e6-0990f81e48de")
+	)
+	(wire
+		(pts
+			(xy 172.72 52.07) (xy 184.15 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4bf4ca7-6ad2-4916-86ae-6e3f64b842c4")
+	)
+	(bus
+		(pts
+			(xy 97.79 134.62) (xy 130.81 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9dc983d-36a7-42e0-8d52-69fdd29bf4de")
+	)
+	(wire
+		(pts
+			(xy 64.77 46.99) (xy 72.39 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa62f3d2-c8f3-47ac-98fa-bfe199a3a91f")
+	)
+	(wire
+		(pts
+			(xy 64.77 46.99) (xy 64.77 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adfaa58c-2378-4c3e-9fe6-9b494f75f94f")
+	)
+	(wire
+		(pts
+			(xy 72.39 90.17) (xy 59.69 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2d6ed4f-52d5-416d-a867-b29c383c469d")
+	)
+	(wire
+		(pts
+			(xy 59.69 90.17) (xy 59.69 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5d1f9a5-6c08-4072-8773-1030ee56fb29")
+	)
+	(bus
+		(pts
+			(xy 97.79 111.76) (xy 130.81 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d31b0043-d03a-4802-ab7a-da82ad7b9746")
+	)
+	(wire
+		(pts
+			(xy 59.69 140.97) (xy 59.69 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4c48682-e4e4-4f91-a4a7-9ab85d849aae")
+	)
+	(wire
+		(pts
+			(xy 172.72 46.99) (xy 184.15 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daaca4e6-25f7-488b-8fea-a014a823cd22")
+	)
+	(bus
+		(pts
+			(xy 72.39 151.13) (xy 64.77 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dabc4076-ff26-451b-8590-f615fdd9fa79")
+	)
+	(wire
+		(pts
+			(xy 97.79 67.31) (xy 130.81 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc87e904-d752-48d1-85c2-b1bdff61033b")
+	)
+	(bus
+		(pts
+			(xy 105.41 90.17) (xy 130.81 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e18074af-ea19-4ce4-98b3-32eb973c27cb")
+	)
+	(bus
+		(pts
+			(xy 97.79 130.81) (xy 130.81 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec91196a-540a-4ab8-953d-5b29ba8bd907")
+	)
+	(wire
+		(pts
+			(xy 58.42 135.89) (xy 72.39 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ede623d2-531c-4bc3-99c9-746eabeb92c3")
+	)
+	(wire
+		(pts
+			(xy 123.19 50.8) (xy 123.19 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f34b9dc1-57ea-4787-93f8-59ad26df9f6c")
+	)
+	(wire
+		(pts
+			(xy 55.88 46.99) (xy 64.77 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f64f2712-057d-43af-881b-4849196a5930")
+	)
+	(bus
+		(pts
+			(xy 172.72 63.5) (xy 184.15 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd12fc2f-f90f-40c6-a87b-9308b16c0555")
+	)
+	(wire
+		(pts
+			(xy 58.42 87.63) (xy 58.42 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feb03328-251d-4405-8766-e32d90e52d5b")
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 116.84 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ffd9f59-cac7-44ce-b7c5-2183c70be6bc")
+		(property "Reference" "#PWR04"
+			(at 116.84 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 116.84 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 116.84 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a5249619-c4fe-468d-a669-7fc91548cc8f")
+		)
+		(instances
+			(project "FluxNode-FOC"
+				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 110.49 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49693e0e-eecd-4323-bb11-f71b45cc1cf8")
+		(property "Reference" "#PWR03"
+			(at 110.49 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 110.49 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 110.49 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e1061903-e35d-4f6a-942c-ecb4f38d72e5")
+		)
+		(instances
+			(project "FluxNode-FOC"
+				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FluxNode-FOC:+VBAT")
+		(at 64.77 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b98fe72-ab29-4c06-8b11-73c7dc297117")
+		(property "Reference" "#PWR01"
+			(at 64.77 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+VBAT"
+			(at 64.77 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+VBAT\""
+			(at 64.77 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "04d0613b-f4f2-470e-8763-507cad92eeeb")
+		)
+		(instances
+			(project "FluxNode-FOC"
+				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FluxNode-FOC:+A3V3")
+		(at 123.19 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8018183f-f935-4be6-8490-743290a69dd6")
+		(property "Reference" "#PWR05"
+			(at 123.19 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+A3V3"
+			(at 123.19 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+A3V3\""
+			(at 123.19 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d2da8e76-ebba-4acc-a9aa-56112873fde3")
+		)
+		(instances
+			(project "FluxNode-FOC"
+				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 104.14 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa7b5526-2afb-43a6-95e6-0fb51b6a3bd9")
+		(property "Reference" "#PWR02"
+			(at 104.14 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 104.14 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 104.14 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "603ddb9a-4f1e-4a2b-a57c-f593940d71ed")
+		)
+		(instances
+			(project "FluxNode-FOC"
+				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 46.99 146.05)
-		(size 12.7 8.89)
+		(at 72.39 177.8)
+		(size 25.4 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -18,11 +1574,11 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 255 150 255 0.5019607843)
 		)
 		(uuid "0d6f68fa-2772-421f-b99f-ba3296e2da2d")
 		(property "Sheetname" "05 Interface - Fan Control"
-			(at 46.99 145.3384 0)
+			(at 72.39 177.0884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +1589,7 @@
 			)
 		)
 		(property "Sheetfile" "05_interface_fan_control.kicad_sch"
-			(at 46.99 155.5246 0)
+			(at 72.39 188.5446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -43,234 +1599,24 @@
 				(justify left top)
 			)
 		)
-		(instances
-			(project "FluxNode-FOC"
-				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f"
-					(page "11")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 143.51 48.26)
-		(size 39.37 24.13)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "2366da82-dc31-4919-b23c-1b211a77679f")
-		(property "Sheetname" "02 MCU"
-			(at 143.51 47.5484 0)
-			(show_name no)
-			(do_not_autoplace no)
+		(pin "FAN_CTRL" input
+			(at 97.79 182.88 0)
+			(uuid "738ba091-079c-4895-a7a3-6b81665a36d2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right)
 			)
 		)
-		(property "Sheetfile" "02-mcu.kicad_sch"
-			(at 143.51 72.9746 0)
-			(show_name no)
-			(do_not_autoplace no)
+		(pin "FAN_SW" output
+			(at 72.39 182.88 180)
+			(uuid "1b3c94d7-096a-48c4-8da2-a167f5e3b10e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "FluxNode-FOC"
-				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 34.29 119.38)
-		(size 26.67 10.16)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "35abed28-9769-4e36-a98d-6a14a107daab")
-		(property "Sheetname" "05 Interface - FD CAN"
-			(at 34.29 118.6684 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "05_interface_fd_can.kicad_sch"
-			(at 34.29 130.1246 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "FluxNode-FOC"
-				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f"
-					(page "10")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 50.8 87.63)
-		(size 12.7 8.89)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "3a254cff-6152-47d3-913d-034a673372d1")
-		(property "Sheetname" "06 User - LED Indicators"
-			(at 50.8 86.9184 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "06_user_led_indicators.kicad_sch"
-			(at 50.8 97.1046 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "FluxNode-FOC"
-				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f"
-					(page "13")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 92.71 41.91)
-		(size 25.4 20.32)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "3cfe4e60-4020-4bd7-8239-c28c128f40a1")
-		(property "Sheetname" "01 Power Generation"
-			(at 92.71 41.1984 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "01_power_generation.kicad_sch"
-			(at 92.71 62.8146 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "FluxNode-FOC"
-				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 88.9 92.71)
-		(size 54.61 35.56)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "4252b736-3456-44cb-94c5-38e939537754")
-		(property "Sheetname" "03 Motor Control - Gate Driver"
-			(at 88.9 91.9984 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "03_motor_control_gate_driver.kicad_sch"
-			(at 88.9 128.8546 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
+				(justify left)
 			)
 		)
 		(instances
@@ -282,8 +1628,8 @@
 		)
 	)
 	(sheet
-		(at 170.18 129.54)
-		(size 22.86 12.7)
+		(at 130.81 40.64)
+		(size 41.91 167.64)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -294,11 +1640,547 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 128 255 128 0.5019607843)
+		)
+		(uuid "2366da82-dc31-4919-b23c-1b211a77679f")
+		(property "Sheetname" "02 MCU"
+			(at 130.81 39.2934 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 2.54 2.54)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "02-mcu.kicad_sch"
+			(at 130.81 208.8646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DRV_CAL" output
+			(at 172.72 46.99 0)
+			(uuid "5b815350-a259-4b5d-9264-ff4aa3e559eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV_EN" output
+			(at 172.72 49.53 0)
+			(uuid "e2421379-3e3b-4278-812c-fb372e050415")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV_nFAULT" input
+			(at 172.72 52.07 0)
+			(uuid "b3b55f55-15d8-46a1-868d-703e7bf68116")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FAN_CTRL" output
+			(at 130.81 182.88 180)
+			(uuid "9c8f6851-bc40-432b-a5b0-b2610a3ac247")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SENSE_VBAT" input
+			(at 130.81 67.31 180)
+			(uuid "4c416ac6-af4c-470c-b58e-9617d4d567b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{DRV_CURRENT_SENSE}" input
+			(at 172.72 68.58 0)
+			(uuid "444952b7-80a5-4c91-b889-f7d738ca02fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{DRV_PWM_PHASE}" output
+			(at 172.72 73.66 0)
+			(uuid "4631b5e9-3680-4e74-b4bb-93649023752b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{FDCAN_TTL}" bidirectional
+			(at 130.81 166.37 180)
+			(uuid "d775f8e7-d796-4ded-b24e-3650bcbd7ca3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{LED}" output
+			(at 172.72 132.08 0)
+			(uuid "f69042bf-94cb-4b4f-b194-17a153f7b995")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{SENSE_TEMP}" input
+			(at 130.81 90.17 180)
+			(uuid "f7d0f541-805d-410a-9cb3-35f3b077617a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{SWD}" output
+			(at 130.81 130.81 180)
+			(uuid "94dbf035-c917-4e04-80e9-da8d4946c5aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{SPI1_DRV}" bidirectional
+			(at 172.72 63.5 0)
+			(uuid "21b4558e-16ec-49ce-ae10-c0edd953055d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BRAKE_PWM" output
+			(at 172.72 105.41 0)
+			(uuid "c1214649-ec56-45da-bce6-1c54f052688e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{AUX1}" output
+			(at 130.81 127 180)
+			(uuid "3efde985-29de-4b2e-86bf-aac1f134ce83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{SPI3_MAG}" bidirectional
+			(at 130.81 111.76 180)
+			(uuid "5d269611-937c-4b6a-a221-b7151939cf62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{USB}" output
+			(at 130.81 134.62 180)
+			(uuid "f0caf374-1d63-4f94-8c25-c63e6ac44307")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "FluxNode-FOC"
+				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 72.39 161.29)
+		(size 25.4 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 150 255 0.5019607843)
+		)
+		(uuid "35abed28-9769-4e36-a98d-6a14a107daab")
+		(property "Sheetname" "05 Interface - FD CAN"
+			(at 72.39 160.5784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "05_interface_fd_can.kicad_sch"
+			(at 72.39 172.0346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{FDCAN_TTL}" bidirectional
+			(at 97.79 166.37 0)
+			(uuid "048b3d6f-9d40-40a5-9014-1365936287cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{FDCAN}" bidirectional
+			(at 72.39 166.37 180)
+			(uuid "c3eb1534-617b-43f2-bef8-74ac8c147b3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "FluxNode-FOC"
+				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 185.42 127)
+		(size 25.4 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 150 0.5019607843)
+		)
+		(uuid "3a254cff-6152-47d3-913d-034a673372d1")
+		(property "Sheetname" "06 User - LED Indicators"
+			(at 185.42 126.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "06_user_led_indicators.kicad_sch"
+			(at 185.42 137.7446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{LED}" bidirectional
+			(at 185.42 132.08 180)
+			(uuid "974808da-6462-4577-b874-4f23a50cbc61")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "FluxNode-FOC"
+				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 72.39 40.64)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 200 0 0.5019607843)
+		)
+		(uuid "3cfe4e60-4020-4bd7-8239-c28c128f40a1")
+		(property "Sheetname" "01 Power Generation"
+			(at 69.342 39.116 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 2.54 2.54)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "01_power_generation.kicad_sch"
+			(at 72.39 53.9246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+3V3" output
+			(at 97.79 48.26 0)
+			(uuid "a630f8bc-7f4b-40b4-b6af-9c006605a93f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+5V" output
+			(at 97.79 45.72 0)
+			(uuid "ff880c0f-1297-4af0-b8b0-74b8d9b6c788")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+12V" output
+			(at 97.79 43.18 0)
+			(uuid "5edac358-118e-445b-89d9-c0d64bc33715")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+A3V3" output
+			(at 97.79 50.8 0)
+			(uuid "3d6940bd-21ff-484d-ac93-0d4747761513")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+VBAT" input
+			(at 72.39 46.99 180)
+			(uuid "2b084b4a-a6ec-4558-83c8-e4288f12331f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "FluxNode-FOC"
+				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 184.15 40.64)
+		(size 54.61 46.99)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 128 128 0.5019607843)
+		)
+		(uuid "4252b736-3456-44cb-94c5-38e939537754")
+		(property "Sheetname" "03 Motor Control - Gate Driver"
+			(at 184.15 39.2934 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 2.54 2.54)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "03_motor_control_gate_driver.kicad_sch"
+			(at 184.15 88.2146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DRV_CAL" input
+			(at 184.15 46.99 180)
+			(uuid "b09537d5-552e-483b-b9aa-7da5b1e742a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DRV_EN" input
+			(at 184.15 49.53 180)
+			(uuid "8345c065-8b35-4f61-a735-e13198b21ca7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DRV_NFAULT" output
+			(at 184.15 52.07 180)
+			(uuid "1a26e5cc-04f1-40c4-9d36-da8872e9717d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{DRV_CURRENT_SENSE}" output
+			(at 184.15 68.58 180)
+			(uuid "09c6d5b6-9094-45b6-a8d4-4387d6db4e04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{DRV_PWM_PHASE}" input
+			(at 184.15 73.66 180)
+			(uuid "c95392de-a582-4fb5-94a1-8293c0ed87e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{SPI1_DRV}" bidirectional
+			(at 184.15 63.5 180)
+			(uuid "dd148161-2e8b-4072-b101-3321c5ad8351")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "FluxNode-FOC"
+				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 72.39 60.96)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 128 255 255 0.5019607843)
 		)
 		(uuid "4a7f80da-7784-4b13-96a5-3c0ed1c95465")
 		(property "Sheetname" "04 Sensing - Battery"
-			(at 170.18 128.8284 0)
+			(at 72.39 60.2484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -309,7 +2191,7 @@
 			)
 		)
 		(property "Sheetfile" "04_sensing_battery.kicad_sch"
-			(at 170.18 142.8246 0)
+			(at 72.39 74.2446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -319,17 +2201,37 @@
 				(justify left top)
 			)
 		)
+		(pin "SENSE_VBAT" output
+			(at 97.79 67.31 0)
+			(uuid "358bac6b-52bb-4194-a799-582637e9e445")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VIN" input
+			(at 72.39 67.31 180)
+			(uuid "0e6414dd-d1b7-48a0-aa5b-59e59c143c27")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f"
-					(page "9")
+					(page "4")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 88.9 138.43)
-		(size 25.4 8.89)
+		(at 72.39 107.95)
+		(size 25.4 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -340,11 +2242,11 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 128 255 255 0.5019607843)
 		)
 		(uuid "54e1d487-f657-4851-9fdb-905d8985a933")
 		(property "Sheetname" "04 Sensing - Position"
-			(at 88.9 137.7184 0)
+			(at 72.39 107.2384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -355,7 +2257,313 @@
 			)
 		)
 		(property "Sheetfile" "04_sensing_position.kicad_sch"
-			(at 88.9 147.9046 0)
+			(at 72.39 116.1546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{SPI3_MAG}" bidirectional
+			(at 97.79 111.76 0)
+			(uuid "32ad7990-5d95-494a-bce8-2c13a2d88218")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "FluxNode-FOC"
+				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 184.15 95.25)
+		(size 55.88 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 128 128 0.5019607843)
+		)
+		(uuid "767d2a33-66e4-48d3-9c78-9608dde64875")
+		(property "Sheetname" "03 Motor Control - Brake Chopper"
+			(at 184.15 94.5384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "03_motor_control_brake_chopper.kicad_sch"
+			(at 184.15 116.1546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BRAKE_PWM" input
+			(at 184.15 105.41 180)
+			(uuid "e3dfe2d5-298e-4a2f-901e-7b15d589e463")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "FluxNode-FOC"
+				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 40.64)
+		(size 30.48 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 200 0 0.5019607843)
+		)
+		(uuid "7c307646-0ecd-4068-a7a2-01ba516b03a7")
+		(property "Sheetname" "01 Power Connectors"
+			(at 25.4 39.2934 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 2.54 2.54)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "01_power_connectors.kicad_sch"
+			(at 25.4 53.9246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+VBAT" output
+			(at 55.88 46.99 0)
+			(uuid "e4e89ba8-d6f3-41cf-9243-9a90c9c6443d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "FluxNode-FOC"
+				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 72.39 123.19)
+		(size 25.4 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 150 255 0.5019607843)
+		)
+		(uuid "7f336b96-adfb-4e04-8e5b-99a2af1c766e")
+		(property "Sheetname" "05 Interface - Interconnects"
+			(at 72.39 122.4784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "05_interface_interconnects.kicad_sch"
+			(at 72.39 155.5246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "FAN_SW" output
+			(at 72.39 140.97 180)
+			(uuid "338d4617-c065-424b-b663-1930c78d67f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NTC_BRAKE_H" input
+			(at 72.39 129.54 180)
+			(uuid "71f99dbe-183a-4589-be53-dc94a4f71075")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NTC_BRAKE_L" input
+			(at 72.39 127 180)
+			(uuid "97b1534e-523b-44fe-b97d-e2a2eb6f62a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NTC_MOT_H" input
+			(at 72.39 135.89 180)
+			(uuid "0b864194-cf58-4d11-9ef0-f946cf99fe8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NTC_MOT_L" input
+			(at 72.39 133.35 180)
+			(uuid "1f2842ad-7e72-4121-b991-c94c227cf3b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{AUX1}" bidirectional
+			(at 97.79 127 0)
+			(uuid "50566077-5318-40c7-964d-a79617994e12")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{FDCAN}" bidirectional
+			(at 72.39 151.13 180)
+			(uuid "9210c178-5ec8-4f6c-92ce-a387084d8689")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{USB}" bidirectional
+			(at 97.79 134.62 0)
+			(uuid "3fbbacbf-bede-47e4-9eb2-719954dc86d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{SWD}" bidirectional
+			(at 97.79 130.81 0)
+			(uuid "62bd4aac-2e90-4036-afca-ff094879afc5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "FluxNode-FOC"
+				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 185.42 144.78)
+		(size 25.4 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.1215686275)
+		)
+		(uuid "9cb3867e-5324-43f5-841c-b3a8e2796bf2")
+		(property "Sheetname" "07 Misc - Holes"
+			(at 185.42 144.0684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "07_misc.kicad_sch"
+			(at 185.42 155.5246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -374,8 +2582,8 @@
 		)
 	)
 	(sheet
-		(at 21.59 36.83)
-		(size 57.15 29.21)
+		(at 72.39 80.01)
+		(size 33.02 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -386,159 +2594,11 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "7c307646-0ecd-4068-a7a2-01ba516b03a7")
-		(property "Sheetname" "01 Power Connectors"
-			(at 21.59 36.1184 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "01_power_connectors.kicad_sch"
-			(at 21.59 66.6246 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "+VBAT" input
-			(at 78.74 46.99 0)
-			(uuid "e4e89ba8-d6f3-41cf-9243-9a90c9c6443d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "FluxNode-FOC"
-				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f"
-					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 138.43 152.4)
-		(size 12.7 8.89)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "7f336b96-adfb-4e04-8e5b-99a2af1c766e")
-		(property "Sheetname" "05 Interface - Interconnects"
-			(at 138.43 151.6884 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "05_interface_interconnects.kicad_sch"
-			(at 138.43 161.8746 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "FluxNode-FOC"
-				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f"
-					(page "12")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 143.51 135.89)
-		(size 15.24 6.35)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "9cb3867e-5324-43f5-841c-b3a8e2796bf2")
-		(property "Sheetname" "07 Misc - Holes"
-			(at 143.51 135.1784 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "07_misc.kicad_sch"
-			(at 143.51 142.8246 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "FluxNode-FOC"
-				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f"
-					(page "14")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 167.64 99.06)
-		(size 31.75 15.24)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
+			(color 128 255 255 0.5019607843)
 		)
 		(uuid "bc232352-9901-43c4-9b46-77e5ffe29b3d")
 		(property "Sheetname" "04 Sensing - Temp"
-			(at 167.64 98.3484 0)
+			(at 72.39 79.2984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -549,7 +2609,7 @@
 			)
 		)
 		(property "Sheetfile" "04_sensing_temp.kicad_sch"
-			(at 167.64 114.8846 0)
+			(at 72.39 100.9146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -559,63 +2619,77 @@
 				(justify left top)
 			)
 		)
-		(instances
-			(project "FluxNode-FOC"
-				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f"
-					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 146.05 20.32)
-		(size 16.51 11.43)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "c43697b1-9456-489d-bcad-e1eeebca192e")
-		(property "Sheetname" "03 Motor Control - Inverter"
-			(at 146.05 19.6084 0)
-			(show_name no)
-			(do_not_autoplace no)
+		(pin "NTC_BRAKE_H" input
+			(at 72.39 93.98 180)
+			(uuid "bd423e30-6195-4dd5-b8ea-3080693bc7d1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
-		(property "Sheetfile" "03_motor_control_inverter.kicad_sch"
-			(at 146.05 32.3346 0)
-			(show_name no)
-			(do_not_autoplace no)
+		(pin "NTC_BRAKE_L" input
+			(at 72.39 96.52 180)
+			(uuid "1a1998d5-4e66-4eb4-acf0-0f54218d8be5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
+			)
+		)
+		(pin "NTC_MOT_H" input
+			(at 72.39 87.63 180)
+			(uuid "3b40d76a-5cd1-4b0f-b527-579a8debe08e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NTC_MOT_L" input
+			(at 72.39 90.17 180)
+			(uuid "5a367a97-2a8b-4720-9950-a3750529c2e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN" input
+			(at 72.39 83.82 180)
+			(uuid "f4a4655e-516d-4ca3-84da-ced125cbbba7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{SENSE_TEMP}" output
+			(at 105.41 90.17 0)
+			(uuid "166dc21b-f0d2-4b66-ac5e-8c5bb5725dd5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f"
-					(page "6")
+					(page "4")
 				)
 			)
 		)
 	)
 	(sheet_instances
 		(path "/"
-			(page "1")
+			(page "0")
 		)
 	)
 	(embedded_fonts no)
