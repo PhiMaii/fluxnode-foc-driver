@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "3d37e54d-0d7c-4262-bbbc-bf8bba3cdf76")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "BRAKE_PWM"
+		(shape input)
+		(at 85.09 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "64eef9d3-28d5-4d80-9381-4ea02d2c6b2a")
+	)
+)
