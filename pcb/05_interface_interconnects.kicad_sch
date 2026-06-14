@@ -727,6 +727,142 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "FluxNode-FOC:+VBAT"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+VBAT"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+VBAT\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+VBAT_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+VBAT_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+VBAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "FluxNode-FOC:CHASSIS"
 			(power global)
 			(pin_names
@@ -3625,6 +3761,16 @@
 		)
 		(uuid "0d66fb69-0c5f-4328-91d6-e610d48871c9")
 	)
+	(wire
+		(pts
+			(xy 41.91 147.32) (xy 41.91 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f33dfdb-ed3a-4c44-9ee5-bfe0914361af")
+	)
 	(bus
 		(pts
 			(xy 92.71 97.79) (xy 92.71 106.68)
@@ -3684,6 +3830,16 @@
 			(type default)
 		)
 		(uuid "18b0f36e-7f8b-4438-a957-270a5afbc544")
+	)
+	(wire
+		(pts
+			(xy 41.91 153.67) (xy 45.72 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "192b9525-f8c0-4169-b567-de514b4dc781")
 	)
 	(wire
 		(pts
@@ -3874,6 +4030,16 @@
 			(type default)
 		)
 		(uuid "5eb0ee48-fc55-47d3-b183-47d52bafa6bc")
+	)
+	(wire
+		(pts
+			(xy 71.12 158.75) (xy 76.2 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61ac6798-e06e-4087-8151-9eb2ae56d8d7")
 	)
 	(wire
 		(pts
@@ -4197,6 +4363,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 151.13) (xy 45.72 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce7b68e3-fc0c-4e70-9ebd-0228dea39957")
+	)
+	(wire
+		(pts
 			(xy 45.72 44.45) (xy 55.88 44.45)
 		)
 		(stroke
@@ -4284,6 +4460,16 @@
 			(type default)
 		)
 		(uuid "f3964c41-9c7d-4e9a-b398-3826bc72c352")
+	)
+	(wire
+		(pts
+			(xy 41.91 158.75) (xy 45.72 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f88b95b8-2db5-493a-a722-57b002318f21")
 	)
 	(wire
 		(pts
@@ -4437,7 +4623,7 @@
 	)
 	(hierarchical_label "NTC_MOT_L"
 		(shape input)
-		(at 54.61 -55.88 0)
+		(at 214.63 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4447,19 +4633,19 @@
 		(uuid "1fdbbbd7-f1ad-444f-a8aa-81c8dbcc1276")
 	)
 	(hierarchical_label "NTC_BRAKE_L"
-		(shape input)
-		(at 54.61 -64.77 0)
+		(shape output)
+		(at 41.91 158.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "364cd02d-73bb-437e-91ff-21649af4b08a")
 	)
 	(hierarchical_label "{FDCAN}"
 		(shape bidirectional)
-		(at 100.33 -62.23 0)
+		(at 260.35 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4470,7 +4656,7 @@
 	)
 	(hierarchical_label "FAN_SW"
 		(shape output)
-		(at 54.61 -48.26 0)
+		(at 214.63 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4481,7 +4667,7 @@
 	)
 	(hierarchical_label "NTC_MOT_H"
 		(shape input)
-		(at 54.61 -53.34 0)
+		(at 214.63 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4490,9 +4676,20 @@
 		)
 		(uuid "55c5d921-c5be-4247-b9fc-717050b291eb")
 	)
+	(hierarchical_label "BRAKE_SW"
+		(shape input)
+		(at 41.91 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9a3d58eb-d10f-4c9e-8be9-c9e07df136d3")
+	)
 	(hierarchical_label "{AUX1}"
 		(shape bidirectional)
-		(at 100.33 -59.69 0)
+		(at 260.35 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4524,8 +4721,8 @@
 		(uuid "f074f2c3-b35b-489e-955f-01abd1e579b8")
 	)
 	(hierarchical_label "NTC_BRAKE_H"
-		(shape input)
-		(at 54.61 -62.23 0)
+		(shape output)
+		(at 76.2 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4536,7 +4733,7 @@
 	)
 	(symbol
 		(lib_id "FluxNode-FOC:XT30PW_2_2_-M.G.B")
-		(at 116.84 -24.13 0)
+		(at 58.42 153.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4547,7 +4744,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a27aae0-2c05-4f1a-af78-5df2a5d6788e")
 		(property "Reference" "J501"
-			(at 116.84 -34.29 0)
+			(at 58.42 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4557,7 +4754,7 @@
 			)
 		)
 		(property "Value" "XT30PW_2_2_-M.G.B"
-			(at 116.84 -31.75 0)
+			(at 58.42 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4567,7 +4764,7 @@
 			)
 		)
 		(property "Footprint" "FluxNode-FOC:AMASS_XT30PW_2_2_-M.G.B"
-			(at 116.84 -24.13 0)
+			(at 58.42 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4579,7 +4776,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 -24.13 0)
+			(at 58.42 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4590,7 +4787,7 @@
 			)
 		)
 		(property "Description" "Industrial Control Plug"
-			(at 116.84 -24.13 0)
+			(at 58.42 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4602,7 +4799,7 @@
 			)
 		)
 		(property "MF" "AMASS"
-			(at 116.84 -24.13 0)
+			(at 58.42 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4614,7 +4811,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "5.2mm"
-			(at 116.84 -24.13 0)
+			(at 58.42 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4626,7 +4823,7 @@
 			)
 		)
 		(property "CREATOR" "ANA"
-			(at 116.84 -24.13 0)
+			(at 58.42 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4638,7 +4835,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 116.84 -24.13 0)
+			(at 58.42 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4650,7 +4847,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 116.84 -24.13 0)
+			(at 58.42 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4662,7 +4859,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/XT30PW(2+2)-M.G.B/AMASS/view-part/?ref=eda"
-			(at 116.84 -24.13 0)
+			(at 58.42 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4674,7 +4871,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 118.364 -32.512 0)
+			(at 59.944 145.288 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4686,7 +4883,7 @@
 			)
 		)
 		(property "PARTREV" "NA"
-			(at 116.84 -24.13 0)
+			(at 58.42 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4698,7 +4895,7 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 116.84 -24.13 0)
+			(at 58.42 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4710,7 +4907,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30PW(2+2)-M.G.B/AMASS/view-part/?ref=snap"
-			(at 116.84 -24.13 0)
+			(at 58.42 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4722,7 +4919,7 @@
 			)
 		)
 		(property "MP" "XT30PW(2+2)-M.G.B"
-			(at 116.84 -24.13 0)
+			(at 58.42 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4734,7 +4931,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 116.84 -24.13 0)
+			(at 58.42 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4746,7 +4943,7 @@
 			)
 		)
 		(property "MANUFACTURER" "AMASS"
-			(at 116.84 -24.13 0)
+			(at 58.42 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5947,6 +6144,84 @@
 		)
 	)
 	(symbol
+		(lib_id "FluxNode-FOC:+VBAT")
+		(at 41.91 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7955fbbb-9a7e-46c1-9668-ea90507118e9")
+		(property "Reference" "#PWR0510"
+			(at 41.91 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+VBAT"
+			(at 41.91 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+VBAT\""
+			(at 41.91 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7b32aa12-890b-4ea3-acb4-f97dc2524f24")
+		)
+		(instances
+			(project "FluxNode-FOC"
+				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/7f336b96-adfb-4e04-8e5b-99a2af1c766e"
+					(reference "#PWR0510")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 54.61 59.69 0)
 		(mirror y)
@@ -6793,7 +7068,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x08_Pin")
-		(at 158.75 -45.72 0)
+		(at 318.77 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6804,7 +7079,7 @@
 		(fields_autoplaced yes)
 		(uuid "d26dc035-cbad-46f7-bde1-b378ca28acb0")
 		(property "Reference" "J502"
-			(at 159.385 -58.42 0)
+			(at 319.405 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6814,7 +7089,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08_Pin"
-			(at 159.385 -55.88 0)
+			(at 319.405 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6824,7 +7099,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal"
-			(at 158.75 -45.72 0)
+			(at 318.77 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6835,7 +7110,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 -45.72 0)
+			(at 318.77 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6846,7 +7121,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated"
-			(at 158.75 -45.72 0)
+			(at 318.77 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
