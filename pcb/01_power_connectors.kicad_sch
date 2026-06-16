@@ -1023,7 +1023,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0397caa2-4343-4a90-8774-aee22faddb4f")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR09"
 			(at 179.07 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -1083,7 +1083,7 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/7c307646-0ecd-4068-a7a2-01ba516b03a7"
-					(reference "#PWR0104")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -1101,7 +1101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62dd2e00-de9e-4d7e-a787-8a4e27469b35")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR08"
 			(at 125.73 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -1161,7 +1161,7 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/7c307646-0ecd-4068-a7a2-01ba516b03a7"
-					(reference "#PWR0103")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -1179,7 +1179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "694e7ec7-4751-44c7-95ef-9ac72db1bb01")
-		(property "Reference" "J102"
+		(property "Reference" "J2"
 			(at 105.41 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1260,7 +1260,7 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/7c307646-0ecd-4068-a7a2-01ba516b03a7"
-					(reference "J102")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -1278,7 +1278,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b745eb7-b841-417c-9207-30e47ecbb808")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR06"
 			(at 100.33 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -1338,7 +1338,7 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/7c307646-0ecd-4068-a7a2-01ba516b03a7"
-					(reference "#PWR0101")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -1356,7 +1356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bd258ee-ba4a-498c-95b4-ffee3e8670b7")
-		(property "Reference" "D102"
+		(property "Reference" "D2"
 			(at 173.99 88.1379 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1480,7 +1480,7 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/7c307646-0ecd-4068-a7a2-01ba516b03a7"
-					(reference "D102")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -1498,7 +1498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b66f80ee-027b-4bb6-b9b1-ede18a224586")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR07"
 			(at 100.33 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -1558,7 +1558,7 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/7c307646-0ecd-4068-a7a2-01ba516b03a7"
-					(reference "#PWR0102")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -1576,7 +1576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be4470c3-3042-435b-a5fa-93c736042ca8")
-		(property "Reference" "D101"
+		(property "Reference" "D1"
 			(at 147.32 88.1379 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1700,7 +1700,7 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/7c307646-0ecd-4068-a7a2-01ba516b03a7"
-					(reference "D101")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -1718,7 +1718,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c28e4b8b-cbf6-44f3-8f15-43fc3f930f96")
-		(property "Reference" "J101"
+		(property "Reference" "J1"
 			(at 105.41 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1799,7 +1799,7 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/7c307646-0ecd-4068-a7a2-01ba516b03a7"
-					(reference "J101")
+					(reference "J1")
 					(unit 1)
 				)
 			)

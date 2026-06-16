@@ -140,23 +140,23 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.2,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.25,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
+        "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.2,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "min_via_annular_width": 0.15,
+        "min_via_diameter": 0.55,
+        "solder_mask_to_copper_clearance": 0.15,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -704,7 +704,7 @@
   "schematic": {
     "annotate_start_num": 0,
     "annotation": {
-      "method": 1,
+      "method": 0,
       "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
@@ -937,7 +937,7 @@
         "uuid": "c3755418-04f3-4b36-86ed-bd05a53b8f5f"
       }
     ],
-    "used_designators": "Q803-806,C118-119,C125,C127-173,C201-210,C213-218,C301-303,C306,C308-309,C501-504,C801-812,D801-809,#PWR211,#PWR802-805,NT801-809,R202-208,R301-303,R401-403,R501,R503-504,R802-824",
+    "used_designators": "U1-4,R1-4,L1-3,#PWR6-16,FB1-3,C1-73,D1-2,NT1-3,J1-2",
     "variants": []
   },
   "sheets": [
