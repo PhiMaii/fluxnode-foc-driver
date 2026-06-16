@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "b41e34cf-fe06-45cc-82bc-e41e6fba4397")
 	(paper "A4")
+	(title_block
+		(date "2026-06-07")
+		(rev "0.1.0")
+		(company "PhiMai")
+	)
 	(lib_symbols
 		(symbol "FluxNode-FOC:CHASSIS"
 			(power global)
@@ -728,46 +733,46 @@
 		)
 	)
 	(junction
-		(at 85.09 39.37)
+		(at 143.51 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6496086c-41bc-41c8-96d8-05e76a9344b7")
 	)
 	(junction
-		(at 59.69 39.37)
+		(at 118.11 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86bdfa63-f5c3-4ebb-b6fc-caec545fa2be")
 	)
 	(junction
-		(at 111.76 39.37)
+		(at 170.18 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8df3346a-4015-4002-bdbf-26c4044e22af")
 	)
 	(junction
-		(at 111.76 64.77)
+		(at 170.18 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c05dca57-82db-439c-b82c-a124cc08a0e5")
 	)
 	(junction
-		(at 67.31 64.77)
+		(at 125.73 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d99539f6-e029-4424-bb40-22131edc0dc0")
 	)
 	(no_connect
-		(at 50.8 48.26)
+		(at 109.22 83.82)
 		(uuid "5c139a9f-9693-48d8-bb79-c778767e8e46")
 	)
 	(no_connect
-		(at 50.8 71.12)
+		(at 109.22 106.68)
 		(uuid "bde54d5c-5ea6-4562-9ea8-83e18d06af62")
 	)
 	(wire
 		(pts
-			(xy 50.8 29.21) (xy 50.8 33.02)
+			(xy 109.22 64.77) (xy 109.22 68.58)
 		)
 		(stroke
 			(width 0)
@@ -777,7 +782,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 64.77) (xy 57.15 64.77)
+			(xy 125.73 100.33) (xy 115.57 100.33)
 		)
 		(stroke
 			(width 0)
@@ -787,7 +792,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 30.48) (xy 41.91 29.21)
+			(xy 100.33 66.04) (xy 100.33 64.77)
 		)
 		(stroke
 			(width 0)
@@ -797,7 +802,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 64.77) (xy 120.65 67.31)
+			(xy 179.07 100.33) (xy 179.07 102.87)
 		)
 		(stroke
 			(width 0)
@@ -807,7 +812,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 64.77) (xy 111.76 64.77)
+			(xy 143.51 100.33) (xy 170.18 100.33)
 		)
 		(stroke
 			(width 0)
@@ -817,7 +822,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 41.91) (xy 67.31 64.77)
+			(xy 125.73 77.47) (xy 125.73 100.33)
 		)
 		(stroke
 			(width 0)
@@ -827,7 +832,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 39.37) (xy 85.09 39.37)
+			(xy 118.11 74.93) (xy 143.51 74.93)
 		)
 		(stroke
 			(width 0)
@@ -837,7 +842,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 60.96) (xy 111.76 64.77)
+			(xy 170.18 96.52) (xy 170.18 100.33)
 		)
 		(stroke
 			(width 0)
@@ -847,7 +852,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 52.07) (xy 50.8 55.88)
+			(xy 109.22 87.63) (xy 109.22 91.44)
 		)
 		(stroke
 			(width 0)
@@ -857,7 +862,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 53.34) (xy 41.91 52.07)
+			(xy 100.33 88.9) (xy 100.33 87.63)
 		)
 		(stroke
 			(width 0)
@@ -867,7 +872,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 60.96) (xy 85.09 64.77)
+			(xy 143.51 96.52) (xy 143.51 100.33)
 		)
 		(stroke
 			(width 0)
@@ -877,7 +882,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 39.37) (xy 111.76 39.37)
+			(xy 143.51 74.93) (xy 170.18 74.93)
 		)
 		(stroke
 			(width 0)
@@ -887,7 +892,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 39.37) (xy 59.69 39.37)
+			(xy 115.57 74.93) (xy 118.11 74.93)
 		)
 		(stroke
 			(width 0)
@@ -897,7 +902,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 64.77) (xy 67.31 67.31)
+			(xy 125.73 100.33) (xy 125.73 102.87)
 		)
 		(stroke
 			(width 0)
@@ -907,7 +912,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 39.37) (xy 85.09 45.72)
+			(xy 143.51 74.93) (xy 143.51 81.28)
 		)
 		(stroke
 			(width 0)
@@ -917,7 +922,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 39.37) (xy 125.73 39.37)
+			(xy 170.18 74.93) (xy 184.15 74.93)
 		)
 		(stroke
 			(width 0)
@@ -927,7 +932,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 29.21) (xy 50.8 29.21)
+			(xy 100.33 64.77) (xy 109.22 64.77)
 		)
 		(stroke
 			(width 0)
@@ -937,7 +942,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 62.23) (xy 59.69 39.37)
+			(xy 118.11 97.79) (xy 118.11 74.93)
 		)
 		(stroke
 			(width 0)
@@ -947,7 +952,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 41.91) (xy 67.31 41.91)
+			(xy 115.57 77.47) (xy 125.73 77.47)
 		)
 		(stroke
 			(width 0)
@@ -957,7 +962,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 62.23) (xy 59.69 62.23)
+			(xy 115.57 97.79) (xy 118.11 97.79)
 		)
 		(stroke
 			(width 0)
@@ -967,7 +972,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 52.07) (xy 50.8 52.07)
+			(xy 100.33 87.63) (xy 109.22 87.63)
 		)
 		(stroke
 			(width 0)
@@ -977,7 +982,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 39.37) (xy 111.76 45.72)
+			(xy 170.18 74.93) (xy 170.18 81.28)
 		)
 		(stroke
 			(width 0)
@@ -987,7 +992,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 64.77) (xy 120.65 64.77)
+			(xy 170.18 100.33) (xy 179.07 100.33)
 		)
 		(stroke
 			(width 0)
@@ -997,7 +1002,7 @@
 	)
 	(hierarchical_label "+VBAT"
 		(shape output)
-		(at 125.73 39.37 0)
+		(at 184.15 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1008,7 +1013,7 @@
 	)
 	(symbol
 		(lib_id "FluxNode-FOC:CHASSIS")
-		(at 120.65 67.31 0)
+		(at 179.07 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1019,7 +1024,7 @@
 		(fields_autoplaced yes)
 		(uuid "0397caa2-4343-4a90-8774-aee22faddb4f")
 		(property "Reference" "#PWR0104"
-			(at 120.65 72.39 0)
+			(at 179.07 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1030,7 +1035,7 @@
 			)
 		)
 		(property "Value" "CHASSIS"
-			(at 120.523 71.12 0)
+			(at 178.943 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1040,7 +1045,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 68.58 0)
+			(at 179.07 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1051,7 +1056,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 68.58 0)
+			(at 179.07 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1062,7 +1067,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"CHASSIS\" , global ground"
-			(at 120.65 67.31 0)
+			(at 179.07 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1086,7 +1091,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 67.31 67.31 0)
+		(at 125.73 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1097,7 +1102,7 @@
 		(fields_autoplaced yes)
 		(uuid "62dd2e00-de9e-4d7e-a787-8a4e27469b35")
 		(property "Reference" "#PWR0103"
-			(at 67.31 73.66 0)
+			(at 125.73 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1108,7 +1113,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.31 72.39 0)
+			(at 125.73 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1118,7 +1123,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 67.31 0)
+			(at 125.73 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1129,7 +1134,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 67.31 0)
+			(at 125.73 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1140,7 +1145,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 67.31 0)
+			(at 125.73 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1164,7 +1169,7 @@
 	)
 	(symbol
 		(lib_id "FluxNode-FOC:Conn_01x02_Mounting")
-		(at 52.07 64.77 180)
+		(at 110.49 100.33 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1175,7 +1180,7 @@
 		(fields_autoplaced yes)
 		(uuid "694e7ec7-4751-44c7-95ef-9ac72db1bb01")
 		(property "Reference" "J102"
-			(at 46.99 62.2299 0)
+			(at 105.41 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1186,7 +1191,7 @@
 			)
 		)
 		(property "Value" "XT60PW-M"
-			(at 46.99 64.7699 0)
+			(at 105.41 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1197,7 +1202,7 @@
 			)
 		)
 		(property "Footprint" "FluxNode-FOC:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
-			(at 52.07 64.77 0)
+			(at 110.49 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1208,7 +1213,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 64.77 0)
+			(at 110.49 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1219,7 +1224,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row with mounting pin"
-			(at 49.53 81.026 0)
+			(at 107.95 116.586 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1230,7 +1235,7 @@
 			)
 		)
 		(property "LCSC" "C98732"
-			(at 52.07 64.77 0)
+			(at 110.49 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1263,7 +1268,7 @@
 	)
 	(symbol
 		(lib_id "FluxNode-FOC:CHASSIS")
-		(at 41.91 30.48 0)
+		(at 100.33 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1274,7 +1279,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b745eb7-b841-417c-9207-30e47ecbb808")
 		(property "Reference" "#PWR0101"
-			(at 41.91 35.56 0)
+			(at 100.33 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1285,7 +1290,7 @@
 			)
 		)
 		(property "Value" "CHASSIS"
-			(at 41.783 34.29 0)
+			(at 100.203 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1295,7 +1300,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 31.75 0)
+			(at 100.33 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1306,7 +1311,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 31.75 0)
+			(at 100.33 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1317,7 +1322,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"CHASSIS\" , global ground"
-			(at 41.91 30.48 0)
+			(at 100.33 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1341,7 +1346,7 @@
 	)
 	(symbol
 		(lib_id "FluxNode-FOC:SMBJ51CD-M3_H")
-		(at 111.76 60.96 90)
+		(at 170.18 96.52 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1352,7 +1357,7 @@
 		(fields_autoplaced yes)
 		(uuid "9bd258ee-ba4a-498c-95b4-ffee3e8670b7")
 		(property "Reference" "D102"
-			(at 115.57 52.5779 90)
+			(at 173.99 88.1379 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1363,7 +1368,7 @@
 			)
 		)
 		(property "Value" "SMBJ51CD-M3_H"
-			(at 115.57 55.1179 90)
+			(at 173.99 90.6779 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1374,7 +1379,7 @@
 			)
 		)
 		(property "Footprint" "FluxNode-FOC:DIOM4336X24N"
-			(at 107.95 50.8 0)
+			(at 166.37 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1386,7 +1391,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/87606/smbj5cdthrusmbj120cd.pdf"
-			(at 110.49 50.8 0)
+			(at 168.91 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1398,7 +1403,7 @@
 			)
 		)
 		(property "Description" "ESD Protection Diodes / TVS Diodes 51V 600W Bidir TransZorb 3.5% Tol"
-			(at 111.76 60.96 0)
+			(at 170.18 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1409,7 +1414,7 @@
 			)
 		)
 		(property "Description_1" "ESD Protection Diodes / TVS Diodes 51V 600W Bidir TransZorb 3.5% Tol"
-			(at 113.03 50.8 0)
+			(at 171.45 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1421,7 +1426,7 @@
 			)
 		)
 		(property "Height" "2.44"
-			(at 115.57 50.8 0)
+			(at 173.99 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1433,7 +1438,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 123.19 50.8 0)
+			(at 181.61 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1445,7 +1450,7 @@
 			)
 		)
 		(property "LCSC" "C1973984"
-			(at 111.76 60.96 0)
+			(at 170.18 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1456,7 +1461,7 @@
 			)
 		)
 		(property "MPN" "SMBJ51CD-M3/H"
-			(at 111.76 60.96 0)
+			(at 170.18 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1483,7 +1488,7 @@
 	)
 	(symbol
 		(lib_id "FluxNode-FOC:CHASSIS")
-		(at 41.91 53.34 0)
+		(at 100.33 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1494,7 +1499,7 @@
 		(fields_autoplaced yes)
 		(uuid "b66f80ee-027b-4bb6-b9b1-ede18a224586")
 		(property "Reference" "#PWR0102"
-			(at 41.91 58.42 0)
+			(at 100.33 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1505,7 +1510,7 @@
 			)
 		)
 		(property "Value" "CHASSIS"
-			(at 41.783 57.15 0)
+			(at 100.203 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1515,7 +1520,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 54.61 0)
+			(at 100.33 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1526,7 +1531,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 54.61 0)
+			(at 100.33 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1537,7 +1542,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"CHASSIS\" , global ground"
-			(at 41.91 53.34 0)
+			(at 100.33 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1561,7 +1566,7 @@
 	)
 	(symbol
 		(lib_id "FluxNode-FOC:SMBJ51CD-M3_H")
-		(at 85.09 60.96 90)
+		(at 143.51 96.52 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1572,7 +1577,7 @@
 		(fields_autoplaced yes)
 		(uuid "be4470c3-3042-435b-a5fa-93c736042ca8")
 		(property "Reference" "D101"
-			(at 88.9 52.5779 90)
+			(at 147.32 88.1379 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1583,7 +1588,7 @@
 			)
 		)
 		(property "Value" "SMBJ51CD-M3_H"
-			(at 88.9 55.1179 90)
+			(at 147.32 90.6779 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1594,7 +1599,7 @@
 			)
 		)
 		(property "Footprint" "FluxNode-FOC:DIOM4336X24N"
-			(at 81.28 50.8 0)
+			(at 139.7 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1606,7 +1611,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/87606/smbj5cdthrusmbj120cd.pdf"
-			(at 83.82 50.8 0)
+			(at 142.24 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1618,7 +1623,7 @@
 			)
 		)
 		(property "Description" "ESD Protection Diodes / TVS Diodes 51V 600W Bidir TransZorb 3.5% Tol"
-			(at 85.09 60.96 0)
+			(at 143.51 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1629,7 +1634,7 @@
 			)
 		)
 		(property "Description_1" "ESD Protection Diodes / TVS Diodes 51V 600W Bidir TransZorb 3.5% Tol"
-			(at 86.36 50.8 0)
+			(at 144.78 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1641,7 +1646,7 @@
 			)
 		)
 		(property "Height" "2.44"
-			(at 88.9 50.8 0)
+			(at 147.32 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1653,7 +1658,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 96.52 50.8 0)
+			(at 154.94 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1665,7 +1670,7 @@
 			)
 		)
 		(property "LCSC" "C1973984"
-			(at 85.09 60.96 0)
+			(at 143.51 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1676,7 +1681,7 @@
 			)
 		)
 		(property "MPN" "SMBJ51CD-M3/H"
-			(at 85.09 60.96 0)
+			(at 143.51 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1703,7 +1708,7 @@
 	)
 	(symbol
 		(lib_id "FluxNode-FOC:Conn_01x02_Mounting")
-		(at 52.07 41.91 180)
+		(at 110.49 77.47 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1714,7 +1719,7 @@
 		(fields_autoplaced yes)
 		(uuid "c28e4b8b-cbf6-44f3-8f15-43fc3f930f96")
 		(property "Reference" "J101"
-			(at 46.99 39.3699 0)
+			(at 105.41 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1725,7 +1730,7 @@
 			)
 		)
 		(property "Value" "XT60PW-F"
-			(at 46.99 41.9099 0)
+			(at 105.41 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1736,7 +1741,7 @@
 			)
 		)
 		(property "Footprint" "FluxNode-FOC:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal"
-			(at 52.07 41.91 0)
+			(at 110.49 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1747,7 +1752,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 41.91 0)
+			(at 110.49 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1758,7 +1763,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row with mounting pin"
-			(at 49.53 58.166 0)
+			(at 107.95 93.726 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1769,7 +1774,7 @@
 			)
 		)
 		(property "LCSC" "C428722"
-			(at 52.07 41.91 0)
+			(at 110.49 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

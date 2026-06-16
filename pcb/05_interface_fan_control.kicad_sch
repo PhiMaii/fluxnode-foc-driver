@@ -4,5 +4,32 @@
 	(generator_version "10.0")
 	(uuid "fdae9682-a4e9-424e-9fde-8dae45c6da37")
 	(paper "A4")
+	(title_block
+		(date "2026-06-07")
+		(rev "0.1.0")
+		(company "PhiMai")
+	)
 	(lib_symbols)
+	(hierarchical_label "FAN_CTRL"
+		(shape input)
+		(at 101.6 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3ace8ec0-1e8e-4631-bda1-1a5af572e422")
+	)
+	(hierarchical_label "FAN_SW"
+		(shape output)
+		(at 58.42 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7fba1bd2-6a6c-466d-b7e8-9048046a75aa")
+	)
 )

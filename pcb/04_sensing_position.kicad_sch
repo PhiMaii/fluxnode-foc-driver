@@ -4,5 +4,21 @@
 	(generator_version "10.0")
 	(uuid "7fe6bce7-3158-4015-a078-5f6896d605d8")
 	(paper "A4")
+	(title_block
+		(date "2026-06-07")
+		(rev "0.1.0")
+		(company "PhiMai")
+	)
 	(lib_symbols)
+	(hierarchical_label "{SPI1_MAG}"
+		(shape bidirectional)
+		(at 125.73 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "38ee5fb4-1ca4-4779-8846-457853702d4c")
+	)
 )

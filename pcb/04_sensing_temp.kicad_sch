@@ -4,5 +4,76 @@
 	(generator_version "10.0")
 	(uuid "256d224b-7fe8-4541-bfcd-f6fe75a6673f")
 	(paper "A4")
+	(title_block
+		(date "2026-06-07")
+		(rev "0.1.0")
+		(company "PhiMai")
+	)
 	(lib_symbols)
+	(hierarchical_label "NTC_MOT_H"
+		(shape input)
+		(at 49.53 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0c57c85a-5036-4128-9720-9cdaecbc71ab")
+	)
+	(hierarchical_label "NTC_BRAKE_L"
+		(shape input)
+		(at 49.53 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "34170f65-375c-4996-ae7f-b87af349e654")
+	)
+	(hierarchical_label "NTC_BRAKE_H"
+		(shape input)
+		(at 49.53 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "482d0e68-6c40-4b54-93c9-5c48f6564dc4")
+	)
+	(hierarchical_label "NTC_MOT_L"
+		(shape input)
+		(at 49.53 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5cdc9923-7b1a-4948-b784-daf014e831d7")
+	)
+	(hierarchical_label "VIN"
+		(shape input)
+		(at 49.53 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a6c36a6-9c4d-4368-be4b-56362a96e77a")
+	)
+	(hierarchical_label "{SENSE_TEMP}"
+		(shape output)
+		(at 121.92 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b69b4cf6-285b-4ece-a2fd-8c143e18f577")
+	)
 )

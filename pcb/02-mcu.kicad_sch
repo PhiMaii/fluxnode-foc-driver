@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "b436ff84-0bca-448c-b64c-ba3bcfb7f162")
 	(paper "A3")
+	(title_block
+		(date "2026-06-07")
+		(rev "0.1.0")
+		(company "PhiMai")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -2713,8 +2718,8 @@
 		)
 	)
 	(rectangle
-		(start 283.21 130.81)
-		(end 382.27 157.48)
+		(start 300.99 125.73)
+		(end 400.05 152.4)
 		(stroke
 			(width 1)
 			(type default)
@@ -2726,8 +2731,8 @@
 		(uuid "0030d0a3-b6ee-474d-80d6-9a604183cafd")
 	)
 	(rectangle
-		(start 283.21 64.77)
-		(end 382.27 91.44)
+		(start 300.99 59.69)
+		(end 400.05 86.36)
 		(stroke
 			(width 1)
 			(type default)
@@ -2739,8 +2744,8 @@
 		(uuid "17f61d70-fd9d-40fb-9fc9-c5167855ea22")
 	)
 	(rectangle
-		(start 177.8 64.77)
-		(end 276.86 157.48)
+		(start 195.58 20.32)
+		(end 294.64 113.03)
 		(stroke
 			(width 1)
 			(type default)
@@ -2752,8 +2757,8 @@
 		(uuid "233400c0-74de-4b8a-9b8e-9d7d96fd67f0")
 	)
 	(rectangle
-		(start 283.21 163.83)
-		(end 382.27 196.85)
+		(start 300.99 158.75)
+		(end 400.05 191.77)
 		(stroke
 			(width 1)
 			(type default)
@@ -2765,8 +2770,8 @@
 		(uuid "3396d50d-1f48-4435-a29c-64c56d2f025e")
 	)
 	(rectangle
-		(start 177.8 163.83)
-		(end 276.86 203.2)
+		(start 195.58 119.38)
+		(end 294.64 158.75)
 		(stroke
 			(width 1)
 			(type default)
@@ -2778,8 +2783,8 @@
 		(uuid "4030fc73-c5a2-44c5-bedc-0afb578531c4")
 	)
 	(rectangle
-		(start 283.21 97.79)
-		(end 382.27 124.46)
+		(start 300.99 92.71)
+		(end 400.05 119.38)
 		(stroke
 			(width 1)
 			(type default)
@@ -2791,8 +2796,8 @@
 		(uuid "45dfb664-9270-4893-b610-3deb5de834ad")
 	)
 	(rectangle
-		(start 283.21 222.25)
-		(end 382.27 236.22)
+		(start 300.99 217.17)
+		(end 400.05 231.14)
 		(stroke
 			(width 1)
 			(type default)
@@ -2804,8 +2809,8 @@
 		(uuid "46ac67f6-6f36-4711-ad3b-28fde024b7f5")
 	)
 	(rectangle
-		(start 283.21 25.4)
-		(end 382.27 58.42)
+		(start 300.99 20.32)
+		(end 400.05 53.34)
 		(stroke
 			(width 1)
 			(type default)
@@ -2817,8 +2822,8 @@
 		(uuid "b9e58674-bd28-4833-b04c-e24d4753ef0d")
 	)
 	(rectangle
-		(start 283.21 203.2)
-		(end 382.27 217.17)
+		(start 300.99 198.12)
+		(end 400.05 212.09)
 		(stroke
 			(width 1)
 			(type default)
@@ -2830,8 +2835,8 @@
 		(uuid "bf1ef22b-a16f-4843-af35-c982918c3935")
 	)
 	(rectangle
-		(start 177.8 242.57)
-		(end 276.86 256.54)
+		(start 300.99 237.49)
+		(end 400.05 251.46)
 		(stroke
 			(width 1)
 			(type default)
@@ -2843,8 +2848,8 @@
 		(uuid "c5f09cb6-7e3b-4f8f-a51f-f4b865db2d63")
 	)
 	(rectangle
-		(start 177.8 209.55)
-		(end 276.86 236.22)
+		(start 195.58 165.1)
+		(end 294.64 191.77)
 		(stroke
 			(width 1)
 			(type default)
@@ -2855,9 +2860,22 @@
 		)
 		(uuid "e5d5f4fa-d7b8-4fb9-940d-18ca87350f72")
 	)
+	(rectangle
+		(start 195.58 198.12)
+		(end 294.64 237.49)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "fe638e66-5c89-4845-8bcc-464b96feb718")
+	)
 	(text_box "User LEDs"
 		(exclude_from_sim no)
-		(at 284.48 146.685 0)
+		(at 302.26 141.605 0)
 		(size 96.52 9.525)
 		(margins 1.9049 1.9049 1.9049 1.9049)
 		(stroke
@@ -2881,7 +2899,7 @@
 	)
 	(text_box "Brake Chopper"
 		(exclude_from_sim no)
-		(at 179.07 246.38 0)
+		(at 302.26 241.3 0)
 		(size 96.52 9.525)
 		(margins 1.9049 1.9049 1.9049 1.9049)
 		(stroke
@@ -2905,7 +2923,7 @@
 	)
 	(text_box "Connection to Gate Driver"
 		(exclude_from_sim no)
-		(at 179.07 146.685 0)
+		(at 196.85 102.235 0)
 		(size 96.52 9.525)
 		(margins 1.9049 1.9049 1.9049 1.9049)
 		(stroke
@@ -2929,7 +2947,7 @@
 	)
 	(text_box "Auxiliary Port"
 		(exclude_from_sim no)
-		(at 179.07 191.77 0)
+		(at 196.85 147.32 0)
 		(size 96.52 9.525)
 		(margins 1.9049 1.9049 1.9049 1.9049)
 		(stroke
@@ -2953,7 +2971,7 @@
 	)
 	(text_box "Magnetic Encoder"
 		(exclude_from_sim no)
-		(at 284.48 46.99 0)
+		(at 302.26 41.91 0)
 		(size 96.52 9.525)
 		(margins 1.9049 1.9049 1.9049 1.9049)
 		(stroke
@@ -2977,7 +2995,7 @@
 	)
 	(text_box "5Mbps FD-CAN Bus"
 		(exclude_from_sim no)
-		(at 284.48 80.645 0)
+		(at 302.26 75.565 0)
 		(size 96.52 9.525)
 		(margins 1.9049 1.9049 1.9049 1.9049)
 		(stroke
@@ -3001,7 +3019,7 @@
 	)
 	(text_box "USB FS Client"
 		(exclude_from_sim no)
-		(at 179.07 225.425 0)
+		(at 196.85 180.975 0)
 		(size 96.52 9.525)
 		(margins 1.9049 1.9049 1.9049 1.9049)
 		(stroke
@@ -3023,9 +3041,33 @@
 		)
 		(uuid "6cb176c1-eca7-4e92-ac9f-30e4d83cdca8")
 	)
+	(text_box "Sense Phase Voltage"
+		(exclude_from_sim no)
+		(at 196.85 227.33 0)
+		(size 96.52 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "7bb3d569-f812-41c6-9670-883168a0eaf5")
+	)
 	(text_box "Battery Voltage Sense"
 		(exclude_from_sim no)
-		(at 284.48 207.01 0)
+		(at 302.26 201.93 0)
 		(size 96.52 9.525)
 		(margins 1.9049 1.9049 1.9049 1.9049)
 		(stroke
@@ -3049,7 +3091,7 @@
 	)
 	(text_box "Temperature Sense"
 		(exclude_from_sim no)
-		(at 284.48 113.665 0)
+		(at 302.26 108.585 0)
 		(size 96.52 9.525)
 		(margins 1.9049 1.9049 1.9049 1.9049)
 		(stroke
@@ -3073,7 +3115,7 @@
 	)
 	(text_box "SWD (Debug) Port"
 		(exclude_from_sim no)
-		(at 284.48 185.42 0)
+		(at 302.26 180.34 0)
 		(size 96.52 9.525)
 		(margins 1.9049 1.9049 1.9049 1.9049)
 		(stroke
@@ -3097,7 +3139,7 @@
 	)
 	(text_box "Low-Side Fan Control"
 		(exclude_from_sim no)
-		(at 284.48 226.06 0)
+		(at 302.26 220.98 0)
 		(size 96.52 9.525)
 		(margins 1.9049 1.9049 1.9049 1.9049)
 		(stroke
@@ -3132,6 +3174,12 @@
 		(uuid "06b0af02-6a28-4889-b72a-eb1caac27409")
 	)
 	(junction
+		(at 228.6 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1abe2570-6498-4ae1-bc03-fd8c4929dfd5")
+	)
+	(junction
 		(at 119.38 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3150,13 +3198,13 @@
 		(uuid "1e651120-cf0e-46d4-8858-2c3ae66aced1")
 	)
 	(junction
-		(at 207.01 134.62)
+		(at 224.79 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30a848e4-575c-4388-b11e-7453b1707ee5")
 	)
 	(junction
-		(at 215.9 124.46)
+		(at 233.68 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3201aa8b-556a-4ee9-aabc-1484a2a599d2")
@@ -3174,7 +3222,7 @@
 		(uuid "35d81bc6-e407-4020-a224-fe0e6aaa3cd4")
 	)
 	(junction
-		(at 207.01 121.92)
+		(at 224.79 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c8b15b1-dfc9-4b09-8c91-dd62b3d41dbf")
@@ -3210,10 +3258,22 @@
 		(uuid "65e14d2d-3f4c-4d2e-b6ae-8d0ec6397bcc")
 	)
 	(junction
+		(at 220.98 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "716ad11e-abc3-45f9-822e-bf78194eed42")
+	)
+	(junction
 		(at 132.08 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76be53e8-803c-46db-961a-a6a8ec60aece")
+	)
+	(junction
+		(at 220.98 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8442b6ee-e503-40e8-85d5-3eea792c2d62")
 	)
 	(junction
 		(at 119.38 43.18)
@@ -3222,16 +3282,28 @@
 		(uuid "8bbce1e8-234e-4506-a42e-205eb3baa11e")
 	)
 	(junction
+		(at 228.6 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f65022b-51f0-428f-8c06-7b7130ffc836")
+	)
+	(junction
 		(at 96.52 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9055ed83-5a88-4b96-80d2-3fecbb887b5b")
 	)
 	(junction
-		(at 198.12 119.38)
+		(at 215.9 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9250bc28-45cf-4bc3-bb14-70673cf92490")
+	)
+	(junction
+		(at 236.22 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa0c7f4c-f001-4741-b013-9d72b2a95b1f")
 	)
 	(junction
 		(at 85.09 25.4)
@@ -3270,7 +3342,7 @@
 		(uuid "f46abcd7-74a4-48ce-b75f-fdeb8fec3848")
 	)
 	(bus_entry
-		(at 213.36 82.55)
+		(at 231.14 38.1)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3279,7 +3351,7 @@
 		(uuid "0abb1734-5449-4cb2-87b5-7ea8b943005a")
 	)
 	(bus_entry
-		(at 331.47 177.8)
+		(at 349.25 172.72)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3288,7 +3360,7 @@
 		(uuid "0b4939ad-c111-4f66-bac4-88cbdc16d07a")
 	)
 	(bus_entry
-		(at 213.36 102.87)
+		(at 231.14 58.42)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3297,7 +3369,7 @@
 		(uuid "0c9508ab-cc34-4a1c-9d3a-557241589cfb")
 	)
 	(bus_entry
-		(at 241.3 116.84)
+		(at 259.08 72.39)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3306,7 +3378,7 @@
 		(uuid "11236e16-e62c-4ff5-b661-c1c5c94b9727")
 	)
 	(bus_entry
-		(at 213.36 109.22)
+		(at 231.14 64.77)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3315,7 +3387,7 @@
 		(uuid "20689aeb-bf5c-4e84-8fc2-de47f9196cc3")
 	)
 	(bus_entry
-		(at 331.47 111.76)
+		(at 349.25 106.68)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3324,7 +3396,7 @@
 		(uuid "235c296b-a462-4cd3-8463-c1f3873ba89b")
 	)
 	(bus_entry
-		(at 226.06 187.96)
+		(at 243.84 143.51)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3333,7 +3405,7 @@
 		(uuid "2c1a8e4d-06ba-4f8a-be1b-d814b96f385e")
 	)
 	(bus_entry
-		(at 226.06 172.72)
+		(at 243.84 128.27)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3342,7 +3414,7 @@
 		(uuid "37198af9-7676-433e-92d8-4cee95d1ac10")
 	)
 	(bus_entry
-		(at 213.36 93.98)
+		(at 231.14 49.53)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3351,7 +3423,7 @@
 		(uuid "42b2ef74-36ee-4962-ad74-7e37d0dae304")
 	)
 	(bus_entry
-		(at 226.06 182.88)
+		(at 243.84 138.43)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3360,7 +3432,7 @@
 		(uuid "44445f52-4ab4-4af1-8403-dab2af04195b")
 	)
 	(bus_entry
-		(at 331.47 36.83)
+		(at 349.25 31.75)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3369,7 +3441,7 @@
 		(uuid "4486e62a-dff5-4732-8209-067a8b242c93")
 	)
 	(bus_entry
-		(at 226.06 218.44)
+		(at 243.84 173.99)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3378,7 +3450,16 @@
 		(uuid "4663996c-67f5-44f8-8555-5717df43af4a")
 	)
 	(bus_entry
-		(at 331.47 175.26)
+		(at 255.27 207.01)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cbb5d67-da24-4361-af8a-8d963288c4b7")
+	)
+	(bus_entry
+		(at 349.25 170.18)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3387,7 +3468,7 @@
 		(uuid "4d09dd26-7d22-4d59-881c-f57b8ddcc044")
 	)
 	(bus_entry
-		(at 331.47 142.24)
+		(at 349.25 137.16)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3396,7 +3477,7 @@
 		(uuid "5b4bad58-17bd-4763-881f-fb4477709973")
 	)
 	(bus_entry
-		(at 213.36 74.93)
+		(at 231.14 30.48)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3405,7 +3486,7 @@
 		(uuid "635042d9-6e63-45ec-a798-6388a7ea6701")
 	)
 	(bus_entry
-		(at 331.47 41.91)
+		(at 349.25 36.83)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3414,7 +3495,7 @@
 		(uuid "6628db69-7f65-40ab-828f-bf0148d1b846")
 	)
 	(bus_entry
-		(at 331.47 39.37)
+		(at 349.25 34.29)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3423,7 +3504,7 @@
 		(uuid "690ea825-9259-48da-a5d1-411f447f9f55")
 	)
 	(bus_entry
-		(at 331.47 109.22)
+		(at 349.25 104.14)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3432,7 +3513,7 @@
 		(uuid "6a631720-47da-4756-8731-a921fa1bf810")
 	)
 	(bus_entry
-		(at 226.06 220.98)
+		(at 243.84 176.53)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3441,7 +3522,7 @@
 		(uuid "71de8ee0-f6a9-4903-aefa-b84fd33dbaf3")
 	)
 	(bus_entry
-		(at 331.47 106.68)
+		(at 349.25 101.6)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3450,7 +3531,7 @@
 		(uuid "77b5ae21-82e9-4d68-b02d-9c4f4b527e40")
 	)
 	(bus_entry
-		(at 331.47 180.34)
+		(at 349.25 175.26)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3459,7 +3540,7 @@
 		(uuid "7b64c098-6ab7-46c7-8af8-293164f156a2")
 	)
 	(bus_entry
-		(at 241.3 119.38)
+		(at 259.08 74.93)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3468,7 +3549,7 @@
 		(uuid "87f9c537-9fe9-463a-b653-d92a0ee19bb0")
 	)
 	(bus_entry
-		(at 226.06 177.8)
+		(at 243.84 133.35)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3477,7 +3558,7 @@
 		(uuid "8913b83f-bfc5-4914-82b0-632b837be133")
 	)
 	(bus_entry
-		(at 331.47 139.7)
+		(at 349.25 134.62)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3486,7 +3567,7 @@
 		(uuid "8a61c7ca-219a-4577-bffa-7e08c58a174e")
 	)
 	(bus_entry
-		(at 226.06 223.52)
+		(at 243.84 179.07)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3495,7 +3576,7 @@
 		(uuid "942fa862-2139-4e43-bf59-e36ce536b2a1")
 	)
 	(bus_entry
-		(at 226.06 180.34)
+		(at 243.84 135.89)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3504,7 +3585,7 @@
 		(uuid "965363a6-aae5-4daa-a193-2487a410afed")
 	)
 	(bus_entry
-		(at 331.47 34.29)
+		(at 349.25 29.21)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3513,7 +3594,7 @@
 		(uuid "9d303c33-11d7-4827-93be-57b187179d98")
 	)
 	(bus_entry
-		(at 226.06 175.26)
+		(at 243.84 130.81)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3522,7 +3603,16 @@
 		(uuid "a96907bc-1022-42c2-99a3-8d220eaca0b5")
 	)
 	(bus_entry
-		(at 213.36 96.52)
+		(at 255.27 209.55)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acad1753-3b55-4fec-92d0-02168f459182")
+	)
+	(bus_entry
+		(at 231.14 52.07)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3531,7 +3621,7 @@
 		(uuid "bce76f7f-cf61-4598-9b17-7ced7d54d595")
 	)
 	(bus_entry
-		(at 331.47 76.2)
+		(at 349.25 71.12)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3540,7 +3630,7 @@
 		(uuid "bfca4e31-6946-41bd-9db3-b776b7c9f86b")
 	)
 	(bus_entry
-		(at 213.36 80.01)
+		(at 231.14 35.56)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3549,7 +3639,7 @@
 		(uuid "c6ab98c9-f553-4833-af54-599f7e8f8bc5")
 	)
 	(bus_entry
-		(at 213.36 100.33)
+		(at 231.14 55.88)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3558,7 +3648,7 @@
 		(uuid "cb003980-83d8-4f30-8460-cfa033598651")
 	)
 	(bus_entry
-		(at 331.47 172.72)
+		(at 349.25 167.64)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3567,7 +3657,7 @@
 		(uuid "cf9ba8ee-2da4-4dce-80be-d2a4ea94bdf3")
 	)
 	(bus_entry
-		(at 213.36 106.68)
+		(at 231.14 62.23)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3576,7 +3666,7 @@
 		(uuid "d3b1af7e-03cb-407c-9cc1-93c1d81fda92")
 	)
 	(bus_entry
-		(at 241.3 121.92)
+		(at 259.08 77.47)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3585,7 +3675,7 @@
 		(uuid "d3c13434-3251-4daa-9e08-886fce30a4b5")
 	)
 	(bus_entry
-		(at 213.36 77.47)
+		(at 231.14 33.02)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3594,7 +3684,7 @@
 		(uuid "d6136401-d996-4e7f-98f1-fbed17a38ff2")
 	)
 	(bus_entry
-		(at 226.06 185.42)
+		(at 243.84 140.97)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3603,7 +3693,7 @@
 		(uuid "d6225902-80aa-4729-beb6-8fcfa3851946")
 	)
 	(bus_entry
-		(at 331.47 73.66)
+		(at 349.25 68.58)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3611,9 +3701,18 @@
 		)
 		(uuid "dfaee5de-f3d7-41bc-b2d4-846b80e5dcbd")
 	)
+	(bus_entry
+		(at 255.27 212.09)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7ef7d5e-0cda-43b8-938c-b1306765ae59")
+	)
 	(wire
 		(pts
-			(xy 215.9 124.46) (xy 219.71 124.46)
+			(xy 233.68 80.01) (xy 237.49 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3643,7 +3742,7 @@
 	)
 	(bus
 		(pts
-			(xy 226.06 217.17) (xy 228.6 214.63)
+			(xy 243.84 172.72) (xy 246.38 170.18)
 		)
 		(stroke
 			(width 0)
@@ -3653,7 +3752,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 121.92) (xy 207.01 121.92)
+			(xy 199.39 77.47) (xy 224.79 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3673,7 +3772,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 227.33) (xy 361.95 227.33)
+			(xy 309.88 222.25) (xy 379.73 222.25)
 		)
 		(stroke
 			(width 0)
@@ -3703,7 +3802,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 76.2) (xy 328.93 76.2)
+			(xy 309.88 71.12) (xy 346.71 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3713,7 +3812,7 @@
 	)
 	(bus
 		(pts
-			(xy 331.47 171.45) (xy 331.47 180.34)
+			(xy 349.25 166.37) (xy 349.25 175.26)
 		)
 		(stroke
 			(width 0)
@@ -3733,7 +3832,17 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 105.41) (xy 210.82 105.41)
+			(xy 228.6 223.52) (xy 236.22 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b8ca098-06a4-4a36-9b88-ea2d338580e6")
+	)
+	(wire
+		(pts
+			(xy 199.39 60.96) (xy 228.6 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3743,7 +3852,17 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 220.98) (xy 205.74 220.98)
+			(xy 52.07 100.33) (xy 78.74 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1085ab4e-6386-46ec-962a-13f90207b660")
+	)
+	(wire
+		(pts
+			(xy 204.47 176.53) (xy 223.52 176.53)
 		)
 		(stroke
 			(width 0)
@@ -3751,9 +3870,29 @@
 		)
 		(uuid "1085cc8a-f413-4540-99b7-4e01e10cb46f")
 	)
+	(wire
+		(pts
+			(xy 34.29 118.11) (xy 78.74 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "112b21d5-8218-4358-ab1b-b93e18b7b4ef")
+	)
+	(wire
+		(pts
+			(xy 204.47 212.09) (xy 228.6 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12406b2d-28aa-4e9d-a541-c40b50ee411d")
+	)
 	(bus
 		(pts
-			(xy 331.47 72.39) (xy 334.01 69.85)
+			(xy 349.25 67.31) (xy 351.79 64.77)
 		)
 		(stroke
 			(width 0)
@@ -3773,7 +3912,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 190.5) (xy 223.52 190.5)
+			(xy 204.47 146.05) (xy 241.3 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3813,7 +3952,7 @@
 	)
 	(bus
 		(pts
-			(xy 331.47 138.43) (xy 334.01 135.89)
+			(xy 349.25 133.35) (xy 351.79 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3830,6 +3969,16 @@
 			(type default)
 		)
 		(uuid "1a0bfaeb-b388-4eed-a939-f5426b387478")
+	)
+	(wire
+		(pts
+			(xy 52.07 95.25) (xy 78.74 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ab873ef-985a-4fca-af39-1696ad5faccf")
 	)
 	(wire
 		(pts
@@ -3853,7 +4002,17 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 124.46) (xy 215.9 125.73)
+			(xy 236.22 209.55) (xy 238.76 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fae87df-3d98-4cd6-b67e-28c62b860750")
+	)
+	(wire
+		(pts
+			(xy 233.68 80.01) (xy 233.68 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3883,7 +4042,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 119.38) (xy 219.71 119.38)
+			(xy 215.9 74.93) (xy 237.49 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3893,7 +4052,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 114.3) (xy 328.93 114.3)
+			(xy 309.88 109.22) (xy 346.71 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3903,7 +4062,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 175.26) (xy 328.93 175.26)
+			(xy 309.88 170.18) (xy 346.71 170.18)
 		)
 		(stroke
 			(width 0)
@@ -3933,7 +4092,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 133.35) (xy 215.9 134.62)
+			(xy 233.68 88.9) (xy 233.68 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3943,7 +4102,17 @@
 	)
 	(bus
 		(pts
-			(xy 331.47 105.41) (xy 334.01 102.87)
+			(xy 257.81 203.2) (xy 274.32 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b17b40e-341f-45d5-8e20-47a4b3400a40")
+	)
+	(bus
+		(pts
+			(xy 349.25 100.33) (xy 351.79 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3963,7 +4132,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 82.55) (xy 210.82 82.55)
+			(xy 199.39 38.1) (xy 228.6 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3973,7 +4142,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 208.28) (xy 361.95 208.28)
+			(xy 309.88 203.2) (xy 379.73 203.2)
 		)
 		(stroke
 			(width 0)
@@ -3983,7 +4152,17 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 119.38) (xy 198.12 119.38)
+			(xy 204.47 209.55) (xy 236.22 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "319a36b3-6420-41de-b5b3-31546aa0bf88")
+	)
+	(wire
+		(pts
+			(xy 199.39 74.93) (xy 215.9 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4001,19 +4180,19 @@
 		)
 		(uuid "3259c75b-1c6e-4c3d-b355-66c1ba504792")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 52.07 113.03) (xy 78.74 113.03)
+			(xy 255.27 205.74) (xy 257.81 203.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "34de8df3-2114-4bbc-9d46-72273c3a7608")
+		(uuid "3421668d-2fbb-4018-9558-29d015c90fcf")
 	)
 	(bus
 		(pts
-			(xy 241.3 115.57) (xy 243.84 113.03)
+			(xy 259.08 71.12) (xy 261.62 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4023,7 +4202,7 @@
 	)
 	(bus
 		(pts
-			(xy 226.06 217.17) (xy 226.06 223.52)
+			(xy 243.84 172.72) (xy 243.84 179.07)
 		)
 		(stroke
 			(width 0)
@@ -4053,7 +4232,7 @@
 	)
 	(bus
 		(pts
-			(xy 213.36 92.71) (xy 213.36 109.22)
+			(xy 231.14 48.26) (xy 231.14 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4073,7 +4252,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 134.62) (xy 198.12 133.35)
+			(xy 215.9 90.17) (xy 215.9 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4083,7 +4262,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 102.87) (xy 210.82 102.87)
+			(xy 199.39 58.42) (xy 228.6 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4093,7 +4272,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 226.06) (xy 186.69 226.06)
+			(xy 241.3 181.61) (xy 204.47 181.61)
 		)
 		(stroke
 			(width 0)
@@ -4103,7 +4282,7 @@
 	)
 	(bus
 		(pts
-			(xy 226.06 171.45) (xy 228.6 168.91)
+			(xy 243.84 127) (xy 246.38 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4133,7 +4312,17 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 99.06) (xy 210.82 99.06)
+			(xy 246.38 212.09) (xy 252.73 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44bb251b-2d41-4b68-bfb2-b96585f48b9b")
+	)
+	(wire
+		(pts
+			(xy 199.39 54.61) (xy 228.6 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4153,7 +4342,17 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 247.65) (xy 256.54 247.65)
+			(xy 114.3 67.31) (xy 134.62 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "456510fa-6023-429b-ba86-c2e2db1178ab")
+	)
+	(wire
+		(pts
+			(xy 309.88 242.57) (xy 379.73 242.57)
 		)
 		(stroke
 			(width 0)
@@ -4173,7 +4372,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 177.8) (xy 223.52 177.8)
+			(xy 204.47 133.35) (xy 241.3 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4183,7 +4382,7 @@
 	)
 	(bus
 		(pts
-			(xy 213.36 73.66) (xy 213.36 82.55)
+			(xy 231.14 29.21) (xy 231.14 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4193,7 +4392,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 223.52) (xy 205.74 223.52)
+			(xy 204.47 179.07) (xy 223.52 179.07)
 		)
 		(stroke
 			(width 0)
@@ -4203,7 +4402,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 109.22) (xy 328.93 109.22)
+			(xy 309.88 104.14) (xy 346.71 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4223,7 +4422,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 144.78) (xy 328.93 144.78)
+			(xy 309.88 139.7) (xy 346.71 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4243,7 +4442,7 @@
 	)
 	(bus
 		(pts
-			(xy 213.36 73.66) (xy 215.9 71.12)
+			(xy 231.14 29.21) (xy 233.68 26.67)
 		)
 		(stroke
 			(width 0)
@@ -4253,7 +4452,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 180.34) (xy 328.93 180.34)
+			(xy 309.88 175.26) (xy 346.71 175.26)
 		)
 		(stroke
 			(width 0)
@@ -4263,17 +4462,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 118.11) (xy 78.74 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55eb3fdf-eb56-455e-9305-863452e75755")
-	)
-	(wire
-		(pts
-			(xy 181.61 124.46) (xy 215.9 124.46)
+			(xy 199.39 80.01) (xy 233.68 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4283,7 +4472,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 85.09) (xy 250.19 85.09)
+			(xy 238.76 40.64) (xy 267.97 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4333,7 +4522,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 121.92) (xy 238.76 121.92)
+			(xy 245.11 77.47) (xy 256.54 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4343,7 +4532,7 @@
 	)
 	(bus
 		(pts
-			(xy 215.9 90.17) (xy 250.19 90.17)
+			(xy 233.68 45.72) (xy 267.97 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4353,13 +4542,23 @@
 	)
 	(bus
 		(pts
-			(xy 241.3 115.57) (xy 241.3 121.92)
+			(xy 259.08 71.12) (xy 259.08 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5e7d8a68-0c93-45fe-a5c5-d86c4819e143")
+	)
+	(wire
+		(pts
+			(xy 220.98 223.52) (xy 228.6 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eb4f36c-9407-4955-87ca-ab59fcfb1e3c")
 	)
 	(wire
 		(pts
@@ -4373,7 +4572,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 182.88) (xy 328.93 182.88)
+			(xy 309.88 177.8) (xy 346.71 177.8)
 		)
 		(stroke
 			(width 0)
@@ -4423,7 +4622,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 111.76) (xy 210.82 111.76)
+			(xy 199.39 67.31) (xy 228.6 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4443,7 +4642,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 85.09) (xy 210.82 85.09)
+			(xy 199.39 40.64) (xy 228.6 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4463,13 +4662,23 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 134.62) (xy 207.01 135.89)
+			(xy 224.79 90.17) (xy 224.79 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "73d6ae47-b105-4791-a381-ec0fce5d7de3")
+	)
+	(wire
+		(pts
+			(xy 246.38 209.55) (xy 252.73 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "758ab422-6462-4b97-a527-c37d0ecf7756")
 	)
 	(wire
 		(pts
@@ -4483,7 +4692,17 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 77.47) (xy 210.82 77.47)
+			(xy 34.29 113.03) (xy 78.74 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7733fd94-0acf-46bd-b991-d4a484073c55")
+	)
+	(wire
+		(pts
+			(xy 199.39 33.02) (xy 228.6 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4503,7 +4722,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 121.92) (xy 219.71 121.92)
+			(xy 224.79 77.47) (xy 237.49 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4513,7 +4732,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 36.83) (xy 328.93 36.83)
+			(xy 309.88 31.75) (xy 346.71 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4573,7 +4792,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 175.26) (xy 223.52 175.26)
+			(xy 204.47 130.81) (xy 241.3 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4583,7 +4802,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 142.24) (xy 328.93 142.24)
+			(xy 309.88 137.16) (xy 346.71 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4593,7 +4812,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 44.45) (xy 328.93 44.45)
+			(xy 309.88 39.37) (xy 346.71 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4603,7 +4822,7 @@
 	)
 	(bus
 		(pts
-			(xy 213.36 92.71) (xy 215.9 90.17)
+			(xy 231.14 48.26) (xy 233.68 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4633,7 +4852,7 @@
 	)
 	(bus
 		(pts
-			(xy 331.47 105.41) (xy 331.47 109.22)
+			(xy 349.25 100.33) (xy 349.25 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4643,7 +4862,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 223.52) (xy 223.52 223.52)
+			(xy 231.14 179.07) (xy 241.3 179.07)
 		)
 		(stroke
 			(width 0)
@@ -4693,7 +4912,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 119.38) (xy 198.12 125.73)
+			(xy 215.9 74.93) (xy 215.9 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4703,7 +4922,7 @@
 	)
 	(bus
 		(pts
-			(xy 228.6 214.63) (xy 256.54 214.63)
+			(xy 246.38 170.18) (xy 274.32 170.18)
 		)
 		(stroke
 			(width 0)
@@ -4713,7 +4932,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 41.91) (xy 328.93 41.91)
+			(xy 309.88 36.83) (xy 346.71 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4731,6 +4950,16 @@
 		)
 		(uuid "93b63d07-532a-45c3-87cf-580f72842c9e")
 	)
+	(bus
+		(pts
+			(xy 255.27 205.74) (xy 255.27 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93d6fc45-574d-4e2e-aac7-6039818ca034")
+	)
 	(wire
 		(pts
 			(xy 96.52 54.61) (xy 96.52 57.15)
@@ -4743,7 +4972,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 78.74) (xy 328.93 78.74)
+			(xy 309.88 73.66) (xy 346.71 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4751,9 +4980,19 @@
 		)
 		(uuid "96c05412-0745-46b7-8bb9-71c5d361604b")
 	)
+	(wire
+		(pts
+			(xy 210.82 223.52) (xy 220.98 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98a54e25-9f7b-4c5a-abe9-99a964f25aae")
+	)
 	(bus
 		(pts
-			(xy 228.6 168.91) (xy 256.54 168.91)
+			(xy 246.38 124.46) (xy 274.32 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4763,7 +5002,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 111.76) (xy 328.93 111.76)
+			(xy 309.88 106.68) (xy 346.71 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4783,7 +5022,7 @@
 	)
 	(bus
 		(pts
-			(xy 334.01 168.91) (xy 361.95 168.91)
+			(xy 351.79 163.83) (xy 379.73 163.83)
 		)
 		(stroke
 			(width 0)
@@ -4793,7 +5032,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 177.8) (xy 328.93 177.8)
+			(xy 309.88 172.72) (xy 346.71 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4803,13 +5042,23 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 185.42) (xy 223.52 185.42)
+			(xy 204.47 140.97) (xy 241.3 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a21c1b6f-5dbb-4965-bcf6-e8751b1f5d50")
+	)
+	(wire
+		(pts
+			(xy 220.98 214.63) (xy 238.76 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a407f1e4-9fb7-430f-99fe-5582fff5dc5a")
 	)
 	(wire
 		(pts
@@ -4851,9 +5100,19 @@
 		)
 		(uuid "a664fae9-3de1-439f-8e16-1ca1a8acfd99")
 	)
+	(wire
+		(pts
+			(xy 246.38 214.63) (xy 252.73 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9b62465-d987-4c5f-9cb8-49923f0d951a")
+	)
 	(bus
 		(pts
-			(xy 215.9 71.12) (xy 250.19 71.12)
+			(xy 233.68 26.67) (xy 267.97 26.67)
 		)
 		(stroke
 			(width 0)
@@ -4863,7 +5122,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 187.96) (xy 223.52 187.96)
+			(xy 204.47 143.51) (xy 241.3 143.51)
 		)
 		(stroke
 			(width 0)
@@ -4873,13 +5132,23 @@
 	)
 	(bus
 		(pts
-			(xy 334.01 135.89) (xy 361.95 135.89)
+			(xy 351.79 130.81) (xy 379.73 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "af34a10e-063d-409e-88ce-7a9bd95c28a5")
+	)
+	(wire
+		(pts
+			(xy 228.6 212.09) (xy 238.76 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b058321c-06f8-41b9-a726-3b1fb60efe83")
 	)
 	(wire
 		(pts
@@ -4893,6 +5162,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 214.63) (xy 220.98 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3bda7bb-97f7-4bb2-81a2-c44be8650ce9")
+	)
+	(wire
+		(pts
 			(xy 31.75 25.4) (xy 43.18 25.4)
 		)
 		(stroke
@@ -4900,6 +5179,16 @@
 			(type default)
 		)
 		(uuid "b3c08d9c-bdd1-4fdf-aff8-896ec31fd8fb")
+	)
+	(wire
+		(pts
+			(xy 204.47 214.63) (xy 220.98 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b53cd346-3a41-43b5-a811-4f4886268570")
 	)
 	(wire
 		(pts
@@ -4923,7 +5212,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 109.22) (xy 210.82 109.22)
+			(xy 199.39 64.77) (xy 228.6 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4943,7 +5232,7 @@
 	)
 	(bus
 		(pts
-			(xy 331.47 33.02) (xy 334.01 30.48)
+			(xy 349.25 27.94) (xy 351.79 25.4)
 		)
 		(stroke
 			(width 0)
@@ -4953,7 +5242,7 @@
 	)
 	(bus
 		(pts
-			(xy 331.47 109.22) (xy 331.47 111.76)
+			(xy 349.25 104.14) (xy 349.25 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4963,7 +5252,7 @@
 	)
 	(bus
 		(pts
-			(xy 331.47 33.02) (xy 331.47 41.91)
+			(xy 349.25 27.94) (xy 349.25 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4971,9 +5260,19 @@
 		)
 		(uuid "b7b99c98-2829-4cd3-a54b-bbea0b3d2ff3")
 	)
+	(wire
+		(pts
+			(xy 236.22 209.55) (xy 236.22 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7c150f9-4c93-4f59-821a-b0457bf2af92")
+	)
 	(bus
 		(pts
-			(xy 243.84 113.03) (xy 250.19 113.03)
+			(xy 261.62 68.58) (xy 267.97 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4993,7 +5292,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 96.52) (xy 210.82 96.52)
+			(xy 199.39 52.07) (xy 228.6 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5003,7 +5302,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 82.55) (xy 250.19 82.55)
+			(xy 238.76 38.1) (xy 267.97 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5023,7 +5322,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 124.46) (xy 238.76 124.46)
+			(xy 245.11 80.01) (xy 256.54 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5043,7 +5342,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 180.34) (xy 223.52 180.34)
+			(xy 204.47 135.89) (xy 241.3 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5053,7 +5352,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 133.35) (xy 207.01 134.62)
+			(xy 224.79 88.9) (xy 224.79 90.17)
 		)
 		(stroke
 			(width 0)
@@ -5083,7 +5382,17 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 134.62) (xy 207.01 134.62)
+			(xy 228.6 212.09) (xy 228.6 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c53617df-111c-47da-b9c6-a115757513ce")
+	)
+	(wire
+		(pts
+			(xy 233.68 90.17) (xy 224.79 90.17)
 		)
 		(stroke
 			(width 0)
@@ -5093,7 +5402,17 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 121.92) (xy 207.01 125.73)
+			(xy 34.29 115.57) (xy 78.74 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc20a496-81de-4980-9714-0e96de1f6102")
+	)
+	(wire
+		(pts
+			(xy 224.79 77.47) (xy 224.79 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5123,7 +5442,7 @@
 	)
 	(bus
 		(pts
-			(xy 334.01 69.85) (xy 361.95 69.85)
+			(xy 351.79 64.77) (xy 379.73 64.77)
 		)
 		(stroke
 			(width 0)
@@ -5153,7 +5472,7 @@
 	)
 	(bus
 		(pts
-			(xy 331.47 72.39) (xy 331.47 76.2)
+			(xy 349.25 67.31) (xy 349.25 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5193,16 +5512,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 115.57) (xy 78.74 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "daec580d-087f-4c40-8129-89e41fcfa296")
-	)
-	(wire
-		(pts
 			(xy 99.06 35.56) (xy 99.06 34.29)
 		)
 		(stroke
@@ -5233,6 +5542,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 64.77) (xy 134.62 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc1174aa-9204-4e17-83f6-828149050b08")
+	)
+	(wire
+		(pts
 			(xy 119.38 53.34) (xy 125.73 53.34)
 		)
 		(stroke
@@ -5243,7 +5562,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 77.47) (xy 250.19 77.47)
+			(xy 238.76 33.02) (xy 267.97 33.02)
 		)
 		(stroke
 			(width 0)
@@ -5263,7 +5582,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 182.88) (xy 223.52 182.88)
+			(xy 204.47 138.43) (xy 241.3 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5293,7 +5612,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 39.37) (xy 328.93 39.37)
+			(xy 309.88 34.29) (xy 346.71 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5303,7 +5622,7 @@
 	)
 	(bus
 		(pts
-			(xy 334.01 30.48) (xy 361.95 30.48)
+			(xy 351.79 25.4) (xy 379.73 25.4)
 		)
 		(stroke
 			(width 0)
@@ -5323,7 +5642,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 220.98) (xy 223.52 220.98)
+			(xy 231.14 176.53) (xy 241.3 176.53)
 		)
 		(stroke
 			(width 0)
@@ -5333,7 +5652,7 @@
 	)
 	(bus
 		(pts
-			(xy 331.47 171.45) (xy 334.01 168.91)
+			(xy 349.25 166.37) (xy 351.79 163.83)
 		)
 		(stroke
 			(width 0)
@@ -5353,7 +5672,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 134.62) (xy 198.12 134.62)
+			(xy 224.79 90.17) (xy 215.9 90.17)
 		)
 		(stroke
 			(width 0)
@@ -5383,7 +5702,7 @@
 	)
 	(bus
 		(pts
-			(xy 226.06 171.45) (xy 226.06 187.96)
+			(xy 243.84 127) (xy 243.84 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5393,7 +5712,7 @@
 	)
 	(bus
 		(pts
-			(xy 334.01 102.87) (xy 361.95 102.87)
+			(xy 351.79 97.79) (xy 379.73 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5423,7 +5742,7 @@
 	)
 	(bus
 		(pts
-			(xy 331.47 138.43) (xy 331.47 142.24)
+			(xy 349.25 133.35) (xy 349.25 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5493,7 +5812,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 80.01) (xy 210.82 80.01)
+			(xy 199.39 35.56) (xy 228.6 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5503,7 +5822,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 119.38) (xy 238.76 119.38)
+			(xy 245.11 74.93) (xy 256.54 74.93)
 		)
 		(stroke
 			(width 0)
@@ -5522,7 +5841,7 @@
 		(uuid "ff0d67d4-e846-41f7-b0b3-d5a428926586")
 	)
 	(label "DRV_PWM_HB"
-		(at 181.61 102.87 0)
+		(at 199.39 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5532,7 +5851,7 @@
 		(uuid "0032b302-dfa4-46d0-b1e1-2213c05d34df")
 	)
 	(label "USB_VBUS_SENSE"
-		(at 186.69 226.06 0)
+		(at 204.47 181.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5541,18 +5860,18 @@
 		)
 		(uuid "011bf3c9-a00d-4441-b442-2b8421cebe38")
 	)
-	(label "AUX1_SPI1_MOSI"
-		(at 156.21 82.55 180)
+	(label "AUX1_SPI3_CLK"
+		(at 34.29 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "026b3675-8865-4c65-a607-5270cd8e1ca9")
+		(uuid "06a543ec-dbd7-4dc4-a94f-368c83f33399")
 	)
 	(label "SPI1_MISO"
-		(at 181.61 80.01 0)
+		(at 199.39 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5562,7 +5881,7 @@
 		(uuid "09ae5a97-8864-49f8-a0c4-fe22f6223dba")
 	)
 	(label "FAN_CTRL"
-		(at 292.1 227.33 0)
+		(at 309.88 222.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5581,8 +5900,18 @@
 		)
 		(uuid "17d8102c-e614-498a-8a25-c6e3bd93f0ae")
 	)
+	(label "SENSE_UB"
+		(at 204.47 212.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "195a06f4-4ba4-4f37-815c-9ab591ad754a")
+	)
 	(label "LED_DBG"
-		(at 292.1 142.24 0)
+		(at 309.88 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5592,7 +5921,7 @@
 		(uuid "1d2928d3-f984-4ff2-9ff0-1958f311242c")
 	)
 	(label "DRV_nFAULT"
-		(at 220.98 77.47 0)
+		(at 238.76 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5602,7 +5931,7 @@
 		(uuid "220d8016-eade-4728-9f75-5ff9776133c2")
 	)
 	(label "NRST"
-		(at 292.1 180.34 0)
+		(at 309.88 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5622,7 +5951,7 @@
 		(uuid "25d1cc38-bb26-47e6-bdbe-59a0e90ab900")
 	)
 	(label "SENSE_VBAT"
-		(at 292.1 208.28 0)
+		(at 309.88 203.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5631,8 +5960,18 @@
 		)
 		(uuid "25ecba40-2328-4da9-92b9-2a969375018c")
 	)
+	(label "SENSE_UC"
+		(at 204.47 214.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c6cd8dd-a1bd-447a-acd6-4215da0c9a6f")
+	)
 	(label "DRV_SOB_FILT"
-		(at 181.61 121.92 0)
+		(at 199.39 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5661,8 +6000,8 @@
 		)
 		(uuid "38f4bee5-8562-4944-89bd-9c8a6b5579cf")
 	)
-	(label "AUX1_SPI1_MISO"
-		(at 186.69 177.8 0)
+	(label "AUX1_SPI3_MISO"
+		(at 204.47 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5682,7 +6021,7 @@
 		(uuid "3bd5496f-3ec4-4f2a-b71e-e7c43a87638d")
 	)
 	(label "SPI1_SCK"
-		(at 181.61 77.47 0)
+		(at 199.39 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5691,8 +6030,8 @@
 		)
 		(uuid "3d29868c-5560-4218-b350-8f47437383e7")
 	)
-	(label "AUX1_SPI1_MOSI"
-		(at 186.69 180.34 0)
+	(label "AUX1_SPI3_MOSI"
+		(at 204.47 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5721,8 +6060,18 @@
 		)
 		(uuid "438985bb-9fd9-4734-80f4-8a166ef3381d")
 	)
+	(label "SENSE_UC"
+		(at 134.62 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "439a802c-f9f4-4575-88aa-0e60a7e9f4ad")
+	)
 	(label "AUX1_I2C_SCL"
-		(at 186.69 182.88 0)
+		(at 204.47 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5771,8 +6120,8 @@
 		)
 		(uuid "4dabaab2-5932-434b-b996-bed14cdda433")
 	)
-	(label "BRAKE_GATE_DRIVER_PWM"
-		(at 186.69 247.65 0)
+	(label "BRAKE_CTRL"
+		(at 309.88 242.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5792,7 +6141,7 @@
 		(uuid "4f138fd6-9dfe-4be3-9f55-c7474b032b1e")
 	)
 	(label "DRV_PWM_LC"
-		(at 181.61 111.76 0)
+		(at 199.39 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5802,7 +6151,7 @@
 		(uuid "4f4598cc-36ef-4e6b-ad26-29debb529fdc")
 	)
 	(label "SOA"
-		(at 227.33 119.38 0)
+		(at 245.11 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5822,7 +6171,7 @@
 		(uuid "51469b34-e5fb-45b3-8ecd-2ba74a18f585")
 	)
 	(label "DRV_PWM_LB"
-		(at 181.61 105.41 0)
+		(at 199.39 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5832,7 +6181,7 @@
 		(uuid "55b9f550-46d8-4568-9a36-59ebfe8beb44")
 	)
 	(label "LED_PWR"
-		(at 292.1 144.78 0)
+		(at 309.88 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5841,8 +6190,18 @@
 		)
 		(uuid "5d3a7eab-092c-442e-b0b7-bf868a0d7a8e")
 	)
+	(label "AUX1_SPI3_MOSI"
+		(at 34.29 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e205dbb-a9ae-469b-87d8-930fff21dda2")
+	)
 	(label "AUX1_I2C_PULLUP"
-		(at 186.69 190.5 0)
+		(at 204.47 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5852,7 +6211,7 @@
 		(uuid "611b9b92-46a4-4eb4-b114-674d8a8db7b0")
 	)
 	(label "DRV_PWM_HA"
-		(at 181.61 96.52 0)
+		(at 199.39 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5861,8 +6220,8 @@
 		)
 		(uuid "61a075ea-de32-46c3-b90e-0277cccbb882")
 	)
-	(label "SPI3_MAG_CS"
-		(at 292.1 44.45 0)
+	(label "SPI1_MAG_CS"
+		(at 309.88 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5872,7 +6231,7 @@
 		(uuid "64b4e871-a1a8-4ef7-b616-10a24b6e4366")
 	)
 	(label "DRV_SOC_FILT"
-		(at 181.61 124.46 0)
+		(at 199.39 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5882,7 +6241,7 @@
 		(uuid "6b14c4c7-604b-4361-9403-a4a6571602bb")
 	)
 	(label "SWO"
-		(at 292.1 182.88 0)
+		(at 309.88 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5892,7 +6251,7 @@
 		(uuid "6ba6aa18-0c3a-43f8-b0d7-552bbb11774f")
 	)
 	(label "SWDIO"
-		(at 292.1 175.26 0)
+		(at 309.88 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5902,7 +6261,7 @@
 		(uuid "6cbf3424-24e2-4f22-8e9f-ceef1d7ac2cc")
 	)
 	(label "DRV_SOA_FILT"
-		(at 181.61 119.38 0)
+		(at 199.39 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5910,6 +6269,16 @@
 			(justify left bottom)
 		)
 		(uuid "6ea8cfb0-4766-441a-9b71-1afec4bc0cc8")
+	)
+	(label "AUX1_SPI3_MISO"
+		(at 34.29 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "726cc52c-d17f-48f8-8ef6-a7fd88d2b98a")
 	)
 	(label "SPI1_SCK"
 		(at 134.62 77.47 180)
@@ -5922,7 +6291,7 @@
 		(uuid "75337b7f-83c0-4217-ab8e-1a0a9172ffe7")
 	)
 	(label "SWCLK"
-		(at 292.1 177.8 0)
+		(at 309.88 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5941,8 +6310,8 @@
 		)
 		(uuid "7a2188e6-b7ee-478a-9901-92f8a7b75265")
 	)
-	(label "SPI3_MOSI"
-		(at 292.1 36.83 0)
+	(label "SPI1_MOSI"
+		(at 309.88 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5961,8 +6330,8 @@
 		)
 		(uuid "7c14d55d-a8f0-4b12-b438-8aaff7d2a596")
 	)
-	(label "SPI3_MISO"
-		(at 292.1 39.37 0)
+	(label "SPI1_MISO"
+		(at 309.88 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6042,7 +6411,7 @@
 		(uuid "8feb84c0-8af1-47fc-a105-3cbae68fde00")
 	)
 	(label "SOB"
-		(at 227.33 121.92 0)
+		(at 245.11 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6062,7 +6431,7 @@
 		(uuid "91ad0cd3-f7df-416d-b2aa-d5983aa659ee")
 	)
 	(label "DRV_PWM_HC"
-		(at 181.61 109.22 0)
+		(at 199.39 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6071,8 +6440,8 @@
 		)
 		(uuid "91d69f00-1f2c-4eec-8cf5-a23ccb530734")
 	)
-	(label "AUX1_SPI1_CLK"
-		(at 186.69 175.26 0)
+	(label "AUX1_SPI3_CLK"
+		(at 204.47 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6082,7 +6451,7 @@
 		(uuid "9374c2c4-ea31-4011-b607-e7062da654a2")
 	)
 	(label "SPI1_DRV_CS"
-		(at 181.61 85.09 0)
+		(at 199.39 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6091,18 +6460,8 @@
 		)
 		(uuid "951c805e-a8b6-47e8-9032-22b98422ea91")
 	)
-	(label "AUX1_SPI1_MISO"
-		(at 156.21 80.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9774dc95-47d3-4ea6-8678-9655c134fd84")
-	)
 	(label "DRV_EN"
-		(at 220.98 82.55 0)
+		(at 238.76 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6121,7 +6480,7 @@
 		)
 		(uuid "9ea52f0a-dacf-4e09-97d0-76eccef408fe")
 	)
-	(label "SPI3_MAG_CS"
+	(label "SPI1_MAG_CS"
 		(at 52.07 100.33 0)
 		(effects
 			(font
@@ -6132,7 +6491,7 @@
 		(uuid "a1bb0431-4b8d-45ed-846a-eff5b3b1a26d")
 	)
 	(label "SOC"
-		(at 227.33 124.46 0)
+		(at 245.11 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6142,7 +6501,7 @@
 		(uuid "a36ebd32-514d-4e92-b1b0-0df9c0146507")
 	)
 	(label "SENSE_TEMP_MOT"
-		(at 292.1 109.22 0)
+		(at 309.88 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6162,7 +6521,7 @@
 		(uuid "a8991d6b-51b8-4fce-a6fa-2c50c017ac49")
 	)
 	(label "FDCAN_RX"
-		(at 292.1 76.2 0)
+		(at 309.88 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6181,8 +6540,18 @@
 		)
 		(uuid "ac71ea84-626f-4f70-b8f7-f06e5b387597")
 	)
+	(label "SENSE_UB"
+		(at 134.62 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aef74845-b321-463d-8c6e-2473745bbb3e")
+	)
 	(label "FDCAN_TX"
-		(at 292.1 78.74 0)
+		(at 309.88 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6192,7 +6561,7 @@
 		(uuid "b05a2245-0aad-4670-8aa7-5ac8b5c40a2d")
 	)
 	(label "DRV_PWM_LA"
-		(at 181.61 99.06 0)
+		(at 199.39 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6211,7 +6580,7 @@
 		)
 		(uuid "bbea25e1-8fd1-43ad-9f92-b0cfe4d160f5")
 	)
-	(label "BRAKE_GATE_DRIVER_PWM"
+	(label "BRAKE_CTRL"
 		(at 52.07 110.49 0)
 		(effects
 			(font
@@ -6230,6 +6599,16 @@
 			(justify right bottom)
 		)
 		(uuid "bc774073-98a8-4e08-95c6-f9cc98708347")
+	)
+	(label "SENSE_UA"
+		(at 204.47 209.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0172de0-2b80-4724-8675-cee5bbe2cf55")
 	)
 	(label "FDCAN_RX"
 		(at 134.62 120.65 180)
@@ -6261,8 +6640,8 @@
 		)
 		(uuid "c56ce945-173b-404b-91cf-1f18ce9eefdc")
 	)
-	(label "SPI3_SCK"
-		(at 292.1 41.91 0)
+	(label "SPI1_SCK"
+		(at 309.88 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6271,7 +6650,7 @@
 		)
 		(uuid "c5940156-6027-4ba3-b289-085d33fb2c06")
 	)
-	(label "AUX1_SPI_CS"
+	(label "AUX1_SPI3_CS"
 		(at 52.07 123.19 0)
 		(effects
 			(font
@@ -6282,7 +6661,7 @@
 		(uuid "c72ad303-3999-4525-a76f-d2680c375a17")
 	)
 	(label "SENSE_TEMP_FET"
-		(at 292.1 111.76 0)
+		(at 309.88 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6312,7 +6691,7 @@
 		(uuid "d2d70f24-4eb4-451d-a502-6ac832f1033e")
 	)
 	(label "SPI1_MOSI"
-		(at 181.61 82.55 0)
+		(at 199.39 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6322,7 +6701,7 @@
 		(uuid "d3d2885f-291b-40c4-9517-daf70a0ecb80")
 	)
 	(label "AUX1_I2C_SDA"
-		(at 186.69 185.42 0)
+		(at 204.47 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6341,6 +6720,16 @@
 		)
 		(uuid "d6095def-2b58-40ab-b3cb-77e608b1e581")
 	)
+	(label "SENSE_UA"
+		(at 52.07 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc776867-9d9d-44b5-8608-db2a295ca9c1")
+	)
 	(label "FDCAN_TX"
 		(at 134.62 123.19 180)
 		(effects
@@ -6352,7 +6741,7 @@
 		(uuid "dd2bc275-0d19-49bd-9414-209ff941b2d8")
 	)
 	(label "USB_D+"
-		(at 186.69 220.98 0)
+		(at 204.47 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6391,8 +6780,8 @@
 		)
 		(uuid "ebad2708-db0e-430b-9e85-6cea76159dd9")
 	)
-	(label "AUX1_SPI_CS"
-		(at 186.69 187.96 0)
+	(label "AUX1_SPI3_CS"
+		(at 204.47 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6412,7 +6801,7 @@
 		(uuid "f1a908ed-9c9f-4a94-85e8-4ec88da94826")
 	)
 	(label "SENSE_TEMP_BRAKE"
-		(at 292.1 114.3 0)
+		(at 309.88 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6442,7 +6831,7 @@
 		(uuid "f3b59e60-e8cd-4966-8e71-5e30bff85593")
 	)
 	(label "USB_D-"
-		(at 186.69 223.52 0)
+		(at 204.47 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6452,7 +6841,7 @@
 		(uuid "f74c7e46-9d2a-4463-82c3-b2668e0c533f")
 	)
 	(label "DRV_CAL"
-		(at 220.98 85.09 0)
+		(at 238.76 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6461,19 +6850,9 @@
 		)
 		(uuid "fea412d2-64c4-44ad-bcb3-8ee161dece3f")
 	)
-	(label "AUX1_SPI1_CLK"
-		(at 156.21 77.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ffabff20-bccc-4fda-8177-429125865dc5")
-	)
 	(hierarchical_label "{LED}"
 		(shape output)
-		(at 361.95 135.89 0)
+		(at 379.73 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6484,7 +6863,7 @@
 	)
 	(hierarchical_label "{SENSE_TEMP}"
 		(shape input)
-		(at 361.95 102.87 0)
+		(at 379.73 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6493,9 +6872,9 @@
 		)
 		(uuid "0b974dbd-06fb-481b-8d8f-b4911b9297aa")
 	)
-	(hierarchical_label "BRAKE_PWM"
+	(hierarchical_label "BRAKE_CTRL"
 		(shape output)
-		(at 256.54 247.65 0)
+		(at 379.73 242.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6506,7 +6885,7 @@
 	)
 	(hierarchical_label "SENSE_VBAT"
 		(shape input)
-		(at 361.95 208.28 0)
+		(at 379.73 203.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6517,7 +6896,7 @@
 	)
 	(hierarchical_label "{SPI1_DRV}"
 		(shape bidirectional)
-		(at 250.19 71.12 0)
+		(at 267.97 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6528,7 +6907,7 @@
 	)
 	(hierarchical_label "DRV_nFAULT"
 		(shape input)
-		(at 250.19 77.47 0)
+		(at 267.97 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6538,8 +6917,8 @@
 		(uuid "2561ae84-50df-4bf0-aadf-cd87646a987d")
 	)
 	(hierarchical_label "{USB}"
-		(shape output)
-		(at 256.54 214.63 0)
+		(shape bidirectional)
+		(at 274.32 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6550,7 +6929,7 @@
 	)
 	(hierarchical_label "{DRV_CURRENT_SENSE}"
 		(shape input)
-		(at 250.19 113.03 0)
+		(at 267.97 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6561,7 +6940,7 @@
 	)
 	(hierarchical_label "DRV_CAL"
 		(shape output)
-		(at 250.19 85.09 0)
+		(at 267.97 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6571,8 +6950,8 @@
 		(uuid "6200dc23-fd8a-4748-96a9-373298428984")
 	)
 	(hierarchical_label "{AUX1}"
-		(shape output)
-		(at 256.54 168.91 0)
+		(shape bidirectional)
+		(at 274.32 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6582,7 +6961,7 @@
 		)
 		(uuid "74a1f65a-3323-40e3-a487-13193206168a")
 		(property "test" ""
-			(at 256.54 170.18 0)
+			(at 274.32 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6596,7 +6975,7 @@
 	)
 	(hierarchical_label "{FDCAN_TTL}"
 		(shape bidirectional)
-		(at 361.95 69.85 0)
+		(at 379.73 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6607,7 +6986,7 @@
 	)
 	(hierarchical_label "DRV_EN"
 		(shape output)
-		(at 250.19 82.55 0)
+		(at 267.97 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6616,9 +6995,9 @@
 		)
 		(uuid "a110c1d1-4dcf-402f-a280-fa5f80baffdf")
 	)
-	(hierarchical_label "{SPI3_MAG}"
+	(hierarchical_label "{SPI1_MAG}"
 		(shape bidirectional)
-		(at 361.95 30.48 0)
+		(at 379.73 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6628,8 +7007,8 @@
 		(uuid "a6bb2372-270f-4af2-93cc-8e135d192155")
 	)
 	(hierarchical_label "{SWD}"
-		(shape output)
-		(at 361.95 168.91 0)
+		(shape bidirectional)
+		(at 379.73 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6640,7 +7019,7 @@
 	)
 	(hierarchical_label "{DRV_PWM_PHASE}"
 		(shape output)
-		(at 250.19 90.17 0)
+		(at 267.97 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6649,9 +7028,20 @@
 		)
 		(uuid "dc451492-8d3f-4db3-9e75-b398b8734db1")
 	)
+	(hierarchical_label "{SENSE_PHASE_U}"
+		(shape input)
+		(at 274.32 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e24c8342-a85a-4a30-811d-572f21cf540b")
+	)
 	(hierarchical_label "FAN_CTRL"
 		(shape output)
-		(at 361.95 227.33 0)
+		(at 379.73 222.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6817,9 +7207,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 60.96 30.48 0)
-		(mirror y)
+		(lib_id "Device:R")
+		(at 242.57 214.63 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6827,31 +7216,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0a1ebd6d-cd04-408d-92f8-abcaea584580")
-		(property "Reference" "C210"
-			(at 57.15 29.2099 0)
+		(uuid "09411c9a-2d2c-4b30-afe7-fcf66ef0c70d")
+		(property "Reference" "R208"
+			(at 242.57 214.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100n 50V"
-			(at 57.15 31.7499 0)
+		(property "Value" "1K 1%"
+			(at 247.904 213.36 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "FluxNode-FOC:C_0402_1005_DensityHigh"
-			(at 59.9948 34.29 0)
+		(property "Footprint" "FluxNode-FOC:R_0402_1005_DensityHigh"
+			(at 242.57 216.408 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6862,7 +7249,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 30.48 0)
+			(at 242.57 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6872,8 +7259,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 60.96 30.48 0)
+		(property "Description" "RES 1000Ω ±1% 0.1W 0402"
+			(at 242.57 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6883,8 +7270,8 @@
 				)
 			)
 		)
-		(property "MPN" "GCM155R71H104KE02J"
-			(at 60.96 30.48 0)
+		(property "MPN" "ERJ2RKF1001X"
+			(at 242.57 214.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6894,8 +7281,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C2649549"
-			(at 60.96 30.48 0)
+		(property "LCSC" "C242161"
+			(at 242.57 214.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6906,24 +7293,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "f748e6c6-e956-4ddf-b64c-f4dcfe4e051d")
+			(uuid "fd8a4e72-846c-41f4-93d1-ee685eb13958")
 		)
 		(pin "1"
-			(uuid "dfc57109-d5db-47c8-8077-2cdd8cfa21f2")
+			(uuid "c748e1ea-d1af-459f-9d40-db95afcbed83")
 		)
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/2366da82-dc31-4919-b23c-1b211a77679f"
-					(reference "C210")
+					(reference "R208")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 198.12 129.54 0)
-		(mirror y)
+		(lib_id "Device:R")
+		(at 241.3 80.01 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6931,31 +7317,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "102c87f1-38f4-41db-ba1e-26fce64db283")
-		(property "Reference" "C212"
-			(at 200.66 140.208 0)
+		(uuid "0c3d42e5-1a25-47f7-9628-6413270a4057")
+		(property "Reference" "R203"
+			(at 241.3 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "1nF 25V"
-			(at 201.93 142.494 0)
+		(property "Value" "22R 1%"
+			(at 235.204 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "FluxNode-FOC:C_0402_1005_DensityHigh"
-			(at 197.1548 133.35 0)
+		(property "Footprint" "FluxNode-FOC:R_0402_1005_DensityHigh"
+			(at 241.3 81.788 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6966,7 +7350,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 129.54 0)
+			(at 241.3 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6976,8 +7360,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 198.12 129.54 0)
+		(property "Description" "RES 22Ω ±1% 62.5mW 0402"
+			(at 241.3 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6987,8 +7371,124 @@
 				)
 			)
 		)
-		(property "Package" "0402"
-			(at 193.802 132.588 0)
+		(property "MPN" "CRCW040222R0FKED"
+			(at 241.3 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C482106"
+			(at 241.3 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "76cb325b-9692-49d7-99c5-55899b812d19")
+		)
+		(pin "1"
+			(uuid "62097da7-8148-47a4-a7f2-bf16259b043a")
+		)
+		(instances
+			(project "FluxNode-FOC"
+				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/2366da82-dc31-4919-b23c-1b211a77679f"
+					(reference "R203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 215.9 85.09 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "102c87f1-38f4-41db-ba1e-26fce64db283")
+		(property "Reference" "C212"
+			(at 218.44 95.758 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1nF 25V"
+			(at 219.71 98.044 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FluxNode-FOC:C_0402_1005_DensityHigh"
+			(at 214.9348 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 1nF 25V X7R 0402"
+			(at 215.9 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0402KRX7R8BB102"
+			(at 215.9 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C541372"
+			(at 215.9 85.09 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7013,111 +7513,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 148.59 30.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "179e993d-1a27-47bc-841f-9b2b1960762d")
-		(property "Reference" "C205"
-			(at 152.4 29.2099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n 50V"
-			(at 152.4 31.7499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "FluxNode-FOC:C_0402_1005_DensityHigh"
-			(at 149.5552 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 148.59 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GCM155R71H104KE02J"
-			(at 148.59 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2649549"
-			(at 148.59 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2495708d-d728-4549-88bc-01823f7e8bfc")
-		)
-		(pin "1"
-			(uuid "8fa28e7e-f3fd-4e8c-91f5-232cd1474c27")
-		)
-		(instances
-			(project "FluxNode-FOC"
-				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/2366da82-dc31-4919-b23c-1b211a77679f"
-					(reference "C205")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 209.55 220.98 90)
+		(at 242.57 212.09 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7125,9 +7522,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3196151f-9bde-4f2d-8933-9d083ee7e964")
-		(property "Reference" "R204"
-			(at 209.55 220.98 90)
+		(uuid "141ab8e7-4e97-487d-922c-ad1044834f4e")
+		(property "Reference" "R207"
+			(at 242.57 212.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7136,8 +7533,8 @@
 				)
 			)
 		)
-		(property "Value" "22R 1%"
-			(at 203.454 219.71 90)
+		(property "Value" "1K 1%"
+			(at 247.904 210.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7147,7 +7544,7 @@
 			)
 		)
 		(property "Footprint" "FluxNode-FOC:R_0402_1005_DensityHigh"
-			(at 209.55 222.758 90)
+			(at 242.57 213.868 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7158,7 +7555,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 220.98 0)
+			(at 242.57 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7168,8 +7565,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 209.55 220.98 0)
+		(property "Description" "RES 1000Ω ±1% 0.1W 0402"
+			(at 242.57 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7179,8 +7576,20 @@
 				)
 			)
 		)
-		(property "Package" "0402"
-			(at 209.55 218.694 90)
+		(property "MPN" "ERJ2RKF1001X"
+			(at 242.57 212.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C242161"
+			(at 242.57 212.09 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7190,15 +7599,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "64d9752c-67dc-4664-9c69-80d0d05a62a9")
+			(uuid "4fbe66b1-12ee-4644-95de-e82710f60649")
 		)
 		(pin "1"
-			(uuid "e472b05d-1020-421c-af5a-b7f99f8a3092")
+			(uuid "e5163033-128b-4902-8ce7-a9bbc415ae0a")
 		)
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/2366da82-dc31-4919-b23c-1b211a77679f"
-					(reference "R204")
+					(reference "R207")
 					(unit 1)
 				)
 			)
@@ -7369,7 +7778,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "35ba69bc-3e49-4834-b606-9dd18e3d9955")
+		(uuid "36c1b219-dfb9-4d59-aa71-41e2b45093d7")
 		(property "Reference" "C203"
 			(at 119.38 29.2099 0)
 			(show_name no)
@@ -7381,7 +7790,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n 50V"
+		(property "Value" "100nF 50V"
 			(at 119.38 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7414,7 +7823,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 100nF 50V X7R 0402"
 			(at 115.57 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -7425,7 +7834,7 @@
 				)
 			)
 		)
-		(property "MPN" "GCM155R71H104KE02J"
+		(property "MPN" "C1005X7R1H104KT000F"
 			(at 115.57 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -7436,7 +7845,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2649549"
+		(property "LCSC" "C361198"
 			(at 115.57 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -7448,10 +7857,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "eaae062c-58c8-4242-9c95-abcf0b099615")
+			(uuid "2b7783a1-5a5a-49ea-b49a-98094a89f478")
 		)
 		(pin "1"
-			(uuid "4ea7640d-d8a1-47aa-8cbc-784bd6fd8060")
+			(uuid "a0aac91b-b3b4-4e7c-8826-8abf4e4ed867")
 		)
 		(instances
 			(project "FluxNode-FOC"
@@ -7463,8 +7872,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 223.52 121.92 90)
+		(lib_id "Device:C")
+		(at 119.38 48.26 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7472,29 +7882,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3bc07e2c-8bf4-450f-8b08-f183dbaf720c")
-		(property "Reference" "R202"
-			(at 223.52 121.92 90)
+		(uuid "42990df1-a2da-4257-a68b-af5435f03002")
+		(property "Reference" "C207"
+			(at 115.57 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "22R 1%"
-			(at 217.424 120.65 90)
+		(property "Value" "1uF 10V"
+			(at 115.57 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "FluxNode-FOC:R_0402_1005_DensityHigh"
-			(at 223.52 123.698 90)
+		(property "Footprint" "FluxNode-FOC:C_0402_1005_DensityHigh"
+			(at 118.4148 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7505,7 +7917,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 121.92 0)
+			(at 119.38 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7515,8 +7927,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 223.52 121.92 0)
+		(property "Description" "1uF X7R ±10% 10V 0402 Ceramic Capacitors RoHS"
+			(at 119.38 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7526,8 +7938,19 @@
 				)
 			)
 		)
-		(property "Package" "0402"
-			(at 223.52 121.92 90)
+		(property "MPN" "TCC0402X7R105K100AT"
+			(at 119.38 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C47325373"
+			(at 119.38 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7538,23 +7961,24 @@
 			)
 		)
 		(pin "2"
-			(uuid "dbac11ef-ba2a-48f6-8aed-bf57bde94c7e")
+			(uuid "9ef7f059-7205-4132-bb72-15561dca00b1")
 		)
 		(pin "1"
-			(uuid "3c8f32e6-7200-4a68-934f-d9a8c8b6185e")
+			(uuid "bceb7165-c472-4a60-9628-f46750dcfdce")
 		)
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/2366da82-dc31-4919-b23c-1b211a77679f"
-					(reference "R202")
+					(reference "C207")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 223.52 124.46 90)
+		(lib_id "Device:C")
+		(at 85.09 30.48 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7562,29 +7986,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3cdfdb8b-0983-4338-aeee-639e53c2824b")
-		(property "Reference" "R203"
-			(at 223.52 124.46 90)
+		(uuid "4646fed7-28b2-487e-8a13-3aae2f2efef7")
+		(property "Reference" "C201"
+			(at 81.28 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "22R 1%"
-			(at 217.424 123.19 90)
+		(property "Value" "1uF 10V"
+			(at 81.28 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "FluxNode-FOC:R_0402_1005_DensityHigh"
-			(at 223.52 126.238 90)
+		(property "Footprint" "FluxNode-FOC:C_0402_1005_DensityHigh"
+			(at 84.1248 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7595,7 +8021,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 124.46 0)
+			(at 85.09 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7605,8 +8031,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 223.52 124.46 0)
+		(property "Description" "1uF X7R ±10% 10V 0402 Ceramic Capacitors RoHS"
+			(at 85.09 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7616,8 +8042,19 @@
 				)
 			)
 		)
-		(property "Package" "0402"
-			(at 223.52 124.46 90)
+		(property "MPN" "TCC0402X7R105K100AT"
+			(at 85.09 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C47325373"
+			(at 85.09 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7628,15 +8065,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "045ddc68-f037-468a-b993-5e2bed42a867")
+			(uuid "13bc3148-d917-448b-8e41-3637aa8c8316")
 		)
 		(pin "1"
-			(uuid "8afd80b1-e0af-4521-825f-71ff369d5489")
+			(uuid "1e3f482f-3eb0-4d59-a9a1-5c571fcbd5dc")
 		)
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/2366da82-dc31-4919-b23c-1b211a77679f"
-					(reference "R203")
+					(reference "C201")
 					(unit 1)
 				)
 			)
@@ -8012,9 +8449,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 85.09 30.48 0)
-		(mirror y)
+		(lib_id "Device:R")
+		(at 227.33 179.07 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8022,31 +8458,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4dfe6f4b-8ffb-4854-b9ea-c6fd2e1cc4ba")
-		(property "Reference" "C201"
-			(at 81.28 29.2099 0)
+		(uuid "54b07813-6035-4bbc-8355-2d31ff391483")
+		(property "Reference" "R205"
+			(at 227.33 179.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "1uF X7R 10V"
-			(at 81.28 31.7499 0)
+		(property "Value" "22R 1%"
+			(at 221.234 177.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "FluxNode-FOC:C_0402_1005_DensityHigh"
-			(at 84.1248 34.29 0)
+		(property "Footprint" "FluxNode-FOC:R_0402_1005_DensityHigh"
+			(at 227.33 180.848 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8057,7 +8491,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 30.48 0)
+			(at 227.33 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8067,8 +8501,111 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 85.09 30.48 0)
+		(property "Description" "RES 22Ω ±1% 62.5mW 0402"
+			(at 227.33 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW040222R0FKED"
+			(at 227.33 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C482106"
+			(at 227.33 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e07bd507-7834-4ce2-890c-d84406f81990")
+		)
+		(pin "1"
+			(uuid "3fcd4759-32f5-4ccf-8ebf-20a582f362c3")
+		)
+		(instances
+			(project "FluxNode-FOC"
+				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/2366da82-dc31-4919-b23c-1b211a77679f"
+					(reference "R205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 173.99 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5502bd49-2385-4f8d-a37e-77ebcc6d6dcd")
+		(property "Reference" "C209"
+			(at 177.8 46.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF 10V"
+			(at 177.8 49.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FluxNode-FOC:C_0402_1005_DensityHigh"
+			(at 174.9552 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1uF X7R ±10% 10V 0402 Ceramic Capacitors RoHS"
+			(at 173.99 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8079,7 +8616,7 @@
 			)
 		)
 		(property "MPN" "TCC0402X7R105K100AT"
-			(at 85.09 30.48 0)
+			(at 173.99 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8090,7 +8627,7 @@
 			)
 		)
 		(property "LCSC" "C47325373"
-			(at 85.09 30.48 0)
+			(at 173.99 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8101,23 +8638,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "a90f416b-1ebf-40f0-a12f-eb5dc121087d")
+			(uuid "122d6c7b-6eaf-4e00-85c6-beb16beccfee")
 		)
 		(pin "1"
-			(uuid "875cb641-fcf7-4797-9a70-3dd26e6d9fc7")
+			(uuid "25016efd-f58e-4411-bcb3-2dc959579796")
 		)
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/2366da82-dc31-4919-b23c-1b211a77679f"
-					(reference "C201")
+					(reference "C209")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 99.06 30.48 0)
+		(lib_id "power:GND")
+		(at 210.82 223.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8125,31 +8662,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "60881490-c5de-4455-89be-4301088e98b2")
-		(property "Reference" "C202"
-			(at 102.87 29.2099 0)
+		(fields_autoplaced yes)
+		(uuid "55a116b8-f1f4-4855-9416-aaeddaed6cb7")
+		(property "Reference" "#PWR0211"
+			(at 210.82 229.87 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100n 50V"
-			(at 102.87 31.7499 0)
+		(property "Value" "GND"
+			(at 210.82 228.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "FluxNode-FOC:C_0402_1005_DensityHigh"
-			(at 100.0252 34.29 0)
+		(property "Footprint" ""
+			(at 210.82 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8160,7 +8697,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 30.48 0)
+			(at 210.82 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8170,8 +8707,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 99.06 30.48 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 210.82 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8180,142 +8717,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "MPN" "GCM155R71H104KE02J"
-			(at 99.06 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2649549"
-			(at 99.06 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9fbc08ac-631c-48cb-9f0e-b21a9ff20377")
 		)
 		(pin "1"
-			(uuid "a306e710-43af-45c8-9bf7-4a8659e8be86")
+			(uuid "6e2f51be-347b-4bb0-b0bb-b1e4f8c1afc0")
 		)
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/2366da82-dc31-4919-b23c-1b211a77679f"
-					(reference "C202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 165.1 30.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6871a4d5-5d79-426b-aea2-1461964785f8")
-		(property "Reference" "C206"
-			(at 168.91 29.2099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7u 16V"
-			(at 168.91 31.7499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "FluxNode-FOC:C_0603_1608_DensityHigh"
-			(at 166.0652 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 165.1 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM188Z71C475KE21J"
-			(at 165.1 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C3844215"
-			(at 165.1 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "89adfb57-23c0-4fbe-8ef8-e00f6623116a")
-		)
-		(pin "1"
-			(uuid "b3c5af84-4fac-4bfc-a7be-15af95e96d87")
-		)
-		(instances
-			(project "FluxNode-FOC"
-				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/2366da82-dc31-4919-b23c-1b211a77679f"
-					(reference "C206")
+					(reference "#PWR0211")
 					(unit 1)
 				)
 			)
@@ -8323,7 +8732,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 223.52 119.38 90)
+		(at 227.33 176.53 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8331,9 +8740,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7b87a9b2-bcb8-4f72-891b-e3abe17ae2db")
-		(property "Reference" "R201"
-			(at 223.52 119.38 90)
+		(uuid "6c8f2dbd-eb4c-4dc0-aa60-b2c17219e291")
+		(property "Reference" "R204"
+			(at 227.33 176.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8343,7 +8752,7 @@
 			)
 		)
 		(property "Value" "22R 1%"
-			(at 217.424 118.11 90)
+			(at 221.234 175.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8353,7 +8762,7 @@
 			)
 		)
 		(property "Footprint" "FluxNode-FOC:R_0402_1005_DensityHigh"
-			(at 223.52 121.158 90)
+			(at 227.33 178.308 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8364,7 +8773,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 119.38 0)
+			(at 227.33 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8374,8 +8783,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 223.52 119.38 0)
+		(property "Description" "RES 22Ω ±1% 62.5mW 0402"
+			(at 227.33 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8385,8 +8794,121 @@
 				)
 			)
 		)
-		(property "Package" "0402"
-			(at 223.52 117.094 90)
+		(property "MPN" "CRCW040222R0FKED"
+			(at 227.33 176.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C482106"
+			(at 227.33 176.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7a680771-2b34-45df-af65-52e9f1c120d7")
+		)
+		(pin "1"
+			(uuid "a0c32313-5da3-4084-bf7f-dd65654ab1ff")
+		)
+		(instances
+			(project "FluxNode-FOC"
+				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/2366da82-dc31-4919-b23c-1b211a77679f"
+					(reference "R204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 241.3 74.93 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7b87a9b2-bcb8-4f72-891b-e3abe17ae2db")
+		(property "Reference" "R201"
+			(at 241.3 74.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R 1%"
+			(at 235.204 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FluxNode-FOC:R_0402_1005_DensityHigh"
+			(at 241.3 76.708 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES 22Ω ±1% 62.5mW 0402"
+			(at 241.3 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW040222R0FKED"
+			(at 241.3 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C482106"
+			(at 241.3 74.93 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8411,8 +8933,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 209.55 223.52 90)
+		(lib_id "Device:C")
+		(at 224.79 85.09 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8420,29 +8943,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "82e8686e-e773-4f86-adba-025d4f657e35")
-		(property "Reference" "R205"
-			(at 209.55 223.52 90)
+		(uuid "8046cd59-9844-4193-8416-7b3f7f09b632")
+		(property "Reference" "C213"
+			(at 227.33 95.758 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "22R 1%"
-			(at 203.454 222.25 90)
+		(property "Value" "1nF 25V"
+			(at 228.6 98.044 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "FluxNode-FOC:R_0402_1005_DensityHigh"
-			(at 209.55 225.298 90)
+		(property "Footprint" "FluxNode-FOC:C_0402_1005_DensityHigh"
+			(at 223.8248 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8453,7 +8978,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 223.52 0)
+			(at 224.79 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8463,8 +8988,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 209.55 223.52 0)
+		(property "Description" "CAP CER 1nF 25V X7R 0402"
+			(at 224.79 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8474,8 +8999,20 @@
 				)
 			)
 		)
-		(property "Package" "0402"
-			(at 209.55 225.806 90)
+		(property "MPN" "CC0402KRX7R8BB102"
+			(at 224.79 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C541372"
+			(at 224.79 85.09 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8485,15 +9022,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "a9ffac85-e2c8-4d0a-a911-a092a204341d")
+			(uuid "d53c0ab6-1a02-4d50-9b62-c4462937fb59")
 		)
 		(pin "1"
-			(uuid "8eb19639-2b08-470f-92ba-968afa4c7770")
+			(uuid "88a6aec9-b60c-44dc-b570-2fe4d9bc3ca5")
 		)
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/2366da82-dc31-4919-b23c-1b211a77679f"
-					(reference "R205")
+					(reference "C213")
 					(unit 1)
 				)
 			)
@@ -8578,98 +9115,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 215.9 129.54 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8c9ffced-97f5-4e0b-b635-7ec2053f4a92")
-		(property "Reference" "C214"
-			(at 218.44 140.208 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1nF 25V"
-			(at 219.71 142.494 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "FluxNode-FOC:C_0402_1005_DensityHigh"
-			(at 214.9348 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 215.9 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "0402"
-			(at 213.106 132.588 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6d77f115-12d9-494f-aaa3-d613b7c1b8c4")
-		)
-		(pin "1"
-			(uuid "e9778b28-94dd-483a-9d60-81c5417bff1d")
-		)
-		(instances
-			(project "FluxNode-FOC"
-				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/2366da82-dc31-4919-b23c-1b211a77679f"
-					(reference "C214")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 115.57 54.61 0)
 		(unit 1)
@@ -8748,7 +9193,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 207.01 135.89 0)
+		(at 224.79 91.44 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8759,7 +9204,7 @@
 		(dnp no)
 		(uuid "96c4e341-d035-4357-8019-23e80fea21ee")
 		(property "Reference" "#PWR0209"
-			(at 207.01 142.24 0)
+			(at 224.79 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8770,7 +9215,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.708 136.144 0)
+			(at 221.488 91.694 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8780,7 +9225,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 135.89 0)
+			(at 224.79 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8791,7 +9236,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 135.89 0)
+			(at 224.79 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8802,7 +9247,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 135.89 0)
+			(at 224.79 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8819,6 +9264,109 @@
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/2366da82-dc31-4919-b23c-1b211a77679f"
 					(reference "#PWR0209")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 132.08 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9af40faf-f010-4851-bdb7-d8e0acbfb325")
+		(property "Reference" "C204"
+			(at 135.89 29.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF 50V"
+			(at 135.89 31.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FluxNode-FOC:C_0402_1005_DensityHigh"
+			(at 133.0452 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 100nF 50V X7R 0402"
+			(at 132.08 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C1005X7R1H104KT000F"
+			(at 132.08 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C361198"
+			(at 132.08 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "66ac59bd-99be-4b3c-9f37-9930ae9eb3d9")
+		)
+		(pin "1"
+			(uuid "fb384be2-04a2-4ba0-afca-2fd7c32b5254")
+		)
+		(instances
+			(project "FluxNode-FOC"
+				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/2366da82-dc31-4919-b23c-1b211a77679f"
+					(reference "C204")
 					(unit 1)
 				)
 			)
@@ -8847,7 +9395,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u X5R 25V"
+		(property "Value" "4.7u 25V"
 			(at 39.37 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8880,7 +9428,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 4.7uF 25V X5R 0402"
 			(at 43.18 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -8930,7 +9478,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 207.01 129.54 0)
+		(at 233.68 85.09 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8939,9 +9487,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c137c8d2-a219-4aa0-a7a9-1b3745b7e6c4")
-		(property "Reference" "C213"
-			(at 209.55 140.208 0)
+		(uuid "aa03bdc9-1fde-43c3-aa88-8b3f256962e6")
+		(property "Reference" "C214"
+			(at 236.22 95.758 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8952,7 +9500,7 @@
 			)
 		)
 		(property "Value" "1nF 25V"
-			(at 210.82 142.494 0)
+			(at 237.49 98.044 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8963,7 +9511,7 @@
 			)
 		)
 		(property "Footprint" "FluxNode-FOC:C_0402_1005_DensityHigh"
-			(at 206.0448 133.35 0)
+			(at 232.7148 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8974,7 +9522,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 129.54 0)
+			(at 233.68 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8984,8 +9532,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 207.01 129.54 0)
+		(property "Description" "CAP CER 1nF 25V X7R 0402"
+			(at 233.68 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8995,8 +9543,20 @@
 				)
 			)
 		)
-		(property "Package" "0402"
-			(at 203.962 132.588 0)
+		(property "MPN" "CC0402KRX7R8BB102"
+			(at 233.68 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C541372"
+			(at 233.68 85.09 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9006,15 +9566,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "66397d69-b4ec-4643-8de7-b9083910c13f")
+			(uuid "312f19d5-6657-40fd-86a7-3a97b5980479")
 		)
 		(pin "1"
-			(uuid "b9f94cd8-c271-4c11-a052-c36407c95435")
+			(uuid "c5058e81-8f67-4d09-9344-058f45d1c608")
 		)
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/2366da82-dc31-4919-b23c-1b211a77679f"
-					(reference "C213")
+					(reference "C214")
 					(unit 1)
 				)
 			)
@@ -9022,7 +9582,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 125.73 48.26 0)
+		(at 165.1 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9030,9 +9590,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "cae65a40-2088-4d59-a5a1-9029f234e180")
-		(property "Reference" "C208"
-			(at 129.54 46.9899 0)
+		(uuid "b5208c15-8deb-4fe6-9321-e4f91e55b018")
+		(property "Reference" "C206"
+			(at 168.91 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9042,8 +9602,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n 50V"
-			(at 129.54 49.5299 0)
+		(property "Value" "4.7u 16V"
+			(at 168.91 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9053,8 +9613,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FluxNode-FOC:C_0402_1005_DensityHigh"
-			(at 126.6952 52.07 0)
+		(property "Footprint" "FluxNode-FOC:C_0603_1608_DensityHigh"
+			(at 166.0652 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9065,7 +9625,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 48.26 0)
+			(at 165.1 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9075,8 +9635,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 125.73 48.26 0)
+		(property "Description" "4.7uF X7R ±10% 16V 0603 Ceramic Capacitors RoHS"
+			(at 165.1 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9086,8 +9646,8 @@
 				)
 			)
 		)
-		(property "MPN" "GCM155R71H104KE02J"
-			(at 125.73 48.26 0)
+		(property "MPN" "GRM188Z71C475KE21J"
+			(at 165.1 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9097,8 +9657,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C2649549"
-			(at 125.73 48.26 0)
+		(property "LCSC" "C3844215"
+			(at 165.1 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9109,15 +9669,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "e606cb50-30d6-4f64-8575-9f84b8843eab")
+			(uuid "ca8e527a-a843-4543-a301-cf52e120165f")
 		)
 		(pin "1"
-			(uuid "748aa35e-85f9-43d1-b6a4-1a764a946757")
+			(uuid "975d0aec-9210-49a6-8ea1-00990f473242")
 		)
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/2366da82-dc31-4919-b23c-1b211a77679f"
-					(reference "C208")
+					(reference "C206")
 					(unit 1)
 				)
 			)
@@ -9125,7 +9685,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 119.38 48.26 0)
+		(at 236.22 219.71 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -9134,9 +9694,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "cfd483a8-0623-4231-9f99-3ecc1ade1016")
-		(property "Reference" "C207"
-			(at 115.57 46.9899 0)
+		(uuid "d59671f2-9606-4e9f-a7ac-fb6909e2c80b")
+		(property "Reference" "C215"
+			(at 246.634 218.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9146,19 +9706,19 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF X7R 10V"
-			(at 115.57 49.5299 0)
+		(property "Value" "470pF 50V"
+			(at 249.682 220.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "FluxNode-FOC:C_0402_1005_DensityHigh"
-			(at 118.4148 52.07 0)
+			(at 235.2548 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9169,7 +9729,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 48.26 0)
+			(at 236.22 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9179,8 +9739,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 119.38 48.26 0)
+		(property "Description" "CAP CER 470pF 50V NP0 0402"
+			(at 236.22 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9190,8 +9750,8 @@
 				)
 			)
 		)
-		(property "MPN" "TCC0402X7R105K100AT"
-			(at 119.38 48.26 0)
+		(property "MPN" "CC0402JRNPO9BN471"
+			(at 236.22 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9201,111 +9761,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C47325373"
-			(at 119.38 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9900d7a6-bb52-4a47-9e64-155a3e71f15d")
-		)
-		(pin "1"
-			(uuid "57b64375-d1f1-4b3a-9197-ac152bac59cf")
-		)
-		(instances
-			(project "FluxNode-FOC"
-				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/2366da82-dc31-4919-b23c-1b211a77679f"
-					(reference "C207")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 173.99 48.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d33e4be6-17fb-4bae-a70c-1d5f833551eb")
-		(property "Reference" "C209"
-			(at 177.8 46.9899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF X7R 10V"
-			(at 177.8 49.5299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "FluxNode-FOC:C_0402_1005_DensityHigh"
-			(at 174.9552 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 173.99 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TCC0402X7R105K100AT"
-			(at 173.99 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C47325373"
-			(at 173.99 48.26 0)
+		(property "LCSC" "C106259"
+			(at 236.22 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9316,15 +9773,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "dbba60fc-cc32-499e-97ed-46fe520ce9e0")
+			(uuid "f7efd22a-ecff-4649-9c79-7187468ecf3e")
 		)
 		(pin "1"
-			(uuid "ae667364-c954-4a95-b8f3-33d59eb5a9d4")
+			(uuid "dfa069f2-d360-49e4-8b55-e02786158c2f")
 		)
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/2366da82-dc31-4919-b23c-1b211a77679f"
-					(reference "C209")
+					(reference "C215")
 					(unit 1)
 				)
 			)
@@ -9488,7 +9945,8 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 132.08 30.48 0)
+		(at 60.96 30.48 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9496,9 +9954,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "eb25d2c0-3fe9-4c54-abe3-cb5778ff7b7d")
-		(property "Reference" "C204"
-			(at 135.89 29.2099 0)
+		(uuid "e0d00efe-3dd1-4570-8b84-fe7a0a3de913")
+		(property "Reference" "C210"
+			(at 57.15 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9508,8 +9966,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n 50V"
-			(at 135.89 31.7499 0)
+		(property "Value" "100nF 50V"
+			(at 57.15 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9520,7 +9978,7 @@
 			)
 		)
 		(property "Footprint" "FluxNode-FOC:C_0402_1005_DensityHigh"
-			(at 133.0452 34.29 0)
+			(at 59.9948 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9531,7 +9989,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 30.48 0)
+			(at 60.96 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9541,8 +9999,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 132.08 30.48 0)
+		(property "Description" "CAP CER 100nF 50V X7R 0402"
+			(at 60.96 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9552,8 +10010,8 @@
 				)
 			)
 		)
-		(property "MPN" "GCM155R71H104KE02J"
-			(at 132.08 30.48 0)
+		(property "MPN" "C1005X7R1H104KT000F"
+			(at 60.96 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9563,8 +10021,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C2649549"
-			(at 132.08 30.48 0)
+		(property "LCSC" "C361198"
+			(at 60.96 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9575,15 +10033,426 @@
 			)
 		)
 		(pin "2"
-			(uuid "a8158b43-061b-4319-83bd-022d3cd48525")
+			(uuid "8355c573-9d13-42ff-aede-c6519860811b")
 		)
 		(pin "1"
-			(uuid "1cf4c075-e541-4789-b998-9d3ec661c208")
+			(uuid "c6bbb08c-aa6d-4842-b616-4c05c1c23986")
 		)
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/2366da82-dc31-4919-b23c-1b211a77679f"
-					(reference "C204")
+					(reference "C210")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 148.59 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e2e0858e-2947-44b5-9e4f-b22a4bec3a16")
+		(property "Reference" "C205"
+			(at 152.4 29.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF 50V"
+			(at 152.4 31.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FluxNode-FOC:C_0402_1005_DensityHigh"
+			(at 149.5552 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 100nF 50V X7R 0402"
+			(at 148.59 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C1005X7R1H104KT000F"
+			(at 148.59 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C361198"
+			(at 148.59 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7ebbe2b7-5f52-412e-a3f2-d3e68ce578ea")
+		)
+		(pin "1"
+			(uuid "3e75a108-143e-4943-9e69-ecd1dc534f9c")
+		)
+		(instances
+			(project "FluxNode-FOC"
+				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/2366da82-dc31-4919-b23c-1b211a77679f"
+					(reference "C205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 220.98 219.71 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eb21c9da-a6ea-45e0-92fc-cf11ab19769c")
+		(property "Reference" "C217"
+			(at 223.012 226.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470pF 50V"
+			(at 226.06 228.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FluxNode-FOC:C_0402_1005_DensityHigh"
+			(at 220.0148 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 470pF 50V NP0 0402"
+			(at 220.98 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0402JRNPO9BN471"
+			(at 220.98 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C106259"
+			(at 220.98 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e0db85b4-98f1-4aa4-aaff-6b8a8f2aa0b5")
+		)
+		(pin "1"
+			(uuid "48948d92-84e3-4391-a888-5f06e60a63ca")
+		)
+		(instances
+			(project "FluxNode-FOC"
+				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/2366da82-dc31-4919-b23c-1b211a77679f"
+					(reference "C217")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 241.3 77.47 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f02c62bb-7621-45b6-8772-1dcc76379571")
+		(property "Reference" "R202"
+			(at 241.3 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R 1%"
+			(at 235.204 76.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FluxNode-FOC:R_0402_1005_DensityHigh"
+			(at 241.3 79.248 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES 22Ω ±1% 62.5mW 0402"
+			(at 241.3 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW040222R0FKED"
+			(at 241.3 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C482106"
+			(at 241.3 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ce3b61b3-3378-4b3d-8e25-da7baf6c26a0")
+		)
+		(pin "1"
+			(uuid "f421dd8a-c89f-49b4-aa3c-da7f5dfc8711")
+		)
+		(instances
+			(project "FluxNode-FOC"
+				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/2366da82-dc31-4919-b23c-1b211a77679f"
+					(reference "R202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 125.73 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f2e95ee1-e41d-4b39-81c9-ec04e3f0393a")
+		(property "Reference" "C208"
+			(at 129.54 46.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF 50V"
+			(at 129.54 49.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FluxNode-FOC:C_0402_1005_DensityHigh"
+			(at 126.6952 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 100nF 50V X7R 0402"
+			(at 125.73 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C1005X7R1H104KT000F"
+			(at 125.73 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C361198"
+			(at 125.73 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "46fc5ec9-ace9-48bb-9020-5a9cf373655a")
+		)
+		(pin "1"
+			(uuid "bb231fe7-2a47-4805-86a3-79fea63655f0")
+		)
+		(instances
+			(project "FluxNode-FOC"
+				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/2366da82-dc31-4919-b23c-1b211a77679f"
+					(reference "C208")
 					(unit 1)
 				)
 			)
@@ -9685,6 +10554,314 @@
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/2366da82-dc31-4919-b23c-1b211a77679f"
 					(reference "FB201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 228.6 219.71 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f91fcbb5-8639-43c3-9488-40a6ae868024")
+		(property "Reference" "C216"
+			(at 236.22 225.806 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470pF 50V"
+			(at 239.268 228.346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FluxNode-FOC:C_0402_1005_DensityHigh"
+			(at 227.6348 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 470pF 50V NP0 0402"
+			(at 228.6 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0402JRNPO9BN471"
+			(at 228.6 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C106259"
+			(at 228.6 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0faed6e8-42f0-473b-b4d8-5f7c37c0e5d0")
+		)
+		(pin "1"
+			(uuid "f5e30815-d9fa-4bb8-a4d7-e5207c0dea1b")
+		)
+		(instances
+			(project "FluxNode-FOC"
+				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/2366da82-dc31-4919-b23c-1b211a77679f"
+					(reference "C216")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 99.06 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fa6331af-e650-4a73-9126-60a4ce01772e")
+		(property "Reference" "C202"
+			(at 102.87 29.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF 50V"
+			(at 102.87 31.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FluxNode-FOC:C_0402_1005_DensityHigh"
+			(at 100.0252 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 100nF 50V X7R 0402"
+			(at 99.06 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C1005X7R1H104KT000F"
+			(at 99.06 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C361198"
+			(at 99.06 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "860ae2cc-1256-455d-a26e-864687087345")
+		)
+		(pin "1"
+			(uuid "735ce89d-392b-4115-8da2-8836091066d6")
+		)
+		(instances
+			(project "FluxNode-FOC"
+				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/2366da82-dc31-4919-b23c-1b211a77679f"
+					(reference "C202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 242.57 209.55 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fb6ae4c2-9cff-4ec2-a50b-84bbb93f70ac")
+		(property "Reference" "R206"
+			(at 242.57 209.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K 1%"
+			(at 247.904 208.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "FluxNode-FOC:R_0402_1005_DensityHigh"
+			(at 242.57 211.328 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES 1000Ω ±1% 0.1W 0402"
+			(at 242.57 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERJ2RKF1001X"
+			(at 242.57 209.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C242161"
+			(at 242.57 209.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8bed5819-6176-4543-b84b-8a956bfab427")
+		)
+		(pin "1"
+			(uuid "4fea66fc-9e75-4e00-a93f-0b7ae0f6d9e0")
+		)
+		(instances
+			(project "FluxNode-FOC"
+				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/2366da82-dc31-4919-b23c-1b211a77679f"
+					(reference "R206")
 					(unit 1)
 				)
 			)

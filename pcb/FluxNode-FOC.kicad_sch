@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "c3755418-04f3-4b36-86ed-bd05a53b8f5f")
 	(paper "A3")
+	(title_block
+		(title "Project Blockout")
+		(date "2026-06-07")
+		(rev "0.1.0")
+		(company "PhiMai")
+	)
 	(lib_symbols
 		(symbol "FluxNode-FOC:+A3V3"
 			(power global)
@@ -913,6 +919,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 140.97) (xy 72.39 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6afc5f69-02d8-4934-95ec-3112549ed780")
+	)
+	(wire
+		(pts
 			(xy 64.77 127) (xy 72.39 127)
 		)
 		(stroke
@@ -933,7 +949,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 140.97) (xy 59.69 140.97)
+			(xy 72.39 146.05) (xy 59.69 146.05)
 		)
 		(stroke
 			(width 0)
@@ -970,6 +986,16 @@
 			(type default)
 		)
 		(uuid "85dbed6d-5856-4ec1-a50c-27b36f71a39f")
+	)
+	(wire
+		(pts
+			(xy 219.71 105.41) (xy 238.76 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "961d5d04-cf88-4126-baff-30e7686d2cdd")
 	)
 	(bus
 		(pts
@@ -1063,7 +1089,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 140.97) (xy 59.69 182.88)
+			(xy 59.69 146.05) (xy 59.69 182.88)
 		)
 		(stroke
 			(width 0)
@@ -1170,6 +1196,26 @@
 			(type default)
 		)
 		(uuid "feb03328-251d-4405-8766-e32d90e52d5b")
+	)
+	(label "BRAKE_SW"
+		(at 238.76 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "49a04802-fbb9-49c1-ae0d-65b33c174a75")
+	)
+	(label "BRAKE_SW"
+		(at 58.42 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b60e2cef-4385-4a4d-b233-5cd96f37d1c4")
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -1767,7 +1813,7 @@
 				(justify left)
 			)
 		)
-		(pin "{SWD}" output
+		(pin "{SWD}" bidirectional
 			(at 130.81 130.81 180)
 			(uuid "94dbf035-c917-4e04-80e9-da8d4946c5aa")
 			(effects
@@ -1787,17 +1833,7 @@
 				(justify right)
 			)
 		)
-		(pin "BRAKE_PWM" output
-			(at 172.72 105.41 0)
-			(uuid "c1214649-ec56-45da-bce6-1c54f052688e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "{AUX1}" output
+		(pin "{AUX1}" bidirectional
 			(at 130.81 127 180)
 			(uuid "3efde985-29de-4b2e-86bf-aac1f134ce83")
 			(effects
@@ -1807,9 +1843,9 @@
 				(justify left)
 			)
 		)
-		(pin "{SPI3_MAG}" bidirectional
-			(at 130.81 111.76 180)
-			(uuid "5d269611-937c-4b6a-a221-b7151939cf62")
+		(pin "{USB}" bidirectional
+			(at 130.81 134.62 180)
+			(uuid "f0caf374-1d63-4f94-8c25-c63e6ac44307")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1817,9 +1853,29 @@
 				(justify left)
 			)
 		)
-		(pin "{USB}" output
-			(at 130.81 134.62 180)
-			(uuid "f0caf374-1d63-4f94-8c25-c63e6ac44307")
+		(pin "BRAKE_CTRL" output
+			(at 172.72 105.41 0)
+			(uuid "9cf94b58-a964-499e-89b7-04aa65d62423")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{SENSE_PHASE_U}" input
+			(at 172.72 78.74 0)
+			(uuid "6ed70c75-2b63-47a9-96e2-ca950522328c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{SPI1_MAG}" bidirectional
+			(at 130.81 111.76 180)
+			(uuid "f9ba7e90-c79c-469e-bfd1-72c2c1c42aaf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2267,9 +2323,9 @@
 				(justify left top)
 			)
 		)
-		(pin "{SPI3_MAG}" bidirectional
+		(pin "{SPI1_MAG}" bidirectional
 			(at 97.79 111.76 0)
-			(uuid "32ad7990-5d95-494a-bce8-2c13a2d88218")
+			(uuid "2086a78e-5702-4402-9fd6-0d43cb16aa73")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2287,7 +2343,7 @@
 	)
 	(sheet
 		(at 184.15 95.25)
-		(size 55.88 20.32)
+		(size 35.56 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2323,14 +2379,24 @@
 				(justify left top)
 			)
 		)
-		(pin "BRAKE_PWM" input
+		(pin "BRAKE_CTRL" input
 			(at 184.15 105.41 180)
-			(uuid "e3dfe2d5-298e-4a2f-901e-7b15d589e463")
+			(uuid "9803d105-4a3e-4c40-a575-5bc3c6d32567")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "BRAKE_SW" output
+			(at 219.71 105.41 0)
+			(uuid "d09c6439-0245-44a7-ba72-44c758ccf438")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -2438,7 +2504,7 @@
 			)
 		)
 		(pin "FAN_SW" output
-			(at 72.39 140.97 180)
+			(at 72.39 146.05 180)
 			(uuid "338d4617-c065-424b-b663-1930c78d67f1")
 			(effects
 				(font
@@ -2447,7 +2513,7 @@
 				(justify left)
 			)
 		)
-		(pin "NTC_BRAKE_H" input
+		(pin "NTC_BRAKE_H" output
 			(at 72.39 129.54 180)
 			(uuid "71f99dbe-183a-4589-be53-dc94a4f71075")
 			(effects
@@ -2457,7 +2523,7 @@
 				(justify left)
 			)
 		)
-		(pin "NTC_BRAKE_L" input
+		(pin "NTC_BRAKE_L" output
 			(at 72.39 127 180)
 			(uuid "97b1534e-523b-44fe-b97d-e2a2eb6f62a6")
 			(effects
@@ -2525,6 +2591,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "BRAKE_SW" input
+			(at 72.39 140.97 180)
+			(uuid "5618fa39-69b1-4105-9424-9aa2620d765a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -2693,4 +2769,24 @@
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "FluxNode_sheet_template.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WANCPUTAAaeXiEA1TZqxSYpSnAbOsWnapwROGKZeeGdkHc4TsT+/3+oZwJUAE0AWAD4I/F3
+				ODZP2tdysjdqfuNidVFrdudDK/JrxeqyaHvJlj/yJwAAARL0Xk5rUkpDZfw2dI1IUp3xe9mvcwiA
+				QIVRSg111r7YltlDBECg/Ig0oQfaDyH+31/TcNWeV6AijTJ4bb/npPfMfjMGX+zZk/qAWPzaxbff
+				3vkOLwhnr6n+6+OIwTqnVbt2eL3OeVm1doZlVjZpf/a+pKj20bsPeh7xf5itEvIKhlH9oNahs0kl
+				E66rbBgNQ1twD9Pgsi7r6klpZiE6gZ02i8bQbJeu40yDVvh7jJwzKftfB5u0sV+CPFdtqpHq1fP7
+				vkkNBMDFG9pX7RKTFKX6RwGBClERNctI1yNHvJg1I9Eokcki4bBoFMu2OToMM1iHiCbZIFzDNkAr
+				em+7ql0T1qQbxMJZxLeWSisNbb97pxMUToKQo/q9MeNNZyc9SmWjaJSS7UIRf32oXGygwUSoGJoS
+				SZIUMswBcESExuo2WZfljjON3a6gtMnTygZ+DlLtqI7d+jpbvWuDTDOiH9/KBOHNQdbWnxjDDGKg
+				8F6daGXWEq8l8oJXmqfyY5nCQxd7iiqYAERDAHcd161/VR6IdUtLFexiX7EiwA+KJgJmZc4HIOwx
+				WEqASxYsEnmfVWKnKwy47eFRT+mHoIkNeorOb4Xe8KCXmSk/ijdKyCKET4J/OkHzl5MOXhO44Yp9
+				Nu9NgNOyIWUeDXIFBK1mNsY4Dhf3Cq1oxHRvPMybMSpuptcLFNejLrBOMvb727uVFQttGATso8qd
+				3VG0vqyWrDUKe3hP/P+7HnEYH70K|
+			)
+			(checksum "13570387B61A404C098C5B87A1ED2AD9")
+		)
+	)
 )

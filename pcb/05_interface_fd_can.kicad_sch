@@ -4,5 +4,32 @@
 	(generator_version "10.0")
 	(uuid "e49cd693-5845-4caa-ad05-46771866d37c")
 	(paper "A4")
+	(title_block
+		(date "2026-06-07")
+		(rev "0.1.0")
+		(company "PhiMai")
+	)
 	(lib_symbols)
+	(hierarchical_label "{FDCAN_TTL}"
+		(shape bidirectional)
+		(at 91.44 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4351a62c-e080-412f-9436-746cfa7573a4")
+	)
+	(hierarchical_label "{FDCAN}"
+		(shape bidirectional)
+		(at 62.23 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "66e6e9ef-b017-4dd8-8d51-a932fcd898f9")
+	)
 )

@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "75d6e878-9cc6-49ce-8a54-f42c4593c48a")
 	(paper "A4")
+	(title_block
+		(date "2026-06-07")
+		(rev "0.1.0")
+		(company "PhiMai")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -466,7 +471,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 80.01) (xy 118.11 85.09)
+			(xy 118.11 72.39) (xy 118.11 77.47)
 		)
 		(stroke
 			(width 0)
@@ -476,7 +481,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 80.01) (xy 118.11 80.01)
+			(xy 111.76 72.39) (xy 118.11 72.39)
 		)
 		(stroke
 			(width 0)
@@ -546,7 +551,7 @@
 	)
 	(hierarchical_label "VIN"
 		(shape input)
-		(at 111.76 80.01 180)
+		(at 111.76 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -569,6 +574,7 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 118.11 99.06 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -576,7 +582,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2669fa66-413b-4857-983e-3e95147a9c2f")
+		(uuid "20522fcf-57e6-4dd3-9b47-f698e360150e")
 		(property "Reference" "R402"
 			(at 115.57 97.7899 0)
 			(show_name no)
@@ -588,18 +594,18 @@
 				(justify right)
 			)
 		)
-		(property "Value" "8k2 1%"
+		(property "Value" "6k8 1% 75V"
 			(at 115.57 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify right)
 			)
 		)
-		(property "Footprint" "FluxNode-FOC:R_0402_1005_DensityHigh"
+		(property "Footprint" "FluxNode-FOC:R_0603_1608_DensityHigh"
 			(at 116.332 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -621,7 +627,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 6.8kΩ ±1% 100mW 0603"
 			(at 118.11 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -632,11 +638,33 @@
 				)
 			)
 		)
+		(property "MPN" "FRC0603F6801TS"
+			(at 118.11 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2907055"
+			(at 118.11 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "5f6ec7d0-4cb1-49a7-9026-2b511a398964")
+			(uuid "d3706348-108e-4843-a17f-d0358109a92a")
 		)
 		(pin "2"
-			(uuid "1639a4fa-5e42-4070-898e-4d8ac173433a")
+			(uuid "96cb7f48-9e94-4f72-b02d-93261ed15594")
 		)
 		(instances
 			(project "FluxNode-FOC"
@@ -670,7 +698,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n 50V"
+		(property "Value" "1n 50V"
 			(at 128.27 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -703,7 +731,29 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 1nF 50V X7R 0402"
+			(at 124.46 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TCC0402X7R102K500AT"
+			(at 124.46 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C466233"
 			(at 124.46 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -809,8 +859,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 118.11 88.9 0)
-		(mirror y)
+		(at 118.11 81.28 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -818,9 +868,112 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1ef9b28-d8bc-4636-8230-b553781012b4")
+		(uuid "be579c90-c916-4133-853b-1bd2605b40db")
 		(property "Reference" "R401"
+			(at 115.57 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "51k 1% 75V"
+			(at 115.57 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "FluxNode-FOC:R_0603_1608_DensityHigh"
+			(at 116.332 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES 51kΩ ±1% 100mW 0603"
+			(at 118.11 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "FRC0603F5102TS"
+			(at 118.11 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2907049"
+			(at 118.11 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0dab95b9-d42e-4ab0-b5eb-4e98f2a138d3")
+		)
+		(pin "2"
+			(uuid "e110d738-1959-49c1-802b-fd694eca304b")
+		)
+		(instances
+			(project "FluxNode-FOC"
+				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4a7f80da-7784-4b13-96a5-3c0ed1c95465"
+					(reference "R401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 118.11 88.9 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "beb64053-a7f2-4fee-b22a-3cf435f3ea9f")
+		(property "Reference" "R403"
 			(at 115.57 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -828,22 +981,22 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "100k 1%"
+		(property "Value" "51k 1% 75V"
 			(at 115.57 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "FluxNode-FOC:R_0402_1005_DensityHigh"
-			(at 119.888 88.9 90)
+		(property "Footprint" "FluxNode-FOC:R_0603_1608_DensityHigh"
+			(at 116.332 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -864,7 +1017,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 51kΩ ±1% 100mW 0603"
 			(at 118.11 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -875,16 +1028,38 @@
 				)
 			)
 		)
+		(property "MPN" "FRC0603F5102TS"
+			(at 118.11 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2907049"
+			(at 118.11 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "0f6f321b-a3e1-4a3b-b1f7-7e84c73325ea")
+			(uuid "9cf2ef3a-8049-4bdf-820f-2b3df81b96c1")
 		)
 		(pin "2"
-			(uuid "6df5256b-ee35-4eb5-8f4d-0da3f6eefd52")
+			(uuid "9a23f821-ca16-4c96-acfd-f4f417318462")
 		)
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4a7f80da-7784-4b13-96a5-3c0ed1c95465"
-					(reference "R401")
+					(reference "R403")
 					(unit 1)
 				)
 			)

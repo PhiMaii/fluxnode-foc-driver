@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "6857e704-f398-4e5e-9093-9ff37afb4d78")
 	(paper "A3")
+	(title_block
+		(date "2026-06-07")
+		(rev "0.1.0")
+		(company "PhiMai")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x08_Pin"
 			(pin_names
@@ -3629,22 +3634,22 @@
 		(uuid "5d215a48-0efd-446e-bd4f-95d6b0692682")
 	)
 	(junction
+		(at 58.42 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "780e2fd2-ff61-4299-b87a-c0fbe128711c")
+	)
+	(junction
 		(at 54.61 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8372bf45-1c69-4d15-9e23-77e0cb713b66")
 	)
 	(junction
-		(at 58.42 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "981f2a21-182d-4aba-ab2c-8f433ac7f9a7")
-	)
-	(junction
 		(at 54.61 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ac7f38f9-4ebd-4e6f-9994-2951d785e3ba")
+		(uuid "aac2ff0b-83a9-4e11-b579-2b71a41dd330")
 	)
 	(junction
 		(at 77.47 38.1)
@@ -4093,16 +4098,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 26.67) (xy 60.96 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f5e0b58-f531-4d8a-8fe9-845184268173")
-	)
-	(wire
-		(pts
 			(xy 55.88 123.19) (xy 78.74 123.19)
 		)
 		(stroke
@@ -4300,6 +4295,16 @@
 			(type default)
 		)
 		(uuid "b9190f09-1d56-4f9a-8869-7853aef27be7")
+	)
+	(wire
+		(pts
+			(xy 54.61 26.67) (xy 60.96 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf5d806a-2666-44cb-a4f3-dc41f6a2192c")
 	)
 	(wire
 		(pts
@@ -4822,115 +4827,7 @@
 				(justify bottom)
 			)
 		)
-		(property "CREATOR" "ANA"
-			(at 58.42 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 58.42 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "None"
-			(at 58.42 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/XT30PW(2+2)-M.G.B/AMASS/view-part/?ref=eda"
-			(at 58.42 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 59.944 145.288 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "NA"
-			(at 58.42 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "VERIFIER" ""
-			(at 58.42 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30PW(2+2)-M.G.B/AMASS/view-part/?ref=snap"
-			(at 58.42 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "XT30PW(2+2)-M.G.B"
-			(at 58.42 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "Not in stock"
+		(property "MPN" "XT30PW(2+2)-M.G.B"
 			(at 58.42 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -4954,6 +4851,17 @@
 				(justify bottom)
 			)
 		)
+		(property "LCSC" "C19268030"
+			(at 58.42 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "S2"
 			(uuid "d9b6d06b-c033-4213-8bea-8dd126cd75ff")
 		)
@@ -4970,87 +4878,6 @@
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/7f336b96-adfb-4e04-8e5b-99a2af1c766e"
 					(reference "J501")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 58.42 92.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0bbb8b55-ae68-4511-b682-66b8d3a8e900")
-		(property "Reference" "C503"
-			(at 62.23 91.4399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF 50V"
-			(at 62.23 93.9799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "FluxNode-FOC:C_0402_1005_DensityHigh"
-			(at 59.3852 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 58.42 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6267140d-1cea-4a23-8658-329817ddd535")
-		)
-		(pin "2"
-			(uuid "76902393-d530-4ef2-a04f-0266366a6c50")
-		)
-		(instances
-			(project "FluxNode-FOC"
-				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/7f336b96-adfb-4e04-8e5b-99a2af1c766e"
-					(reference "C503")
 					(unit 1)
 				)
 			)
@@ -5135,88 +4962,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 54.61 30.48 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "13d5ad08-6e45-4e3a-8c39-7034422dcbfe")
-		(property "Reference" "C502"
-			(at 50.8 29.2099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 50.8 31.7499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "FluxNode-FOC:C_0402_1005_DensityHigh"
-			(at 53.6448 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 54.61 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "66bbe559-4374-4c0b-acb0-673d96e5f590")
-		)
-		(pin "2"
-			(uuid "967e24c7-c73c-4a84-b22e-f1e2d9127bd0")
-		)
-		(instances
-			(project "FluxNode-FOC"
-				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/7f336b96-adfb-4e04-8e5b-99a2af1c766e"
-					(reference "C502")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 49.53 68.58 0)
 		(unit 1)
@@ -5289,6 +5034,109 @@
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/7f336b96-adfb-4e04-8e5b-99a2af1c766e"
 					(reference "#PWR0501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 77.47 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1b4cc711-07cf-47d9-805e-f6085fc9c887")
+		(property "Reference" "R503"
+			(at 80.01 21.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k 1% 50V"
+			(at 80.01 24.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FluxNode-FOC:R_0402_1005_DensityHigh"
+			(at 75.692 22.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES 100kΩ ±1% 62.5mW 0402"
+			(at 77.47 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RT0402FRE07100KL"
+			(at 77.47 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C728576"
+			(at 77.47 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ac539f69-030d-4e58-8073-1122366b4f97")
+		)
+		(pin "1"
+			(uuid "e0a390d7-bcd4-45e2-ac27-feca9a66a5cc")
+		)
+		(instances
+			(project "FluxNode-FOC"
+				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/7f336b96-adfb-4e04-8e5b-99a2af1c766e"
+					(reference "R503")
 					(unit 1)
 				)
 			)
@@ -5522,7 +5370,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SM06B-GHS-TB_LF__SN_:JST_SM06B-GHS-TB_LF__SN_"
+		(property "Footprint" "FluxNode-FOC:JST_SM06B-GHS-1.25mm-Horizontal"
 			(at 33.02 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5557,115 +5405,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MF" "JST Sales America Inc."
-			(at 33.02 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "4.25mm"
-			(at 33.02 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "None"
-			(at 33.02 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 33.02 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SM06B-GHS-TB(LF)(SN)/JST/view-part/?ref=eda"
-			(at 33.02 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 33.02 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "N/A"
-			(at 33.02 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SM06B-GHS-TB(LF)(SN)/JST/view-part/?ref=snap"
-			(at 33.02 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "SM06B-GHS-TB(LF)(SN)"
-			(at 33.02 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
 			(at 33.02 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5687,6 +5427,28 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "MPN" "A1257WR-S-6P"
+			(at 33.02 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C225129"
+			(at 33.02 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "S1"
@@ -5724,8 +5486,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 77.47 22.86 0)
-		(mirror x)
+		(at 54.61 59.69 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5733,32 +5495,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45a24425-1a91-4a27-9632-53b1d5b2250a")
-		(property "Reference" "R503"
-			(at 74.93 21.5899 0)
+		(uuid "4ed98c41-d02b-45dd-898b-26ba7d8d23ef")
+		(property "Reference" "R501"
+			(at 52.578 56.134 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 74.93 24.1299 0)
+		(property "Value" "5k1 1%"
+			(at 52.578 58.674 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "FluxNode-FOC:R_0402_1005_DensityHigh"
-			(at 75.692 22.86 90)
+			(at 56.388 59.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5769,7 +5530,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 22.86 0)
+			(at 54.61 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5779,8 +5540,30 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 77.47 22.86 0)
+		(property "Description" "RES 5.1kΩ ±1% 63mW 0402"
+			(at 54.61 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW04025K10FKED"
+			(at 54.61 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C482212"
+			(at 54.61 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5791,97 +5574,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "d2c92cc1-8fa2-4ce8-9833-66176589bc13")
+			(uuid "a7d03906-8aa3-4932-a0dc-cc4658c01199")
 		)
 		(pin "1"
-			(uuid "07f7752f-0173-444e-a234-b6eb1fde1b2b")
+			(uuid "64c6ec87-40d8-436b-83d5-3463d9047a2f")
 		)
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/7f336b96-adfb-4e04-8e5b-99a2af1c766e"
-					(reference "R503")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 83.82 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f3aafa1-7c43-425e-815c-7228d1696ea4")
-		(property "Reference" "C501"
-			(at 87.63 31.7499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 87.63 34.2899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "FluxNode-FOC:C_0402_1005_DensityHigh"
-			(at 84.7852 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 83.82 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ca7b0fa6-ae43-4a47-b8c0-8f054445295b")
-		)
-		(pin "2"
-			(uuid "7cb9d279-3ca1-47fc-a72b-09f2b024b82a")
-		)
-		(instances
-			(project "FluxNode-FOC"
-				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/7f336b96-adfb-4e04-8e5b-99a2af1c766e"
-					(reference "C501")
+					(reference "R501")
 					(unit 1)
 				)
 			)
@@ -6045,30 +5746,6 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "771-PESD4USB3U-TBSX"
-			(at 107.95 611.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD4USB3U-TBSX?qs=ljCeji4nMDkX73AskgWsOw%3D%3D"
-			(at 107.95 711.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
 		(property "Manufacturer_Name" "Nexperia"
 			(at 107.95 811.76 0)
 			(hide yes)
@@ -6138,6 +5815,109 @@
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/7f336b96-adfb-4e04-8e5b-99a2af1c766e"
 					(reference "D501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 55.88 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6fb568cf-5e53-414c-824e-3f7d81cd74e3")
+		(property "Reference" "C504"
+			(at 58.928 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF 50V"
+			(at 58.928 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FluxNode-FOC:C_0402_1005_DensityHigh"
+			(at 56.8452 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 100nF 50V X7R 0402"
+			(at 55.88 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C1005X7R1H104KT000F"
+			(at 55.88 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C361198"
+			(at 55.88 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "15d33d39-2eaa-4a05-8f0e-47d38185fde9")
+		)
+		(pin "1"
+			(uuid "d1e4c1f4-b8f5-44ab-bbec-6628bcb80ab6")
+		)
+		(instances
+			(project "FluxNode-FOC"
+				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/7f336b96-adfb-4e04-8e5b-99a2af1c766e"
+					(reference "C504")
 					(unit 1)
 				)
 			)
@@ -6216,88 +5996,6 @@
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/7f336b96-adfb-4e04-8e5b-99a2af1c766e"
 					(reference "#PWR0510")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 54.61 59.69 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7abf7864-0f22-4cdd-a4ec-0395cf7fcb0d")
-		(property "Reference" "R501"
-			(at 52.07 56.134 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5k1 1%"
-			(at 52.324 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "FluxNode-FOC:R_0402_1005_DensityHigh"
-			(at 56.388 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 54.61 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6241e3b7-e25d-4c61-9a01-1f10ba172e84")
-		)
-		(pin "1"
-			(uuid "4e80895b-1309-49ba-96ff-f6283074e33e")
-		)
-		(instances
-			(project "FluxNode-FOC"
-				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/7f336b96-adfb-4e04-8e5b-99a2af1c766e"
-					(reference "R501")
 					(unit 1)
 				)
 			)
@@ -6854,7 +6552,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -6881,7 +6579,29 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 5.1kΩ ±1% 63mW 0402"
+			(at 57.15 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW04025K10FKED"
+			(at 57.15 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C482212"
 			(at 57.15 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6986,8 +6706,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 55.88 115.57 0)
+		(lib_id "Device:R")
+		(at 77.47 33.02 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6995,9 +6716,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "bed2d17d-4d2f-49f4-b1a2-eec5674224dc")
-		(property "Reference" "C504"
-			(at 59.69 114.2999 0)
+		(uuid "bf6a6b31-6f12-4d31-908a-7cb087340010")
+		(property "Reference" "R504"
+			(at 74.93 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7007,19 +6728,19 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF 50V"
-			(at 59.69 116.8399 0)
+		(property "Value" "100k 1% 50V"
+			(at 74.93 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "FluxNode-FOC:C_0402_1005_DensityHigh"
-			(at 56.8452 119.38 0)
+		(property "Footprint" "FluxNode-FOC:R_0402_1005_DensityHigh"
+			(at 79.248 33.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7030,7 +6751,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 115.57 0)
+			(at 77.47 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7040,8 +6761,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 55.88 115.57 0)
+		(property "Description" "RES 100kΩ ±1% 62.5mW 0402"
+			(at 77.47 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7051,16 +6772,348 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "167038be-cd43-48fb-a04b-3c195420d7b9")
+		(property "MPN" "RT0402FRE07100KL"
+			(at 77.47 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C728576"
+			(at 77.47 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "05d96a8c-cc3a-41ae-a2c3-f642b3bdd575")
+			(uuid "6b096137-3535-4228-9518-9fca9108859c")
+		)
+		(pin "1"
+			(uuid "f9cc8d79-0a29-4918-a291-716b0b243ccc")
 		)
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/7f336b96-adfb-4e04-8e5b-99a2af1c766e"
-					(reference "C504")
+					(reference "R504")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 83.82 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c312f8ca-e1b2-40e0-afc8-b29a65b22a85")
+		(property "Reference" "C501"
+			(at 86.868 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF 50V"
+			(at 86.868 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FluxNode-FOC:C_0402_1005_DensityHigh"
+			(at 84.7852 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 100nF 50V X7R 0402"
+			(at 83.82 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C1005X7R1H104KT000F"
+			(at 83.82 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C361198"
+			(at 83.82 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6be954e4-81db-412c-b7aa-2d661221b02e")
+		)
+		(pin "1"
+			(uuid "bbcc86c6-8b0f-40bf-ba88-e900737afecf")
+		)
+		(instances
+			(project "FluxNode-FOC"
+				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/7f336b96-adfb-4e04-8e5b-99a2af1c766e"
+					(reference "C501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 54.61 30.48 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c449cc59-2b57-421e-952b-16e41ce6672e")
+		(property "Reference" "C502"
+			(at 51.562 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF 50V"
+			(at 51.562 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FluxNode-FOC:C_0402_1005_DensityHigh"
+			(at 53.6448 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 100nF 50V X7R 0402"
+			(at 54.61 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C1005X7R1H104KT000F"
+			(at 54.61 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C361198"
+			(at 54.61 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6a249313-929e-4fe4-bfbf-fae06cb0c927")
+		)
+		(pin "1"
+			(uuid "d19adc1c-aa70-4008-98e0-6483b0cc8e24")
+		)
+		(instances
+			(project "FluxNode-FOC"
+				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/7f336b96-adfb-4e04-8e5b-99a2af1c766e"
+					(reference "C502")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 58.42 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cfe09537-58f7-43a5-b9a2-33b2f76e25b6")
+		(property "Reference" "C503"
+			(at 61.468 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF 50V"
+			(at 61.468 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FluxNode-FOC:C_0402_1005_DensityHigh"
+			(at 59.3852 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 100nF 50V X7R 0402"
+			(at 58.42 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C1005X7R1H104KT000F"
+			(at 58.42 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C361198"
+			(at 58.42 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fcf94726-3306-4298-b0d8-de01bf528099")
+		)
+		(pin "1"
+			(uuid "d67842eb-52cc-4af1-8ec0-90cdaf0e4145")
+		)
+		(instances
+			(project "FluxNode-FOC"
+				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/7f336b96-adfb-4e04-8e5b-99a2af1c766e"
+					(reference "C503")
 					(unit 1)
 				)
 			)
@@ -7237,89 +7290,6 @@
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/7f336b96-adfb-4e04-8e5b-99a2af1c766e"
 					(reference "#PWR0509")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 77.47 33.02 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "edb80928-3b41-449a-aba9-cec73f05a484")
-		(property "Reference" "R504"
-			(at 74.93 31.7499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 74.93 34.2899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "FluxNode-FOC:R_0402_1005_DensityHigh"
-			(at 75.692 33.02 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 77.47 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c2d6d715-b56b-4c2f-adbd-f0bec9138102")
-		)
-		(pin "1"
-			(uuid "42a2ba07-3aee-408e-9012-1ceec77dbf06")
-		)
-		(instances
-			(project "FluxNode-FOC"
-				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/7f336b96-adfb-4e04-8e5b-99a2af1c766e"
-					(reference "R504")
 					(unit 1)
 				)
 			)
