@@ -6,13 +6,14 @@
 	(descr "SMD Inductor, 3.3x3.3x1.4mm, Coilcraft LPS3314, https://www.coilcraft.com/pdfs/lps3314.pdf")
 	(tags "L Coilcraft LPS3314")
 	(property "Reference" "REF**"
-		(at 0 -3 0)
+		(at 0 -2.825 0)
 		(layer "F.SilkS")
-		(uuid "55f0d382-cf4f-401b-bbed-c711f61cee94")
+		(uuid "83d39a96-63e6-4397-ae96-593c4256a4f7")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.8 0.8)
 				(thickness 0.15)
+				(bold yes)
 			)
 		)
 	)
@@ -20,7 +21,7 @@
 		(at 0 3 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0cc36368-1bff-4802-9f82-90553356fc83")
+		(uuid "9bc2ded4-f438-4349-8bf2-72e69a4da4cd")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +33,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "594974af-b5a2-4f04-94b2-4f5e90d7db32")
+		(uuid "0d600ef9-1985-4d1a-a582-fb1ba21e9f0c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e322fdb9-e02c-406a-9964-e84c4513264a")
+		(uuid "9287675f-bacc-4272-ace2-0eeb12178bac")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -60,7 +61,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "02e95d6a-790f-466b-8dd9-c3edb9bcbfa5")
+		(uuid "be38312b-9334-4616-9995-01ec47b4c574")
 	)
 	(fp_line
 		(start -0.6 1.76)
@@ -70,7 +71,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "648e3f02-88dc-43a1-a408-41e6b22a56e7")
+		(uuid "5823dfc4-0351-40b8-87c6-6e08399fc2a6")
 	)
 	(fp_line
 		(start -2.1 -1.51)
@@ -80,7 +81,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "829318d1-87a7-4f06-bd8d-76102adbe3ad")
+		(uuid "1a1d1659-859d-42b6-b0f6-970f2a704c15")
 	)
 	(fp_line
 		(start -1.51 -2.1)
@@ -90,7 +91,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "ac7339cb-8f41-4d34-b78c-3c6dac2c84d2")
+		(uuid "d8537437-450f-4a9d-8127-256d465692b7")
 	)
 	(fp_line
 		(start -1.51 -2.1)
@@ -100,7 +101,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "f9e3295b-93dd-4061-a4bf-19a9ef8f38dd")
+		(uuid "2654798f-9c74-4670-a4a7-d41a51e6955c")
 	)
 	(fp_line
 		(start -1.51 2.1)
@@ -110,7 +111,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "227126d8-e30b-4d39-9589-0baaa61754f9")
+		(uuid "a0cab5a6-e6e5-4f2c-aed5-f0e4c6d38d73")
 	)
 	(fp_line
 		(start -1.51 2.1)
@@ -120,7 +121,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "d893ec9b-d5c7-4d3c-a417-35ce54613e3e")
+		(uuid "d6d2838a-7440-4996-857c-46e066fce25a")
 	)
 	(fp_line
 		(start 1.51 -2.1)
@@ -130,7 +131,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "42e2fb3f-ebff-462f-a629-461b2fbc0133")
+		(uuid "b096ed32-ec61-43c0-b817-361c326a634b")
 	)
 	(fp_line
 		(start 1.51 2.1)
@@ -140,7 +141,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "fc440f0c-117d-4715-ba1c-8b27ea46238a")
+		(uuid "682e82ad-d429-489f-80f1-a0115679f9f2")
 	)
 	(fp_line
 		(start 2.1 -1.51)
@@ -150,7 +151,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "46e825c6-352e-48f0-b4c5-2e864192b3fb")
+		(uuid "04d5d33b-e820-4e3a-acfe-d71004d3b019")
 	)
 	(fp_line
 		(start -1.65 -0.95)
@@ -160,7 +161,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "cfadc7b4-a0ed-4922-8e13-0d159627938d")
+		(uuid "799695ea-5c09-4d83-a5fa-9b8c7993031b")
 	)
 	(fp_line
 		(start -1.65 0.95)
@@ -170,7 +171,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "89a5a188-1229-4b36-bfea-b4294f93616d")
+		(uuid "966d83d1-de70-4a2e-b873-1b62894f4759")
 	)
 	(fp_line
 		(start -1.65 0.95)
@@ -180,7 +181,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "9e20b9e3-75f3-4c9a-b498-b7d9103d1e48")
+		(uuid "e54f809d-4c50-4b16-865b-8837dd98b1a3")
 	)
 	(fp_line
 		(start -0.95 -1.65)
@@ -190,7 +191,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "5ef00846-93e7-491f-ade4-4e3561be74f4")
+		(uuid "b994e3d0-14e8-45da-a6e5-8c58635a2a12")
 	)
 	(fp_line
 		(start 0.95 -1.65)
@@ -200,7 +201,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "efc8f7c4-82f5-4831-a393-6f0f0bb481d7")
+		(uuid "4d1caf23-643a-4c82-b177-b4c00f53c6ab")
 	)
 	(fp_line
 		(start 0.95 1.65)
@@ -210,7 +211,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "fc5b7515-9e2e-4ac4-8016-1024c3266a04")
+		(uuid "335b0d9b-982a-43df-bf93-6b3707864e1c")
 	)
 	(fp_line
 		(start 0.95 1.65)
@@ -220,7 +221,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "dff90da4-8c1b-43c9-a063-2c74b541da42")
+		(uuid "51e1fd19-53ff-4eab-b4b7-c0becdad4636")
 	)
 	(fp_line
 		(start 1.65 -0.95)
@@ -230,12 +231,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "3e370098-2ec6-412a-92d9-ac7624cc22b0")
+		(uuid "3a41c5eb-f64f-45bb-be8a-4f2a78be4439")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "411d607e-5645-4bab-86dd-817cb61e3082")
+		(uuid "409b014c-0777-43fd-88b1-0d896ed9c422")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -263,7 +264,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "8932140e-1c6b-480b-9251-617dd5d46f1e")
+		(uuid "61260301-4737-4283-9221-2afe07e78ec9")
 	)
 	(pad "2" smd custom
 		(at 1.55 0 180)
@@ -285,7 +286,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "04b4b6ab-29e5-4f81-87f9-1350148c4866")
+		(uuid "d0bfc36e-f6bb-44de-898c-e2dff08752a1")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/lib/3d_models/Coilcraft-LPS3314.STEP"

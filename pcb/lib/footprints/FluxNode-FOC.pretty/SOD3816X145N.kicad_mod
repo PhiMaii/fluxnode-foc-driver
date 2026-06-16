@@ -6,13 +6,14 @@
 	(descr "SOD-123")
 	(tags "Schottky Diode")
 	(property "Reference" "D**"
-		(at 0 -2.5 0)
+		(at 0 -1.45 0)
 		(layer "F.SilkS")
-		(uuid "426cd64e-54bf-4f61-a13a-fd1e09f8a243")
+		(uuid "656ad7c1-81d4-4224-a169-dd551acd2fa9")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
 			)
 		)
 	)
@@ -20,7 +21,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "8e710be5-a9b3-430f-8c9a-84a965d6b2d6")
+		(uuid "70bc091b-1f6c-4756-98cf-195894308346")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,7 +33,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a9e249be-59e3-46fe-a20f-c31bd91c4bfb")
+		(uuid "599af76a-6fe6-4306-ab02-6b1de6a41c4f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "26037ab3-119d-4fe0-b431-3e66d19a89bf")
+		(uuid "0f06464d-a42e-4ab2-9b02-ee3d8527eac8")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -60,7 +61,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d6719946-be27-4267-8f16-eafda43201a0")
+		(uuid "224d9df7-96d0-43bd-95cf-ade7461399c8")
 	)
 	(fp_line
 		(start -1.35 0.775)
@@ -70,7 +71,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "e1bee579-32cd-416a-b695-9d59b19ce9b2")
+		(uuid "7f4f4775-5625-45a8-bc44-e49977e70f82")
 	)
 	(fp_circle
 		(center -1.9 -1.1)
@@ -81,7 +82,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "275efd12-a4e2-453e-8bb5-aebb7ea19090")
+		(uuid "01e5f962-bbc1-4dea-85e4-65f6a7542f6b")
 	)
 	(fp_line
 		(start -2.6 -1.675)
@@ -91,7 +92,7 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "5fdfa59b-d596-4750-a0f7-cd2b560ad51c")
+		(uuid "ccbe56d2-f278-4456-9c75-4a56943a7867")
 	)
 	(fp_line
 		(start -2.6 1.675)
@@ -101,7 +102,7 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "6513f768-bcc7-4507-b6e5-f558f31eabb6")
+		(uuid "857a2e6d-d064-459f-8afa-f247d4cfdca1")
 	)
 	(fp_line
 		(start -1.35 -0.775)
@@ -111,7 +112,7 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "8fa189eb-3130-45ec-94f4-81bed5f783f7")
+		(uuid "8127930d-a985-4982-8c70-2460ec7738f0")
 	)
 	(fp_line
 		(start -1.35 -0.125)
@@ -121,7 +122,7 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "a4183b22-f729-44a2-b241-cea279d14e97")
+		(uuid "fda5a796-a163-466e-8b33-33912ab6097c")
 	)
 	(fp_line
 		(start -1.35 0.775)
@@ -131,7 +132,7 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "e9e8114d-e78c-4374-b4fe-58fb23c2fa16")
+		(uuid "5527b8d4-c4d2-4ad0-b8e4-41caf4c8fdf7")
 	)
 	(fp_line
 		(start 1.35 -0.775)
@@ -141,7 +142,7 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "72acf329-3f06-44e8-92cc-47a61af26c3a")
+		(uuid "ddb48efc-579e-46e2-a5e2-7e161c2710b2")
 	)
 	(fp_line
 		(start 1.35 0.775)
@@ -151,7 +152,7 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "608d3f30-579d-47ce-8ef9-ca3b383de9f2")
+		(uuid "f338a6bf-66dd-4740-b863-976819973ad1")
 	)
 	(fp_line
 		(start 2.6 -1.675)
@@ -161,7 +162,7 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "2f23cd13-5fde-4365-abfa-2d2b1865c008")
+		(uuid "b05f8b87-400b-4aa3-8ae8-4a4c36da84ea")
 	)
 	(fp_line
 		(start 2.6 1.675)
@@ -171,21 +172,21 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "b98472fe-bae3-48ac-ad46-2eeb39941dae")
+		(uuid "8c00fe04-f3e8-4bef-a55c-6d0b33ea3e46")
 	)
 	(pad "1" smd rect
 		(at -1.7 0 90)
 		(size 0.75 1.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
-		(uuid "802531bb-228f-406c-b28c-25db7971ca0a")
+		(uuid "fba07bc0-c737-4f51-9dd3-56ab48483a1b")
 	)
 	(pad "2" smd rect
 		(at 1.7 0 90)
 		(size 0.75 1.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
-		(uuid "13ce06f4-08cb-4583-bdc8-bc3e40742071")
+		(uuid "6528b1fd-ea04-4858-832f-ea6abf93218b")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/lib/3dmodels/BAT41ZFILM.stp"
