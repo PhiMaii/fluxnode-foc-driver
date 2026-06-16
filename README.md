@@ -18,8 +18,8 @@ The first revision prioritizes robustness, debugability, and electrical flexibil
 
 | Parameter | Target |
 |---|---:|
-| Nominal DC bus voltage | 24 V |
-| Operating voltage range | 8-28 V DC |
+| Nominal DC bus voltage | 40 V |
+| Operating voltage range | 8-40 V DC |
 | Initial supply source | Bench power supply |
 | MOSFET voltage class | 60 V |
 | Capacitor voltage rating | preferably 50 V on VBUS |
@@ -29,9 +29,9 @@ The first revision prioritizes robustness, debugability, and electrical flexibil
 | Optional PWM range | approx. 20-40 kHz |
 | PWM mode | 6-PWM |
 | Current sensing | 3x low-side shunt |
+| Voltage sensing | 1x VBus; 3 seperate Phases |
 | Default shunt value | 3 mOhm |
-| Optional shunt values | 2 mOhm / 3 mOhm / 5 mOhm |
-| PCB stackup | 4-layer PCB recommended |
+| PCB stackup | 6-layer PCB recommended |
 
 ## Motor Compatibility
 
