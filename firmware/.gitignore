@@ -1,0 +1,63 @@
+# Build directories
+build/
+Build/
+cmake-build-*/
+out/
+Debug/
+Release/
+RelWithDebInfo/
+MinSizeRel/
+
+# CMake generated state
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+
+# Compiler and linker outputs
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.elf
+*.axf
+*.hex
+*.bin
+*.map
+*.lst
+*.su
+*.d
+*.gcno
+*.gcda
+*.gcov
+
+# STM32CubeIDE / Eclipse local metadata
+.metadata/
+.settings/
+.cproject
+.project
+.launches/
+*.launch
+*.jlink
+*.stldr
+
+# Debugger, trace, and generated logs
+*.log
+*.trace
+*.svd.pickle
+*.ioc.bak
+*.bak
+
+# Local editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
