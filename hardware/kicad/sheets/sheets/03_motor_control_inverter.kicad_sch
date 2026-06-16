@@ -4906,17 +4906,6 @@
 		)
 		(uuid "0744f9e8-bcd7-4d1e-97c4-586043acf4c4")
 	)
-	(hierarchical_label "SHUNT_P_C"
-		(shape input)
-		(at -13.97 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0c48751f-8cde-4194-b82f-2468d232f079")
-	)
 	(hierarchical_label "GATE_LS_B"
 		(shape input)
 		(at 132.08 91.44 180)
@@ -4961,61 +4950,6 @@
 		)
 		(uuid "2eeadcaa-d94f-4147-9554-07ffc31a7ea7")
 	)
-	(hierarchical_label "SRC_HS_C"
-		(shape input)
-		(at -13.97 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "32bdb3ac-bfd5-4d14-93fd-853cbe819032")
-	)
-	(hierarchical_label "SHUNT_N_B"
-		(shape input)
-		(at -13.97 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "42f93a87-3fee-423d-b89d-527dffbb97a5")
-	)
-	(hierarchical_label "GATE_LS_C"
-		(shape input)
-		(at -13.97 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "43c11c0c-27a4-4059-8e18-26e35159b0dd")
-	)
-	(hierarchical_label "GATE_HS_C"
-		(shape input)
-		(at -13.97 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5ed7f657-8cf4-4081-8748-8f6397ec9ce3")
-	)
-	(hierarchical_label "SRC_HS_B"
-		(shape input)
-		(at -13.97 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "64436257-9862-4e48-be85-b51e124f1af2")
-	)
 	(hierarchical_label "GATE_HS_A"
 		(shape input)
 		(at 29.21 49.53 180)
@@ -5037,17 +4971,6 @@
 			(justify right)
 		)
 		(uuid "6f25417e-3e18-425f-bd92-db5ea43fbf2a")
-	)
-	(hierarchical_label "SHUNT_N_C"
-		(shape input)
-		(at -13.97 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "78c20ce3-ff6a-441c-a047-4928080140ae")
 	)
 	(hierarchical_label "SHUNT_N_B"
 		(shape input)
@@ -5081,17 +5004,6 @@
 			(justify right)
 		)
 		(uuid "a474b89c-6534-4cb5-aff4-ca3af4456388")
-	)
-	(hierarchical_label "GATE_HS_B"
-		(shape input)
-		(at -13.97 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a5635cb0-c317-46aa-80b3-ce360d7c8483")
 	)
 	(hierarchical_label "SHUNT_P_C"
 		(shape input)
@@ -5136,28 +5048,6 @@
 			(justify right)
 		)
 		(uuid "d3a44670-4050-4d84-92c2-49b7281d47d6")
-	)
-	(hierarchical_label "SHUNT_P_B"
-		(shape input)
-		(at -13.97 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d7ac65f8-00f1-40d8-823b-7d4cab7f401b")
-	)
-	(hierarchical_label "GATE_LS_B"
-		(shape input)
-		(at -13.97 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e4200cd7-2f26-4533-b360-4200a953b338")
 	)
 	(hierarchical_label "SHUNT_N_A"
 		(shape input)
@@ -5509,7 +5399,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "002e8fb8-5f07-45d3-ad0b-f7743058395d")
-		(property "Reference" "D809"
+		(property "Reference" "D?"
 			(at 250.19 99.314 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5620,7 +5510,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "D809")
+					(reference "D?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -5638,7 +5534,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "01b881cd-5fc6-4c96-b4fe-696c495cbd43")
-		(property "Reference" "D802"
+		(property "Reference" "D?"
 			(at 44.45 99.314 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5749,7 +5645,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "D802")
+					(reference "D?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -5767,7 +5669,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fad544b-b0cc-497a-b6c8-d0bffc519557")
-		(property "Reference" "R816"
+		(property "Reference" "R?"
 			(at 147.32 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5851,7 +5753,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "R816")
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -5869,7 +5777,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "198e1326-ba1c-45c5-ac3f-7771a945095d")
-		(property "Reference" "R811"
+		(property "Reference" "R?"
 			(at 132.08 171.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5955,7 +5863,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "R811")
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -5973,7 +5887,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ba84cb1-6803-4013-aafc-4626598abfa2")
-		(property "Reference" "R823"
+		(property "Reference" "R?"
 			(at 281.94 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6059,7 +5973,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "R823")
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -6077,7 +5997,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1ffa9c1c-3d30-4d17-8d97-da872ca4f379")
-		(property "Reference" "R807"
+		(property "Reference" "R?"
 			(at 99.06 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6163,7 +6083,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "R807")
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -6180,7 +6106,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26a1abe5-7a9a-40c8-a93d-0a50c742d9c3")
-		(property "Reference" "Q805"
+		(property "Reference" "Q?"
 			(at 261.112 37.084 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6296,7 +6222,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "Q805")
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "Q?")
 					(unit 1)
 				)
 			)
@@ -6314,7 +6246,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2839d00c-4683-47ae-992b-31152761ac0c")
-		(property "Reference" "C808"
+		(property "Reference" "C?"
 			(at 213.106 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6400,7 +6332,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "C808")
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -6418,7 +6356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28a6a518-27a4-4aec-acdb-69e902bb9f6a")
-		(property "Reference" "D807"
+		(property "Reference" "D?"
 			(at 232.41 115.0619 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6531,7 +6469,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "D807")
+					(reference "D?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -6549,7 +6493,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2a34e5b8-14a9-487e-b33f-026a9a2ce20c")
-		(property "Reference" "D808"
+		(property "Reference" "D?"
 			(at 250.19 57.404 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6660,7 +6604,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "D808")
+					(reference "D?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -6678,7 +6628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "352c2176-69c7-4c95-9592-1e4c54cd918d")
-		(property "Reference" "NT804"
+		(property "Reference" "NT?"
 			(at 160.02 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6740,7 +6690,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "NT804")
+					(reference "NT?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "NT?")
 					(unit 1)
 				)
 			)
@@ -6758,7 +6714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "373eeb63-3017-4c3e-91e7-281c7825917c")
-		(property "Reference" "#PWR0803"
+		(property "Reference" "#PWR?"
 			(at 101.6 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -6818,7 +6774,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "#PWR0803")
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -6836,7 +6798,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3bac3be3-865d-4cef-a045-e5a474bdffab")
-		(property "Reference" "C810"
+		(property "Reference" "C?"
 			(at 282.702 84.836 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6922,7 +6884,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "C810")
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -6939,7 +6907,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d390438-6ded-42c9-8078-4a1b292b297f")
-		(property "Reference" "NT809"
+		(property "Reference" "NT?"
 			(at 264.16 124.714 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7001,7 +6969,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "NT809")
+					(reference "NT?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "NT?")
 					(unit 1)
 				)
 			)
@@ -7019,7 +6993,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "413195c7-24b0-4724-95d8-e160a8c4ac9d")
-		(property "Reference" "C806"
+		(property "Reference" "C?"
 			(at 179.832 84.836 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7105,7 +7079,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "C806")
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -7122,7 +7102,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41585386-607c-40f8-9822-27aea21b698a")
-		(property "Reference" "Q802"
+		(property "Reference" "Q?"
 			(at 54.356 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7238,7 +7218,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "Q802")
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "Q?")
 					(unit 1)
 				)
 			)
@@ -7255,7 +7241,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "42e2b50d-c8bb-4a03-8ece-2accc5e1c6ae")
-		(property "Reference" "Q801"
+		(property "Reference" "Q?"
 			(at 55.372 37.084 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7371,7 +7357,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "Q801")
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "Q?")
 					(unit 1)
 				)
 			)
@@ -7389,7 +7381,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48a3104c-ce2f-483a-a34c-80887a51fff5")
-		(property "Reference" "R818"
+		(property "Reference" "R?"
 			(at 179.07 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7475,7 +7467,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "R818")
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -7493,7 +7491,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "496d34c0-937e-4582-98ca-1f4e42af4e6d")
-		(property "Reference" "R804"
+		(property "Reference" "R?"
 			(at 75.946 95.504 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7579,7 +7577,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "R804")
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -7597,7 +7601,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4cc9d13c-3297-4756-a6b0-e802f0f08e55")
-		(property "Reference" "R806"
+		(property "Reference" "R?"
 			(at 99.06 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7683,7 +7687,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "R806")
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -7701,7 +7711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d600fca-4838-4832-bf6b-9946d0068c5d")
-		(property "Reference" "NT807"
+		(property "Reference" "NT?"
 			(at 262.89 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7763,7 +7773,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "NT807")
+					(reference "NT?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "NT?")
 					(unit 1)
 				)
 			)
@@ -7780,7 +7796,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e03a801-bc59-4e1d-bf30-5edd1315793f")
-		(property "Reference" "NT806"
+		(property "Reference" "NT?"
 			(at 161.29 124.714 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7842,7 +7858,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "NT806")
+					(reference "NT?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "NT?")
 					(unit 1)
 				)
 			)
@@ -7860,7 +7882,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e2b338e-a8fc-42d6-a9f8-17bfab7a53ff")
-		(property "Reference" "D806"
+		(property "Reference" "D?"
 			(at 147.32 99.314 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7971,7 +7993,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "D806")
+					(reference "D?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -7989,7 +8017,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f598bca-4e48-4819-9447-760ce445747d")
-		(property "Reference" "C801"
+		(property "Reference" "C?"
 			(at 77.47 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8075,7 +8103,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "C801")
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -8093,7 +8127,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "65d7d10d-ebbb-47b7-89a9-9ec8ac584101")
-		(property "Reference" "C803"
+		(property "Reference" "C?"
 			(at 110.236 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8179,7 +8213,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "C803")
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -8197,7 +8237,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c888963-c3a2-4bb6-9728-914d00b9ab78")
-		(property "Reference" "#PWR0805"
+		(property "Reference" "#PWR?"
 			(at 167.64 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -8257,7 +8297,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "#PWR0805")
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -8275,7 +8321,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e064865-7b22-4f40-a718-b9c68e555a67")
-		(property "Reference" "R815"
+		(property "Reference" "R?"
 			(at 147.32 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8359,7 +8405,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "R815")
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -8377,7 +8429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70355228-8332-4b20-ac1c-ef47ba610b5b")
-		(property "Reference" "NT801"
+		(property "Reference" "NT?"
 			(at 57.15 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8439,7 +8491,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "NT801")
+					(reference "NT?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "NT?")
 					(unit 1)
 				)
 			)
@@ -8457,7 +8515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70870e68-ae66-46bf-8420-3af44962b227")
-		(property "Reference" "R820"
+		(property "Reference" "R?"
 			(at 250.19 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8541,7 +8599,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "R820")
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -8559,7 +8623,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "75aa7389-875b-447e-bebc-6652ddf91eaa")
-		(property "Reference" "R808"
+		(property "Reference" "R?"
 			(at 99.06 171.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8645,7 +8709,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "R808")
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -8663,7 +8733,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77f5a6bb-1093-4ecf-967b-3f2e0bc57857")
-		(property "Reference" "C802"
+		(property "Reference" "C?"
 			(at 76.962 84.836 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8749,7 +8819,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "C802")
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -8766,7 +8842,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b18ca95-7c0d-470c-b107-8ac45be0eab0")
-		(property "Reference" "Q803"
+		(property "Reference" "Q?"
 			(at 158.242 37.084 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8882,7 +8958,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "Q803")
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "Q?")
 					(unit 1)
 				)
 			)
@@ -8900,7 +8982,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b6be2a7-a668-4bc8-8669-d5c2942b7cf7")
-		(property "Reference" "R802"
+		(property "Reference" "R?"
 			(at 44.45 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8984,7 +9066,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "R802")
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -9002,7 +9090,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7ee11fa3-7461-4c0d-a129-c80474c7b76b")
-		(property "Reference" "R809"
+		(property "Reference" "R?"
 			(at 132.08 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9088,7 +9176,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "R809")
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -9106,7 +9200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81fec8fd-3295-4b12-aa95-ec53b45ecd15")
-		(property "Reference" "R805"
+		(property "Reference" "R?"
 			(at 68.58 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9192,7 +9286,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "R805")
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -9209,7 +9309,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "84ca7615-81f4-4a68-bc50-f2f943d47672")
-		(property "Reference" "C807"
+		(property "Reference" "C?"
 			(at 187.452 76.454 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9295,7 +9395,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "C807")
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -9313,7 +9419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85d4fef6-138c-49c5-9789-ccefd8e605b3")
-		(property "Reference" "R801"
+		(property "Reference" "R?"
 			(at 44.45 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9397,7 +9503,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "R801")
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -9415,7 +9527,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8765f35a-a63b-4a8c-9eea-74673fa5613e")
-		(property "Reference" "D803"
+		(property "Reference" "D?"
 			(at 44.45 57.404 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9526,7 +9638,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "D803")
+					(reference "D?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -9544,7 +9662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8812adbd-eb0e-41fb-b497-b30cb6dc390c")
-		(property "Reference" "D801"
+		(property "Reference" "D?"
 			(at 26.67 115.0619 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9657,7 +9775,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "D801")
+					(reference "D?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -9675,7 +9799,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "888e18ac-e068-4c39-814b-ef0ba7d8c2bf")
-		(property "Reference" "R812"
+		(property "Reference" "R?"
 			(at 165.1 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9761,7 +9885,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "R812")
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -9778,7 +9908,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e55b8cc-40ce-4292-a9e6-2b0505d23caa")
-		(property "Reference" "C811"
+		(property "Reference" "C?"
 			(at 290.322 76.454 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9864,7 +9994,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "C811")
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -9882,7 +10018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ee001dd-b078-481c-bc89-121051fa3ba2")
-		(property "Reference" "R822"
+		(property "Reference" "R?"
 			(at 274.32 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9968,7 +10104,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "R822")
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -9986,7 +10128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9280b61f-c84a-4c83-a77a-f07d7427a4b0")
-		(property "Reference" "#PWR0801"
+		(property "Reference" "#PWR?"
 			(at 49.53 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -10046,7 +10188,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "#PWR0801")
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -10063,7 +10211,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9302b06e-1e54-4b7b-9d86-201f7ff3a5a7")
-		(property "Reference" "C804"
+		(property "Reference" "C?"
 			(at 84.582 76.454 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10149,7 +10297,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "C804")
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -10167,7 +10321,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9808bea7-0a70-4b16-a97c-7efc8762423f")
-		(property "Reference" "R803"
+		(property "Reference" "R?"
 			(at 76.2 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10253,7 +10407,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "R803")
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -10271,7 +10431,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e2f6202-d2e4-4338-a387-f8720fc5feb0")
-		(property "Reference" "NT808"
+		(property "Reference" "NT?"
 			(at 264.16 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10333,7 +10493,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "NT808")
+					(reference "NT?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "NT?")
 					(unit 1)
 				)
 			)
@@ -10351,7 +10517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9eb9b5a9-a575-45d9-a18c-1a013fc8adf9")
-		(property "Reference" "#PWR0802"
+		(property "Reference" "#PWR?"
 			(at 49.53 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -10411,7 +10577,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "#PWR0802")
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -10429,7 +10601,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1311a04-2e5e-441e-a79d-8e4fc85ef67b")
-		(property "Reference" "R824"
+		(property "Reference" "R?"
 			(at 281.686 95.504 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10515,7 +10687,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "R824")
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -10533,7 +10711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a374625b-2958-4f98-89be-93e717daae90")
-		(property "Reference" "D804"
+		(property "Reference" "D?"
 			(at 129.54 115.0619 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10646,7 +10824,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "D804")
+					(reference "D?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -10664,7 +10848,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a43038ef-2006-41dc-a61d-9503df1b0c24")
-		(property "Reference" "D805"
+		(property "Reference" "D?"
 			(at 147.32 57.404 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10775,7 +10959,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "D805")
+					(reference "D?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -10793,7 +10983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a858ea29-8cf4-4458-8007-a2c7b970758d")
-		(property "Reference" "R817"
+		(property "Reference" "R?"
 			(at 171.45 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10879,7 +11069,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "R817")
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -10896,7 +11092,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8a6358d-10ba-445d-b05d-91542baf8bd0")
-		(property "Reference" "NT803"
+		(property "Reference" "NT?"
 			(at 58.42 124.714 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10958,7 +11154,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "NT803")
+					(reference "NT?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "NT?")
 					(unit 1)
 				)
 			)
@@ -10976,7 +11178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbb78c23-e9b7-43c2-a59a-dc12941dc205")
-		(property "Reference" "C809"
+		(property "Reference" "C?"
 			(at 283.21 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11062,7 +11264,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "C809")
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -11080,7 +11288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7e1e951-79f2-4e9a-83e8-b30f1375e168")
-		(property "Reference" "R821"
+		(property "Reference" "R?"
 			(at 250.19 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11164,7 +11372,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "R821")
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -11182,7 +11396,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9f3be3a-570c-4641-ade6-0236cd81a77b")
-		(property "Reference" "C805"
+		(property "Reference" "C?"
 			(at 180.34 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11268,7 +11482,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "C805")
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -11286,7 +11506,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dca0e99c-ed5a-4b6b-a2d0-66bcd02ccc0d")
-		(property "Reference" "C812"
+		(property "Reference" "C?"
 			(at 315.976 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11372,7 +11592,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "C812")
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -11390,7 +11616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfaee103-6443-448e-8500-e347025877cb")
-		(property "Reference" "NT802"
+		(property "Reference" "NT?"
 			(at 58.42 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11452,7 +11678,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "NT802")
+					(reference "NT?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "NT?")
 					(unit 1)
 				)
 			)
@@ -11470,7 +11702,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e55685da-1d01-47a6-a6de-eb774784d4fc")
-		(property "Reference" "R814"
+		(property "Reference" "R?"
 			(at 165.1 171.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11556,7 +11788,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "R814")
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -11574,7 +11812,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ef089c34-51c4-4e16-9f62-507bf58d0173")
-		(property "Reference" "R813"
+		(property "Reference" "R?"
 			(at 165.1 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11660,7 +11898,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "R813")
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -11678,7 +11922,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "efd1e7fe-73ab-42d5-86b0-a0e1bbd6b6bd")
-		(property "Reference" "R810"
+		(property "Reference" "R?"
 			(at 132.08 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11764,7 +12008,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "R810")
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -11782,7 +12032,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4b45171-8cb1-4dd4-b3f8-dbf26f0b0192")
-		(property "Reference" "NT805"
+		(property "Reference" "NT?"
 			(at 161.29 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11844,7 +12094,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "NT805")
+					(reference "NT?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "NT?")
 					(unit 1)
 				)
 			)
@@ -11861,7 +12117,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f52aa49d-a0cc-456c-aaca-4e87003d53e0")
-		(property "Reference" "Q806"
+		(property "Reference" "Q?"
 			(at 260.096 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11977,7 +12233,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "Q806")
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "Q?")
 					(unit 1)
 				)
 			)
@@ -11995,7 +12257,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f6fd4a47-3d94-4e91-9bc9-76448b19a3bb")
-		(property "Reference" "R819"
+		(property "Reference" "R?"
 			(at 178.816 95.504 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12081,7 +12343,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "R819")
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -12099,7 +12367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8bfea65-6e36-466a-ae36-462b17b0fb97")
-		(property "Reference" "#PWR0804"
+		(property "Reference" "#PWR?"
 			(at 134.62 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -12159,7 +12427,13 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "#PWR0804")
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -12176,7 +12450,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fa16db8a-0312-4c75-9f7c-f48cb4e7d951")
-		(property "Reference" "Q804"
+		(property "Reference" "Q?"
 			(at 157.226 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12292,10 +12566,21 @@
 		(instances
 			(project "FluxNode-FOC"
 				(path "/c3755418-04f3-4b36-86ed-bd05a53b8f5f/4252b736-3456-44cb-94c5-38e939537754/e5d84e1b-f0da-43fe-b1ad-d414e004ca8c"
-					(reference "Q804")
+					(reference "Q?")
 					(unit 1)
 				)
 			)
+			(project "3_motor_control_inverter"
+				(path "/fd447c89-b5e6-49cc-a897-c482be3e6932"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
 		)
 	)
 )

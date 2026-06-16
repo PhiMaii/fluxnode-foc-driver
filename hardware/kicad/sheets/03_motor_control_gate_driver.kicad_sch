@@ -5184,7 +5184,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "03_motor_control_inverter.kicad_sch"
+		(property "Sheetfile" "sheets/03_motor_control_inverter.kicad_sch"
 			(at 138.43 126.3146 0)
 			(show_name no)
 			(do_not_autoplace no)
